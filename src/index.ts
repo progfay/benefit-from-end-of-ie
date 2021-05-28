@@ -1,4 +1,4 @@
-import * as compatData from "@mdn/browser-compat-data";
+import compatData from "@mdn/browser-compat-data";
 import {
   BrowserNames,
   CompatStatement,
@@ -68,9 +68,12 @@ ${modernBrowsers.map((browser) => `  - \`${browser}\``).join("\n")}
 
 function main() {
   console.log(header);
-  for (const [key, value] of Object.entries(compatData)) {
-    if (["browsers", "default", "webextensions"].includes(key)) continue;
-    visitIdentifier(key, value);
+  for (const key of Object.keys(compatData)) {
+    if (
+      ["browsers", "webdriver", "webextensions", "xpath", "xslt"].includes(key)
+    )
+      continue;
+    visitIdentifier(key, compatData[key]);
   }
 }
 
