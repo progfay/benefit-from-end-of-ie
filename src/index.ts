@@ -1,36 +1,7 @@
 import compatData from "@mdn/browser-compat-data";
-import {
-  BrowserNames,
-  CompatStatement,
-  Identifier,
-} from "@mdn/browser-compat-data/types";
-
-function isSupportedBy(
-  compat: CompatStatement,
-  browser: BrowserNames
-): boolean {
-  const statement = compat.support[browser];
-  if (!statement) return false;
-  if (Array.isArray(statement)) {
-    return statement.some((state) => state.version_added);
-  }
-
-  return statement.version_added !== false;
-}
-
-const modernBrowsers: BrowserNames[] = [
-  "chrome",
-  "chrome_android",
-  "edge",
-  "firefox",
-  "firefox_android",
-  "safari",
-  "safari_ios",
-  "webview_android",
-];
-function isSupportedByModernBrowsers(compat: CompatStatement): boolean {
-  return modernBrowsers.every((browser) => isSupportedBy(compat, browser));
-}
+import { Identifier } from "@mdn/browser-compat-data/types";
+import { isSupportedBy, isSupportedByModernBrowsers } from "./browser";
+import { renderFeatureTableRow, renderHeader } from "./render";
 
 function visitIdentifier(path: string, identifier: Identifier): void {
   const { __compat, ...identifiers } = identifier;
@@ -40,12 +11,7 @@ function visitIdentifier(path: string, identifier: Identifier): void {
     !isSupportedBy(__compat, "ie") &&
     isSupportedByModernBrowsers(__compat)
   ) {
-    const { mdn_url } = __compat;
-    if (mdn_url) {
-      console.log(`- [${path}](${__compat.mdn_url})`);
-    } else {
-      console.log(`- ${path}`);
-    }
+    console.log(renderFeatureTableRow(path, __compat));
     return;
   }
 
@@ -54,20 +20,8 @@ function visitIdentifier(path: string, identifier: Identifier): void {
   }
 }
 
-const header = `
-# Benefit from end of IE
-
-"Benefit" mean...
-
-- Feature what supported Modern browser
-${modernBrowsers.map((browser) => `  - \`${browser}\``).join("\n")}
-- But it's unavailable in IE...
-
-## Features List
-`.trimStart();
-
 function main() {
-  console.log(header);
+  console.log(renderHeader());
   for (const key of Object.keys(compatData)) {
     if (
       ["browsers", "webdriver", "webextensions", "xpath", "xslt"].includes(key)
