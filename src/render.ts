@@ -28,12 +28,23 @@ function renderFeature(text: string, url?: string): string {
   return url !== undefined ? `[${text}](${url})` : text;
 }
 
-function getVersionAdded(support: SupportStatement | undefined): VersionValue {
-  if (support === undefined) return "❓";
+function getVersionAdded(support: SupportStatement): VersionValue {
   const version = Array.isArray(support)
     ? support[0].version_added
     : support.version_added;
   return version !== true ? version : "Yes";
+}
+
+function renderSupport(support: SupportStatement | undefined): string {
+  if (support === undefined) return "❌";
+  const version = getVersionAdded(support);
+  return version === null
+    ? "❓"
+    : version === true
+    ? "Yes"
+    : version === false
+    ? "❌"
+    : version;
 }
 
 export function renderFeatureTableRow(
@@ -41,6 +52,6 @@ export function renderFeatureTableRow(
   compat: CompatStatement
 ): string {
   return `| ${renderFeature(path, compat.mdn_url)} | ${MODERN_BROWSERS.map(
-    (browser) => getVersionAdded(compat.support[browser])
+    (browser) => renderSupport(compat.support[browser])
   ).join(" | ")} |`;
 }

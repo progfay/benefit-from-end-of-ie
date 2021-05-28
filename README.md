@@ -28,7 +28,7 @@
 | [api > AudioDestinationNode](https://developer.mozilla.org/docs/Web/API/AudioDestinationNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > AudioListener](https://developer.mozilla.org/docs/Web/API/AudioListener) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > AudioNode](https://developer.mozilla.org/docs/Web/API/AudioNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
-| [api > AudioNodeOptions](https://developer.mozilla.org/docs/Web/API/AudioNodeOptions) | 55 | 55 | ≤79 | 53 | 53 |  |  | 55 |
+| [api > AudioNodeOptions](https://developer.mozilla.org/docs/Web/API/AudioNodeOptions) | 55 | 55 | ≤79 | 53 | 53 | ❓ | ❓ | 55 |
 | [api > AudioParam](https://developer.mozilla.org/docs/Web/API/AudioParam) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > AudioParamMap](https://developer.mozilla.org/docs/Web/API/AudioParamMap) | 66 | 66 | 79 | 76 | 79 | 14.1 | 14.5 | 66 |
 | [api > AudioScheduledSourceNode](https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode) | 57 | 57 | 79 | 53 | 53 | 14 | 14 | 57 |
@@ -43,7 +43,7 @@
 | [api > CSS](https://developer.mozilla.org/docs/Web/API/CSS) | 28 | 28 | 12 | 22 | 22 | 10 | Yes | 4.4 |
 | [api > CSSAnimation](https://developer.mozilla.org/docs/Web/API/CSSAnimation) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
 | [api > CSSStyleDeclaration > @@iterator](https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/@@iterator) | 51 | 51 | 18 | 36 | 36 | 11 | 11 | 51 |
-| api > CSSStyleSheet > insertRule > optional_index | 1 | 18 | ≤79 | 55 |  | 1 | 1 | 1 |
+| api > CSSStyleSheet > insertRule > optional_index | 1 | 18 | ≤79 | 55 | ❓ | 1 | 1 | 1 |
 | [api > CSSSupportsRule](https://developer.mozilla.org/docs/Web/API/CSSSupportsRule) | 28 | 28 | 12 | 22 | 22 | 9 | 9 | ≤37 |
 | [api > Cache](https://developer.mozilla.org/docs/Web/API/Cache) | 40 | 40 | 16 | 39 | 39 | 11 | 11 | 40 |
 | [api > CacheStorage](https://developer.mozilla.org/docs/Web/API/CacheStorage) | 40 | 40 | 16 | 44 | 44 | 11.1 | 11.3 | 40 |
@@ -74,9 +74,9 @@
 | [api > Console > table](https://developer.mozilla.org/docs/Web/API/Console/table) | 27 | 27 | 13 | 34 | 34 | 6.1 | 7 | ≤37 |
 | [api > Console > timeLog](https://developer.mozilla.org/docs/Web/API/Console/timeLog) | 71 | 71 | 79 | 62 | 62 | 13 | 13 | 71 |
 | [api > ConstantSourceNode](https://developer.mozilla.org/docs/Web/API/ConstantSourceNode) | 56 | 56 | 79 | 52 | 52 | 14.1 | 14.5 | 56 |
-| [api > ConstrainBoolean](https://developer.mozilla.org/docs/Web/API/ConstrainBoolean) | Yes | Yes | ≤79 | 50 | 50 |  |  | Yes |
-| [api > ConstrainDOMString](https://developer.mozilla.org/docs/Web/API/ConstrainDOMString) | Yes | Yes | ≤79 | 50 | 50 |  |  | Yes |
-| [api > ConstrainDouble](https://developer.mozilla.org/docs/Web/API/ConstrainDouble) | Yes | Yes | ≤79 | 50 | 50 |  |  | Yes |
+| [api > ConstrainBoolean](https://developer.mozilla.org/docs/Web/API/ConstrainBoolean) | Yes | Yes | ≤79 | 50 | 50 | ❓ | ❓ | Yes |
+| [api > ConstrainDOMString](https://developer.mozilla.org/docs/Web/API/ConstrainDOMString) | Yes | Yes | ≤79 | 50 | 50 | ❓ | ❓ | Yes |
+| [api > ConstrainDouble](https://developer.mozilla.org/docs/Web/API/ConstrainDouble) | Yes | Yes | ≤79 | 50 | 50 | ❓ | ❓ | Yes |
 | [api > ConvolverNode](https://developer.mozilla.org/docs/Web/API/ConvolverNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > CountQueuingStrategy](https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy) | 59 | 59 | 16 | 65 | 65 | 10.1 | 10.3 | 59 |
 | [api > Credential](https://developer.mozilla.org/docs/Web/API/Credential) | 51 | 51 | 18 | 60 | 60 | 13 | 13 | 51 |
@@ -115,12 +115,12 @@
 | [api > DeviceOrientationEvent](https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent) | 7 | 18 | 12 | 6 | 6 | 5 | 4.2 | ≤37 |
 | [api > Document > Document](https://developer.mozilla.org/docs/Web/API/Document/Document) | 60 | 60 | 17 | 20 | 20 | 6.1 | 6.1 | 60 |
 | [api > Document > contentType](https://developer.mozilla.org/docs/Web/API/Document/contentType) | 36 | 36 | 17 | 1 | 4 | 9 | 9 | 37 |
-| [api > Document > copy_event](https://developer.mozilla.org/docs/Web/API/Document/copy_event) | 1 | 18 | ≤18 | Yes | Yes | Yes |  | 1 |
+| [api > Document > copy_event](https://developer.mozilla.org/docs/Web/API/Document/copy_event) | 1 | 18 | ≤18 | Yes | Yes | Yes | ❓ | 1 |
 | [api > Document > createExpression](https://developer.mozilla.org/docs/Web/API/Document/createExpression) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Document > createNSResolver](https://developer.mozilla.org/docs/Web/API/Document/createNSResolver) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | api > Document > createTreeWalker > whatToShow_filter_optional | 4 | Yes | ≤79 | 12 | 14 | 3 | 3 | ≤37 |
 | [api > Document > currentScript](https://developer.mozilla.org/docs/Web/API/Document/currentScript) | 29 | 29 | 12 | 4 | 4 | 6.1 | 8 | ≤37 |
-| [api > Document > cut_event](https://developer.mozilla.org/docs/Web/API/Document/cut_event) | 1 | 18 | ≤18 | Yes | Yes | Yes |  | 1 |
+| [api > Document > cut_event](https://developer.mozilla.org/docs/Web/API/Document/cut_event) | 1 | 18 | ≤18 | Yes | Yes | Yes | ❓ | 1 |
 | [api > Document > documentURI](https://developer.mozilla.org/docs/Web/API/Document/documentURI) | 1 | 18 | 17 | 1 | 4 | 3 | 1 | 1 |
 | [api > Document > evaluate](https://developer.mozilla.org/docs/Web/API/Document/evaluate) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Document > exitPointerLock](https://developer.mozilla.org/docs/Web/API/Document/exitPointerLock) | 37 | 37 | 13 | 50 | 50 | 10.1 | 10.3 | 37 |
@@ -130,7 +130,7 @@
 | [api > Document > oncut](https://developer.mozilla.org/docs/Web/API/Document/oncut) | 1 | 18 | 17 | 9 | 9 | 2 | 1 | 1 |
 | [api > Document > onpaste](https://developer.mozilla.org/docs/Web/API/Document/onpaste) | 1 | 18 | 17 | 9 | 9 | 2 | 1 | 1 |
 | [api > Document > onvisibilitychange](https://developer.mozilla.org/docs/Web/API/Document/onvisibilitychange) | 62 | 62 | 18 | 56 | 56 | 10.1 | 10.3 | 62 |
-| api > Document > paste_event > clipboardData | 58 | 58 |  | 22 | 22 | Yes |  | 58 |
+| api > Document > paste_event > clipboardData | 58 | 58 | ❓ | 22 | 22 | Yes | ❓ | 58 |
 | [api > Document > scrollingElement](https://developer.mozilla.org/docs/Web/API/Document/scrollingElement) | 44 | 44 | 12 | 48 | 48 | 9 | 9 | 44 |
 | [api > Document > timeline](https://developer.mozilla.org/docs/Web/API/Document/timeline) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
 | [api > Document > getAnimations](https://developer.mozilla.org/docs/Web/API/Document/getAnimations) | 84 | 84 | 84 | 75 | 79 | 14 | 14 | 84 |
@@ -154,11 +154,11 @@
 | [api > DocumentType > before](https://developer.mozilla.org/docs/Web/API/DocumentType/before) | 54 | 54 | 17 | 49 | 49 | 10 | 10 | 54 |
 | [api > DocumentType > remove](https://developer.mozilla.org/docs/Web/API/DocumentType/remove) | 24 | 25 | 12 | 23 | 23 | 7 | 7 | ≤37 |
 | [api > DocumentType > replaceWith](https://developer.mozilla.org/docs/Web/API/DocumentType/replaceWith) | 54 | 54 | 17 | 49 | 49 | 10 | 10 | 54 |
-| [api > DoubleRange](https://developer.mozilla.org/docs/Web/API/DoubleRange) | Yes | Yes | ≤79 | 50 | 50 |  |  | Yes |
+| [api > DoubleRange](https://developer.mozilla.org/docs/Web/API/DoubleRange) | Yes | Yes | ≤79 | 50 | 50 | ❓ | ❓ | Yes |
 | [api > DynamicsCompressorNode](https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
-| [api > EXT_blend_minmax](https://developer.mozilla.org/docs/Web/API/EXT_blend_minmax) | 38 | 38 | 17 | 47 |  | 7 | 9 | 38 |
-| [api > EXT_color_buffer_half_float](https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_half_float) | 63 | 63 | 17 | 47 |  | 14 | 14 | 63 |
-| [api > EffectTiming](https://developer.mozilla.org/docs/Web/API/EffectTiming) | 67 | 67 | ≤79 | 63 | 63 |  |  | 67 |
+| [api > EXT_blend_minmax](https://developer.mozilla.org/docs/Web/API/EXT_blend_minmax) | 38 | 38 | 17 | 47 | ❓ | 7 | 9 | 38 |
+| [api > EXT_color_buffer_half_float](https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_half_float) | 63 | 63 | 17 | 47 | ❓ | 14 | 14 | 63 |
+| [api > EffectTiming](https://developer.mozilla.org/docs/Web/API/EffectTiming) | 67 | 67 | ≤79 | 63 | 63 | ❓ | ❓ | 67 |
 | [api > Element > after](https://developer.mozilla.org/docs/Web/API/Element/after) | 54 | 54 | 17 | 49 | 49 | 10 | 10 | 54 |
 | [api > Element > animate](https://developer.mozilla.org/docs/Web/API/Element/animate) | 36 | 36 | 79 | 48 | 48 | 13.1 | 13.4 | 37 |
 | [api > Element > assignedSlot](https://developer.mozilla.org/docs/Web/API/Element/assignedSlot) | 53 | 53 | 79 | 63 | 63 | 10.1 | 10.3 | 53 |
@@ -176,7 +176,7 @@
 | api > Element > paste_event > clipboardData | 58 | 58 | ≤18 | 22 | 22 | Yes | Yes | 58 |
 | [api > Element > remove](https://developer.mozilla.org/docs/Web/API/Element/remove) | 24 | 25 | 12 | 23 | 23 | 7 | 7 | ≤37 |
 | [api > Element > replaceWith](https://developer.mozilla.org/docs/Web/API/Element/replaceWith) | 54 | 54 | 17 | 49 | 49 | 10 | 10 | 54 |
-| api > Element > requestFullscreen > options_parameter | 71 | 71 | 79 | 64 | 64 |  |  | 71 |
+| api > Element > requestFullscreen > options_parameter | 71 | 71 | 79 | 64 | 64 | ❓ | ❓ | 71 |
 | [api > Element > scroll](https://developer.mozilla.org/docs/Web/API/Element/scroll) | 61 | 61 | 79 | 36 | 36 | 10.1 | 10.3 | 61 |
 | [api > Element > scrollBy](https://developer.mozilla.org/docs/Web/API/Element/scrollBy) | 61 | 61 | 79 | 36 | 36 | 10.1 | 10.3 | 61 |
 | [api > Element > scrollTo](https://developer.mozilla.org/docs/Web/API/Element/scrollTo) | 61 | 61 | 79 | 36 | 36 | 10.1 | 10.3 | 61 |
@@ -215,7 +215,7 @@
 | [api > FormData > values](https://developer.mozilla.org/docs/Web/API/FormData/values) | 50 | 50 | 18 | 44 | 44 | 11.1 | 11.3 | 50 |
 | api > FormData > worker_support | Yes | Yes | ≤18 | 39 | Yes | 13.1 | 13.4 | Yes |
 | api > FormData > @@iterator | 50 | 50 | 18 | 44 | 44 | 11.1 | 11.3 | 50 |
-| [api > FullscreenOptions](https://developer.mozilla.org/docs/Web/API/FullscreenOptions) | 71 | 71 | 79 | 64 | 64 |  |  | 71 |
+| [api > FullscreenOptions](https://developer.mozilla.org/docs/Web/API/FullscreenOptions) | 71 | 71 | 79 | 64 | 64 | ❓ | ❓ | 71 |
 | [api > GainNode](https://developer.mozilla.org/docs/Web/API/GainNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > GamepadEvent](https://developer.mozilla.org/docs/Web/API/GamepadEvent) | 35 | 35 | 12 | 29 | 32 | 10.1 | 10.3 | 37 |
 | api > Geolocation > secure_context_required | 50 | 50 | ≤79 | 55 | 55 | Yes | Yes | 51 |
@@ -344,7 +344,7 @@
 | [api > IDBObjectStore > getKey](https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getKey) | 48 | 48 | ≤79 | 51 | 58 | 10.1 | 10.3 | 48 |
 | [api > IDBTransaction > objectStoreNames](https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStoreNames) | 48 | 48 | 79 | Yes | Yes | Yes | Yes | 48 |
 | [api > IIRFilterNode](https://developer.mozilla.org/docs/Web/API/IIRFilterNode) | 49 | 49 | ≤18 | 50 | 50 | 14.1 | 14.5 | 49 |
-| [api > InputDeviceInfo](https://developer.mozilla.org/docs/Web/API/InputDeviceInfo) | Yes | Yes | 79 |  |  |  |  | Yes |
+| [api > InputDeviceInfo](https://developer.mozilla.org/docs/Web/API/InputDeviceInfo) | Yes | Yes | 79 | ❓ | ❓ | ❓ | ❓ | Yes |
 | [api > InputEvent](https://developer.mozilla.org/docs/Web/API/InputEvent) | 60 | 60 | 79 | 31 | 31 | 10.1 | 10.3 | 60 |
 | [api > IntersectionObserver](https://developer.mozilla.org/docs/Web/API/IntersectionObserver) | 51 | 51 | 15 | 55 | 55 | 12.1 | 12.2 | 51 |
 | [api > IntersectionObserverEntry](https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry) | 51 | 51 | 15 | 55 | 55 | 12.1 | 12.2 | 51 |
@@ -352,15 +352,15 @@
 | [api > KeyboardEvent > code](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code) | 48 | 48 | 79 | 38 | 38 | 10 | 10 | 48 |
 | [api > KeyboardEvent > isComposing](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/isComposing) | 56 | 56 | 79 | 31 | 31 | 10.1 | 10.3 | 56 |
 | [api > MediaCapabilities](https://developer.mozilla.org/docs/Web/API/MediaCapabilities) | 66 | 66 | 79 | 63 | 63 | 13 | 13 | 66 |
-| [api > MediaCapabilitiesInfo](https://developer.mozilla.org/docs/Web/API/MediaCapabilitiesInfo) | 66 | 66 | ≤79 | 63 | 63 |  |  | 66 |
+| [api > MediaCapabilitiesInfo](https://developer.mozilla.org/docs/Web/API/MediaCapabilitiesInfo) | 66 | 66 | ≤79 | 63 | 63 | ❓ | ❓ | 66 |
 | [api > MediaDeviceInfo](https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo) | 55 | 55 | 12 | 39 | 39 | 11 | 11 | 55 |
 | [api > MediaDevices](https://developer.mozilla.org/docs/Web/API/MediaDevices) | 47 | 47 | 12 | 33 | 36 | 11 | 11 | 47 |
 | [api > MediaElementAudioSourceNode](https://developer.mozilla.org/docs/Web/API/MediaElementAudioSourceNode) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | ≤37 |
-| [api > MediaEncryptedEvent](https://developer.mozilla.org/docs/Web/API/MediaEncryptedEvent) | 42 | 42 | 13 | Yes |  | Yes | Yes | 43 |
+| [api > MediaEncryptedEvent](https://developer.mozilla.org/docs/Web/API/MediaEncryptedEvent) | 42 | 42 | 13 | Yes | ❓ | Yes | Yes | 43 |
 | [api > MediaKeySession](https://developer.mozilla.org/docs/Web/API/MediaKeySession) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
 | [api > MediaKeyStatusMap](https://developer.mozilla.org/docs/Web/API/MediaKeyStatusMap) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
 | [api > MediaKeySystemAccess](https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
-| [api > MediaKeySystemConfiguration](https://developer.mozilla.org/docs/Web/API/MediaKeySystemConfiguration) | 42 | 42 | ≤79 |  |  |  |  | 43 |
+| [api > MediaKeySystemConfiguration](https://developer.mozilla.org/docs/Web/API/MediaKeySystemConfiguration) | 42 | 42 | ≤79 | ❓ | ❓ | ❓ | ❓ | 43 |
 | [api > MediaKeys](https://developer.mozilla.org/docs/Web/API/MediaKeys) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
 | api > MediaQueryList > EventListener_objects | 45 | 45 | ≤79 | 55 | 55 | 14 | 14 | 45 |
 | api > MediaQueryList > EventTarget_inheritance | 45 | 45 | 16 | 55 | 55 | 14 | 14 | 45 |
@@ -370,14 +370,14 @@
 | [api > MediaStream](https://developer.mozilla.org/docs/Web/API/MediaStream) | 55 | 55 | 12 | 15 | 15 | 11 | 11 | 55 |
 | [api > MediaStreamAudioDestinationNode](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode) | 14 | 18 | ≤18 | 25 | 25 | 6 | 6 | ≤37 |
 | [api > MediaStreamAudioSourceNode](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceNode) | 23 | Yes | 12 | 25 | 25 | 11 | 11 | ≤37 |
-| [api > MediaStreamAudioSourceOptions](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceOptions) | 55 | 55 | ≤18 | 53 | 53 | 6 |  | 55 |
-| [api > MediaStreamConstraints](https://developer.mozilla.org/docs/Web/API/MediaStreamConstraints) | 53 | 53 | ≤79 | 38 | 38 |  |  | 53 |
+| [api > MediaStreamAudioSourceOptions](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceOptions) | 55 | 55 | ≤18 | 53 | 53 | 6 | ❓ | 55 |
+| [api > MediaStreamConstraints](https://developer.mozilla.org/docs/Web/API/MediaStreamConstraints) | 53 | 53 | ≤79 | 38 | 38 | ❓ | ❓ | 53 |
 | [api > MediaStreamTrack](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack) | 29 | 29 | 12 | 22 | 22 | 11 | 11 | ≤37 |
 | [api > MediaStreamTrackEvent](https://developer.mozilla.org/docs/Web/API/MediaStreamTrackEvent) | 55 | 55 | 12 | 50 | 50 | Yes | Yes | 55 |
-| [api > MediaTrackConstraints](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints) | 59 | Yes | ≤18 | Yes | Yes |  |  | 59 |
-| [api > MediaTrackSettings](https://developer.mozilla.org/docs/Web/API/MediaTrackSettings) | 59 | 59 | ≤79 | Yes | Yes |  |  | 59 |
-| [api > MediaTrackSupportedConstraints](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints) | 52 | 52 | ≤79 | 42 | 42 |  |  | 52 |
-| api > MessageEvent > origin > USVString_type | Yes | Yes | ≤79 | 55 | 55 |  |  | Yes |
+| [api > MediaTrackConstraints](https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints) | 59 | Yes | ≤18 | Yes | Yes | ❓ | ❓ | 59 |
+| [api > MediaTrackSettings](https://developer.mozilla.org/docs/Web/API/MediaTrackSettings) | 59 | 59 | ≤79 | Yes | Yes | ❓ | ❓ | 59 |
+| [api > MediaTrackSupportedConstraints](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints) | 52 | 52 | ≤79 | 42 | 42 | ❓ | ❓ | 52 |
+| api > MessageEvent > origin > USVString_type | Yes | Yes | ≤79 | 55 | 55 | ❓ | ❓ | Yes |
 | [api > MessageEvent > source](https://developer.mozilla.org/docs/Web/API/MessageEvent/source) | Yes | Yes | 12 | 55 | 55 | Yes | Yes | Yes |
 | [api > MouseEvent > MouseEvent](https://developer.mozilla.org/docs/Web/API/MouseEvent/MouseEvent) | 47 | 47 | 12 | 11 | 14 | Yes | Yes | 47 |
 | [api > MouseEvent > movementX](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX) | 37 | 37 | 13 | 41 | 41 | 9 | 8 | 37 |
@@ -400,16 +400,16 @@
 | [api > NodeList > forEach](https://developer.mozilla.org/docs/Web/API/NodeList/forEach) | 51 | 51 | 16 | 50 | 50 | 10 | 10 | 51 |
 | [api > NodeList > keys](https://developer.mozilla.org/docs/Web/API/NodeList/keys) | 51 | 51 | 16 | 50 | 50 | 10 | 10 | 51 |
 | [api > NodeList > values](https://developer.mozilla.org/docs/Web/API/NodeList/values) | 51 | 51 | 16 | 50 | 50 | 10 | 10 | 51 |
-| [api > OES_texture_half_float](https://developer.mozilla.org/docs/Web/API/OES_texture_half_float) | 27 | 27 | 14 | 29 |  | 8 | 8 | ≤37 |
-| [api > OES_texture_half_float_linear](https://developer.mozilla.org/docs/Web/API/OES_texture_half_float_linear) | 29 | 29 | ≤18 | 30 |  | 8 | 8 | ≤37 |
-| [api > OES_vertex_array_object](https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object) | 24 | 25 | 17 | 25 |  | 8 | 8 | ≤37 |
+| [api > OES_texture_half_float](https://developer.mozilla.org/docs/Web/API/OES_texture_half_float) | 27 | 27 | 14 | 29 | ❓ | 8 | 8 | ≤37 |
+| [api > OES_texture_half_float_linear](https://developer.mozilla.org/docs/Web/API/OES_texture_half_float_linear) | 29 | 29 | ≤18 | 30 | ❓ | 8 | 8 | ≤37 |
+| [api > OES_vertex_array_object](https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object) | 24 | 25 | 17 | 25 | ❓ | 8 | 8 | ≤37 |
 | [api > OfflineAudioCompletionEvent](https://developer.mozilla.org/docs/Web/API/OfflineAudioCompletionEvent) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > OfflineAudioContext](https://developer.mozilla.org/docs/Web/API/OfflineAudioContext) | 35 | 35 | 12 | 25 | 25 | 14.1 | 14.5 | 4.4.3 |
 | [api > OscillatorNode](https://developer.mozilla.org/docs/Web/API/OscillatorNode) | 20 | 25 | 12 | 25 | 25 | 6 | 6 | ≤37 |
-| [api > OverconstrainedError](https://developer.mozilla.org/docs/Web/API/OverconstrainedError) | 63 | 63 | 79 |  |  | 11 | 11 | 63 |
+| [api > OverconstrainedError](https://developer.mozilla.org/docs/Web/API/OverconstrainedError) | 63 | 63 | 79 | ❓ | ❓ | 11 | 11 | 63 |
 | [api > PannerNode](https://developer.mozilla.org/docs/Web/API/PannerNode) | 14 | 18 | 12 | 25 | 25 | 14.1 | 14.5 | ≤37 |
 | [api > Path2D](https://developer.mozilla.org/docs/Web/API/Path2D) | 36 | 36 | 14 | 31 | 31 | 7 | 7 | 37 |
-| [api > PaymentCurrencyAmount](https://developer.mozilla.org/docs/Web/API/PaymentCurrencyAmount) | 56 | 56 | ≤79 | 55 | 55 |  |  | 56 |
+| [api > PaymentCurrencyAmount](https://developer.mozilla.org/docs/Web/API/PaymentCurrencyAmount) | 56 | 56 | ≤79 | 55 | 55 | ❓ | ❓ | 56 |
 | [api > PerformanceEntry > toJSON](https://developer.mozilla.org/docs/Web/API/PerformanceEntry/toJSON) | 45 | 45 | 16 | Yes | 25 | 11 | 11 | 45 |
 | [api > PerformanceObserver](https://developer.mozilla.org/docs/Web/API/PerformanceObserver) | 52 | 52 | 79 | 57 | 57 | 11 | 11 | 52 |
 | [api > PerformancePaintTiming](https://developer.mozilla.org/docs/Web/API/PerformancePaintTiming) | 60 | 60 | 79 | 84 | 84 | 14.1 | 14.5 | 60 |
@@ -433,37 +433,37 @@
 | [api > ProgressEvent > loaded](https://developer.mozilla.org/docs/Web/API/ProgressEvent/loaded) | Yes | Yes | 12 | 3.5 | 4 | Yes | Yes | Yes |
 | [api > ProgressEvent > total](https://developer.mozilla.org/docs/Web/API/ProgressEvent/total) | Yes | Yes | 12 | 3.5 | 4 | Yes | Yes | Yes |
 | [api > PromiseRejectionEvent](https://developer.mozilla.org/docs/Web/API/PromiseRejectionEvent) | 49 | 49 | 79 | 69 | 68 | 11 | 11.3 | 49 |
-| [api > PublicKeyCredentialRequestOptions](https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialRequestOptions) | 67 | 67 | ≤79 | 60 |  | 13 | 13 | 67 |
-| [api > PushSubscriptionChangeEvent](https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent) |  |  |  |  |  |  |  |  |
-| [api > RTCAnswerOptions](https://developer.mozilla.org/docs/Web/API/RTCAnswerOptions) | 50 | 50 | ≤79 | 42 | 42 |  |  | 50 |
+| [api > PublicKeyCredentialRequestOptions](https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialRequestOptions) | 67 | 67 | ≤79 | 60 | ❓ | 13 | 13 | 67 |
+| [api > PushSubscriptionChangeEvent](https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [api > RTCAnswerOptions](https://developer.mozilla.org/docs/Web/API/RTCAnswerOptions) | 50 | 50 | ≤79 | 42 | 42 | ❓ | ❓ | 50 |
 | [api > RTCCertificate](https://developer.mozilla.org/docs/Web/API/RTCCertificate) | 49 | 49 | 79 | 42 | 42 | 12.1 | 12.2 | 49 |
-| [api > RTCConfiguration](https://developer.mozilla.org/docs/Web/API/RTCConfiguration) | 23 | 57 | ≤79 |  |  |  |  | ≤37 |
+| [api > RTCConfiguration](https://developer.mozilla.org/docs/Web/API/RTCConfiguration) | 23 | 57 | ≤79 | ❓ | ❓ | ❓ | ❓ | ≤37 |
 | [api > RTCDTMFSender](https://developer.mozilla.org/docs/Web/API/RTCDTMFSender) | 27 | 27 | 79 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDTMFToneChangeEvent](https://developer.mozilla.org/docs/Web/API/RTCDTMFToneChangeEvent) | 27 | 27 | 12 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDataChannel](https://developer.mozilla.org/docs/Web/API/RTCDataChannel) | Yes | 29 | 79 | 24 | 24 | 11 | 11 | 4.4 |
 | [api > RTCDataChannelEvent](https://developer.mozilla.org/docs/Web/API/RTCDataChannelEvent) | Yes | 28 | ≤79 | 22 | 22 | 11 | 11 | Yes |
 | [api > RTCIceCandidate](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate) | 23 | 25 | 15 | 22 | Yes | 11 | 11 | ≤37 |
-| [api > RTCIceCandidateInit](https://developer.mozilla.org/docs/Web/API/RTCIceCandidateInit) | Yes | Yes | ≤18 | 22 | Yes |  |  | Yes |
-| [api > RTCIceCandidatePairStats](https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats) | 56 | 56 | ≤79 | 29 | 29 |  |  | 56 |
-| [api > RTCIdentityProviderGlobalScope](https://developer.mozilla.org/docs/Web/API/RTCIdentityProviderGlobalScope) |  |  |  |  |  |  |  |  |
-| [api > RTCIdentityProviderRegistrar](https://developer.mozilla.org/docs/Web/API/RTCIdentityProviderRegistrar) |  |  |  |  |  |  |  |  |
-| [api > RTCOfferAnswerOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferAnswerOptions) | 50 | 50 | ≤79 | 42 | 42 |  |  | 50 |
-| [api > RTCOfferOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferOptions) | 50 | 50 | ≤79 | 42 | 42 |  |  | 50 |
+| [api > RTCIceCandidateInit](https://developer.mozilla.org/docs/Web/API/RTCIceCandidateInit) | Yes | Yes | ≤18 | 22 | Yes | ❓ | ❓ | Yes |
+| [api > RTCIceCandidatePairStats](https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats) | 56 | 56 | ≤79 | 29 | 29 | ❓ | ❓ | 56 |
+| [api > RTCIdentityProviderGlobalScope](https://developer.mozilla.org/docs/Web/API/RTCIdentityProviderGlobalScope) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [api > RTCIdentityProviderRegistrar](https://developer.mozilla.org/docs/Web/API/RTCIdentityProviderRegistrar) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [api > RTCOfferAnswerOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferAnswerOptions) | 50 | 50 | ≤79 | 42 | 42 | ❓ | ❓ | 50 |
+| [api > RTCOfferOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferOptions) | 50 | 50 | ≤79 | 42 | 42 | ❓ | ❓ | 50 |
 | [api > RTCPeerConnection](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection) | 23 | 25 | 15 | 22 | 44 | 11 | 11 | ≤37 |
-| [api > RTCPeerConnectionIceErrorEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent) |  |  | 79 |  |  | 14.1 | 14.5 |  |
+| [api > RTCPeerConnectionIceErrorEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent) | ❓ | ❓ | 79 | ❓ | ❓ | 14.1 | 14.5 | ❓ |
 | [api > RTCPeerConnectionIceEvent > RTCPeerConnectionIceEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/RTCPeerConnectionIceEvent) | 56 | 56 | 15 | Yes | Yes | 12 | 12 | 56 |
 | [api > RTCPeerConnectionIceEvent > candidate](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/candidate) | 56 | 56 | 15 | Yes | Yes | 12 | 12 | 56 |
-| [api > RTCRtpContributingSource](https://developer.mozilla.org/docs/Web/API/RTCRtpContributingSource) | 59 | 59 | ≤79 | 59 | 59 |  |  | 59 |
-| [api > RTCRtpEncodingParameters](https://developer.mozilla.org/docs/Web/API/RTCRtpEncodingParameters) | 67 | 67 | ≤79 | 46 | 46 |  |  | 67 |
+| [api > RTCRtpContributingSource](https://developer.mozilla.org/docs/Web/API/RTCRtpContributingSource) | 59 | 59 | ≤79 | 59 | 59 | ❓ | ❓ | 59 |
+| [api > RTCRtpEncodingParameters](https://developer.mozilla.org/docs/Web/API/RTCRtpEncodingParameters) | 67 | 67 | ≤79 | 46 | 46 | ❓ | ❓ | 67 |
 | [api > RTCRtpReceiver](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver) | 59 | 59 | 12 | Yes | Yes | 11 | 11 | 59 |
 | [api > RTCRtpSender](https://developer.mozilla.org/docs/Web/API/RTCRtpSender) | 64 | 64 | 12 | 34 | 34 | 11 | 11 | 64 |
 | [api > RTCRtpTransceiver](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver) | 69 | 69 | ≤18 | 59 | 59 | 11 | 11 | 69 |
-| [api > RTCRtpTransceiverDirection](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiverDirection) | 69 | 69 | ≤18 | 59 | 59 |  |  | 69 |
-| [api > RTCRtpTransceiverInit](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiverInit) | 69 | 69 | ≤18 | 59 | 59 |  |  | 69 |
+| [api > RTCRtpTransceiverDirection](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiverDirection) | 69 | 69 | ≤18 | 59 | 59 | ❓ | ❓ | 69 |
+| [api > RTCRtpTransceiverInit](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiverInit) | 69 | 69 | ≤18 | 59 | 59 | ❓ | ❓ | 69 |
 | [api > RTCSessionDescription](https://developer.mozilla.org/docs/Web/API/RTCSessionDescription) | 23 | 25 | 15 | Yes | Yes | 11 | 11 | ≤37 |
 | [api > RTCStatsReport](https://developer.mozilla.org/docs/Web/API/RTCStatsReport) | 58 | 58 | 79 | 27 | 27 | 11 | 11 | 58 |
 | [api > RTCTrackEvent](https://developer.mozilla.org/docs/Web/API/RTCTrackEvent) | 56 | 56 | ≤18 | 22 | 44 | 11 | 11 | 56 |
-| [api > RTCTrackEventInit](https://developer.mozilla.org/docs/Web/API/RTCTrackEventInit) | 56 | 56 | ≤18 | 22 | 44 |  |  | 56 |
+| [api > RTCTrackEventInit](https://developer.mozilla.org/docs/Web/API/RTCTrackEventInit) | 56 | 56 | ≤18 | 22 | 44 | ❓ | ❓ | 56 |
 | [api > Range > Range](https://developer.mozilla.org/docs/Web/API/Range/Range) | 29 | 29 | 15 | 24 | 24 | 6.1 | 8 | ≤37 |
 | api > Range > collapse > toStart_parameter_optional | Yes | Yes | ≤79 | 25 | 25 | Yes | Yes | Yes |
 | [api > Range > comparePoint](https://developer.mozilla.org/docs/Web/API/Range/comparePoint) | 1 | 18 | 17 | 1 | 4 | 3 | 1 | 1 |
@@ -493,7 +493,7 @@
 | api > SVGNumberList > length | 35 | 35 | 79 | 5 | 5 | 13.1 | 13.4 | 37 |
 | api > SVGPointList > length | Yes | Yes | 79 | 5 | 5 | Yes | Yes | Yes |
 | api > SVGRadialGradientElement > fr | 24 | 25 | 79 | 55 | 55 | 6.1 | 7 | ≤37 |
-| api > SVGSVGElement > animationsPaused | 1 | 18 |  | 1.5 | 4 | 3 | 1 | 1 |
+| api > SVGSVGElement > animationsPaused | 1 | 18 | ❓ | 1.5 | 4 | 3 | 1 | 1 |
 | [api > SVGSetElement](https://developer.mozilla.org/docs/Web/API/SVGSetElement) | 1 | 18 | 79 | 4 | 4 | 1 | 1 | 1 |
 | api > SVGStringList > length | Yes | Yes | 79 | 13 | 14 | Yes | Yes | Yes |
 | api > SVGTransformList > length | Yes | Yes | 79 | 9 | 9 | Yes | Yes | Yes |
@@ -522,7 +522,7 @@
 | [api > TextDecoder](https://developer.mozilla.org/docs/Web/API/TextDecoder) | 38 | 38 | ≤79 | 19 | 19 | 10.1 | 10.3 | 38 |
 | [api > TextEncoder](https://developer.mozilla.org/docs/Web/API/TextEncoder) | 38 | 38 | 79 | 19 | 19 | 10.1 | 10.3 | 38 |
 | [api > TextTrack > id](https://developer.mozilla.org/docs/Web/API/TextTrack/id) | 33 | 33 | 12 | 31 | 31 | 7 | 7 | 4.4.3 |
-| [api > TextTrackList > getTrackById](https://developer.mozilla.org/docs/Web/API/TextTrackList/getTrackById) | 33 | 33 | 18 | Yes |  | 7 | 8 | 4.4.3 |
+| [api > TextTrackList > getTrackById](https://developer.mozilla.org/docs/Web/API/TextTrackList/getTrackById) | 33 | 33 | 18 | Yes | ❓ | 7 | 8 | 4.4.3 |
 | api > TextTrackList > onchange | 33 | 33 | 18 | 31 | 31 | 7 | 7 | 4.4 |
 | api > TextTrackList > onremovetrack | 33 | 33 | 18 | 31 | 31 | 6.1 | 7 | 4.4 |
 | [api > TouchList](https://developer.mozilla.org/docs/Web/API/TouchList) | 18 | Yes | ≤18 | 52 | 6 | 10.1 | 2 | Yes |
@@ -546,45 +546,45 @@
 | [api > ValidityState > badInput](https://developer.mozilla.org/docs/Web/API/ValidityState/badInput) | 25 | Yes | 14 | 29 | 64 | 11 | 7 | 4.4 |
 | [api > ValidityState > tooShort](https://developer.mozilla.org/docs/Web/API/ValidityState/tooShort) | 40 | Yes | 17 | 51 | 64 | 11 | 10 | 67 |
 | [api > VisualViewport](https://developer.mozilla.org/docs/Web/API/VisualViewport) | 61 | 61 | 79 | 63 | 68 | 13 | 13 | 61 |
-| [api > WEBGL_debug_shaders](https://developer.mozilla.org/docs/Web/API/WEBGL_debug_shaders) | 47 | 47 | 79 | 30 |  | 14 | 14 | 47 |
-| [api > WEBGL_depth_texture](https://developer.mozilla.org/docs/Web/API/WEBGL_depth_texture) | 26 | 26 | 12 | 22 |  | 8 | 8 | ≤37 |
-| [api > WEBGL_lose_context](https://developer.mozilla.org/docs/Web/API/WEBGL_lose_context) | 26 | 26 | 17 | 22 |  | 8 | 8 | ≤37 |
+| [api > WEBGL_debug_shaders](https://developer.mozilla.org/docs/Web/API/WEBGL_debug_shaders) | 47 | 47 | 79 | 30 | ❓ | 14 | 14 | 47 |
+| [api > WEBGL_depth_texture](https://developer.mozilla.org/docs/Web/API/WEBGL_depth_texture) | 26 | 26 | 12 | 22 | ❓ | 8 | 8 | ≤37 |
+| [api > WEBGL_lose_context](https://developer.mozilla.org/docs/Web/API/WEBGL_lose_context) | 26 | 26 | 17 | 22 | ❓ | 8 | 8 | ≤37 |
 | [api > WaveShaperNode](https://developer.mozilla.org/docs/Web/API/WaveShaperNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
-| [api > Window > copy_event](https://developer.mozilla.org/docs/Web/API/Window/copy_event) | 1 | 18 | ≤18 | Yes | Yes | Yes |  | 1 |
+| [api > Window > copy_event](https://developer.mozilla.org/docs/Web/API/Window/copy_event) | 1 | 18 | ≤18 | Yes | Yes | Yes | ❓ | 1 |
 | [api > Window > customElements](https://developer.mozilla.org/docs/Web/API/Window/customElements) | 54 | 54 | 79 | 63 | 63 | 10.1 | 10.3 | 54 |
-| [api > Window > cut_event](https://developer.mozilla.org/docs/Web/API/Window/cut_event) | 1 | 18 | ≤18 | Yes | Yes | Yes |  | 1 |
+| [api > Window > cut_event](https://developer.mozilla.org/docs/Web/API/Window/cut_event) | 1 | 18 | ≤18 | Yes | Yes | Yes | ❓ | 1 |
 | [api > Window > find](https://developer.mozilla.org/docs/Web/API/Window/find) | 1 | 18 | 79 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > isSecureContext](https://developer.mozilla.org/docs/Web/API/Window/isSecureContext) | 47 | 47 | 15 | 49 | 49 | 11.1 | 11.3 | 47 |
-| [api > Window > languagechange_event](https://developer.mozilla.org/docs/Web/API/Window/languagechange_event) | 37 | 37 | ≤79 | 32 | 4 |  |  | 37 |
+| [api > Window > languagechange_event](https://developer.mozilla.org/docs/Web/API/Window/languagechange_event) | 37 | 37 | ≤79 | 32 | 4 | ❓ | ❓ | 37 |
 | [api > Window > locationbar](https://developer.mozilla.org/docs/Web/API/Window/locationbar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > menubar](https://developer.mozilla.org/docs/Web/API/Window/menubar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
-| api > Window > paste_event > clipboardData | 58 | 58 | ≤18 | 22 | 22 | Yes |  | 58 |
+| api > Window > paste_event > clipboardData | 58 | 58 | ≤18 | 22 | 22 | Yes | ❓ | 58 |
 | [api > Window > personalbar](https://developer.mozilla.org/docs/Web/API/Window/personalbar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > rejectionhandled_event](https://developer.mozilla.org/docs/Web/API/Window/rejectionhandled_event) | 49 | 49 | ≤79 | 69 | 68 | 11 | 11.3 | 49 |
 | [api > Window > scrollbars](https://developer.mozilla.org/docs/Web/API/Window/scrollbars) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | api > Window > scrollTo > ScrollToOptions | 45 | 45 | 79 | Yes | Yes | 10 | 10 | 45 |
-| api > Window > scrollX > subpixel_precision | Yes | Yes | ≤18 | 55 | 55 | Yes |  | Yes |
-| api > Window > scrollY > subpixel_precision | Yes | Yes | ≤18 | 55 | 55 | Yes |  | Yes |
+| api > Window > scrollX > subpixel_precision | Yes | Yes | ≤18 | 55 | 55 | Yes | ❓ | Yes |
+| api > Window > scrollY > subpixel_precision | Yes | Yes | ≤18 | 55 | 55 | Yes | ❓ | Yes |
 | [api > Window > statusbar](https://developer.mozilla.org/docs/Web/API/Window/statusbar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > stop](https://developer.mozilla.org/docs/Web/API/Window/stop) | 1 | 18 | 14 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > toolbar](https://developer.mozilla.org/docs/Web/API/Window/toolbar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > unhandledrejection_event](https://developer.mozilla.org/docs/Web/API/Window/unhandledrejection_event) | 49 | 49 | 79 | 69 | 68 | 11 | 11.3 | 49 |
 | [api > Window > visualViewport](https://developer.mozilla.org/docs/Web/API/Window/visualViewport) | 61 | 61 | 79 | 63 | 63 | 13 | 13 | 61 |
-| [api > WindowEventHandlers > onlanguagechange](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onlanguagechange) | 37 | 37 | ≤79 | 32 | 4 |  |  | 37 |
+| [api > WindowEventHandlers > onlanguagechange](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onlanguagechange) | 37 | 37 | ≤79 | 32 | 4 | ❓ | ❓ | 37 |
 | [api > WindowEventHandlers > onrejectionhandled](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onrejectionhandled) | 49 | 49 | ≤79 | 69 | 68 | 11 | 11.3 | 49 |
 | [api > WindowEventHandlers > onunhandledrejection](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onunhandledrejection) | 49 | 49 | 79 | 69 | 68 | 11 | 11.3 | 49 |
 | [api > WindowOrWorkerGlobalScope > fetch](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/fetch) | 42 | 42 | 14 | 39 | 39 | 10.1 | 10.3 | 42 |
 | [api > WindowOrWorkerGlobalScope > origin](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/origin) | 59 | 59 | ≤79 | 54 | 54 | 11 | 11 | 59 |
 | [api > WindowOrWorkerGlobalScope > queueMicrotask](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/queueMicrotask) | 71 | 71 | 79 | 69 | 79 | 12.1 | 12.2 | 71 |
-| api > Worker > Worker > mime_checks |  |  |  | 81 | 81 |  |  |  |
-| [api > Worker > onmessageerror](https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror) | 60 | 60 | 18 | 57 | 57 |  |  | 60 |
+| api > Worker > Worker > mime_checks | ❓ | ❓ | ❓ | 81 | 81 | ❓ | ❓ | ❓ |
+| [api > Worker > onmessageerror](https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror) | 60 | 60 | 18 | 57 | 57 | ❓ | ❓ | 60 |
 | [api > WorkerGlobalScope > onoffline](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/onoffline) | 4 | 40 | ≤79 | 29 | 29 | Yes | Yes | 40 |
 | [api > WorkerGlobalScope > ononline](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/ononline) | 4 | 40 | ≤79 | 29 | 29 | Yes | Yes | 40 |
 | [api > WorkerGlobalScope > performance](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/performance) | Yes | Yes | ≤79 | 34 | 34 | Yes | Yes | Yes |
 | [api > Worklet](https://developer.mozilla.org/docs/Web/API/Worklet) | 65 | 65 | 79 | 76 | 79 | 14.1 | 14.5 | 65 |
 | [api > XMLDocument](https://developer.mozilla.org/docs/Web/API/XMLDocument) | 34 | 34 | 12 | 1 | 4 | 10 | 10 | 37 |
 | api > XMLHttpRequest > getAllResponseHeaders > lowercase | Yes | Yes | 79 | 64 | 64 | Yes | Yes | Yes |
-| [api > XMLHttpRequest > responseType > json](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json) | 31 | Yes | 79 | 10 | 50 | 7 |  | 55 |
+| [api > XMLHttpRequest > responseType > json](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json) | 31 | Yes | 79 | 10 | 50 | 7 | ❓ | 55 |
 | [api > XMLHttpRequest > responseURL](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseURL) | 37 | 37 | 14 | 32 | 32 | 8 | Yes | 37 |
 | [api > XPathEvaluator](https://developer.mozilla.org/docs/Web/API/XPathEvaluator) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > XPathExpression](https://developer.mozilla.org/docs/Web/API/XPathExpression) | 1 | 18 | 12 | Yes | Yes | 3 | 1 | 1 |
@@ -908,17 +908,17 @@
 | [html > elements > a > rel > noopener](https://developer.mozilla.org/docs/Web/HTML/Link_types/noopener) | 49 | 49 | 79 | 52 | 52 | 10.1 | 10.3 | 49 |
 | [html > elements > area > rel > noopener](https://developer.mozilla.org/docs/Web/HTML/Link_types/noopener) | 49 | 49 | 79 | 52 | 52 | 10.1 | 10.3 | 49 |
 | [html > elements > bdi](https://developer.mozilla.org/docs/Web/HTML/Element/bdi) | 16 | 18 | 79 | 10 | 10 | 6 | 6 | ≤37 |
-| html > elements > body > onlanguagechange |  |  |  | 32 | 32 |  |  |  |
+| html > elements > body > onlanguagechange | ❓ | ❓ | ❓ | 32 | 32 | ❓ | ❓ | ❓ |
 | html > elements > button > form | Yes | Yes | 16 | Yes | Yes | Yes | Yes | Yes |
 | [html > elements > data](https://developer.mozilla.org/docs/Web/HTML/Element/data) | 62 | 62 | ≤18 | 22 | 22 | 10 | 10 | 62 |
 | [html > elements > details](https://developer.mozilla.org/docs/Web/HTML/Element/details) | 12 | Yes | 79 | 49 | 49 | 6 | 6.1 | Yes |
 | html > elements > embed > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
 | html > elements > embed > type | 1 | 18 | 79 | 1 | 4 | ≤4 | ≤3 | 1 |
 | html > elements > iframe > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
-| html > elements > iframe > sandbox-allow-modals |  |  |  | 49 | 49 |  |  |  |
-| html > elements > iframe > sandbox-allow-popups-to-escape-sandbox | 46 | 46 | 79 | 49 | 49 |  |  | 46 |
-| html > elements > iframe > sandbox-allow-top-navigation-by-user-activation | 58 | 58 | 79 | 79 | 79 | 11.1 |  | 58 |
-| html > elements > iframe > srcdoc | 20 | 25 | 79 | 25 | 25 | 6 |  | 37 |
+| html > elements > iframe > sandbox-allow-modals | ❓ | ❓ | ❓ | 49 | 49 | ❓ | ❓ | ❓ |
+| html > elements > iframe > sandbox-allow-popups-to-escape-sandbox | 46 | 46 | 79 | 49 | 49 | ❓ | ❓ | 46 |
+| html > elements > iframe > sandbox-allow-top-navigation-by-user-activation | 58 | 58 | 79 | 79 | 79 | 11.1 | ❓ | 58 |
+| html > elements > iframe > srcdoc | 20 | 25 | 79 | 25 | 25 | 6 | ❓ | 37 |
 | html > elements > img > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
 | html > elements > img > decoding | Yes | Yes | ≤79 | 63 | 63 | 11.1 | 11.3 | Yes |
 | html > elements > img > srcset | 34 | 34 | ≤18 | 38 | 38 | 8 | 8 | 37 |
@@ -926,16 +926,16 @@
 | [html > elements > input > input-color](https://developer.mozilla.org/docs/Web/HTML/Element/input/color) | 20 | 25 | 14 | 29 | 27 | 12.1 | 12.2 | 4.4 |
 | [html > elements > input > input-date](https://developer.mozilla.org/docs/Web/HTML/Element/input/date) | 20 | Yes | 12 | 57 | 57 | 14.1 | 5 | Yes |
 | [html > elements > input > input-time](https://developer.mozilla.org/docs/Web/HTML/Element/input/time) | 20 | 25 | 12 | 57 | 57 | 14.1 | Yes | Yes |
-| html > elements > link > crossorigin | 25 | Yes | 79 | 18 | 18 |  |  | 37 |
+| html > elements > link > crossorigin | 25 | Yes | 79 | 18 | 18 | ❓ | ❓ | 37 |
 | html > elements > link > integrity | 45 | 45 | 17 | 43 | 43 | 11.1 | 11.3 | 45 |
-| html > elements > link > prefetch | 56 | 56 | ≤79 |  |  |  |  | 56 |
+| html > elements > link > prefetch | 56 | 56 | ≤79 | ❓ | ❓ | ❓ | ❓ | 56 |
 | [html > elements > link > rel > preconnect](https://developer.mozilla.org/docs/Web/HTML/Link_types/preconnect) | 46 | 46 | 79 | 39 | 39 | 11.1 | 11.3 | 46 |
 | [html > elements > main](https://developer.mozilla.org/docs/Web/HTML/Element/main) | 26 | Yes | 12 | 21 | 21 | 7 | 7 | Yes |
 | html > elements > object > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
 | html > elements > ol > reversed | 18 | Yes | ≤79 | 18 | 18 | 6 | Yes | Yes |
 | [html > elements > output](https://developer.mozilla.org/docs/Web/HTML/Element/output) | 10 | Yes | ≤18 | 4 | 4 | 7 | Yes | Yes |
 | [html > elements > picture](https://developer.mozilla.org/docs/Web/HTML/Element/picture) | 38 | 38 | 13 | 38 | 38 | 9.1 | 9.3 | 38 |
-| html > elements > script > crossorigin | 30 | Yes | ≤18 | 13 | 14 | Yes |  | Yes |
+| html > elements > script > crossorigin | 30 | Yes | ≤18 | 13 | 14 | Yes | ❓ | Yes |
 | html > elements > script > integrity | 45 | 45 | 17 | 43 | 43 | 11.1 | 11.3 | 45 |
 | html > elements > script > nomodule | 61 | 61 | 16 | 60 | 60 | 11 | 11 | 61 |
 | html > elements > script > type > module | 61 | 61 | 79 | 60 | 60 | 10.1 | 10.3 | 61 |
@@ -945,29 +945,29 @@
 | html > elements > textarea > minlength | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
 | [html > elements > time](https://developer.mozilla.org/docs/Web/HTML/Element/time) | 62 | 62 | ≤18 | 22 | 22 | 7 | 4 | 62 |
 | html > elements > video > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
-| [html > elements > wbr](https://developer.mozilla.org/docs/Web/HTML/Element/wbr) | 1 | Yes | 79 | 1 | 4 | 4 |  | Yes |
-| [html > global_attributes > autocomplete](https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete) | 66 | 66 | ≤79 | Yes | Yes |  |  | 66 |
+| [html > elements > wbr](https://developer.mozilla.org/docs/Web/HTML/Element/wbr) | 1 | Yes | 79 | 1 | 4 | 4 | ❓ | Yes |
+| [html > global_attributes > autocomplete](https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete) | 66 | 66 | ≤79 | Yes | Yes | ❓ | ❓ | 66 |
 | [html > global_attributes > dir](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/dir) | Yes | Yes | 79 | Yes | Yes | Yes | Yes | Yes |
 | [html > global_attributes > enterkeyhint](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/enterkeyhint) | 77 | 77 | 79 | 79 | 79 | 13.1 | 13.4 | 77 |
 | [html > global_attributes > exportparts](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/exportparts) | 73 | 73 | 79 | 72 | 79 | 13.1 | 13.4 | 73 |
 | [html > global_attributes > nonce](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/nonce) | Yes | Yes | Yes | 31 | 31 | Yes | Yes | Yes |
-| [html > manifest > background_color](https://developer.mozilla.org/docs/Web/Manifest/background_color) |  | 46 |  |  |  |  |  | 46 |
-| [html > manifest > categories](https://developer.mozilla.org/docs/Web/Manifest/categories) |  | 88 |  |  |  |  |  |  |
-| [html > manifest > description](https://developer.mozilla.org/docs/Web/Manifest/description) |  | 88 |  |  |  |  | 11.3 |  |
-| [html > manifest > dir](https://developer.mozilla.org/docs/Web/Manifest/dir) |  |  |  |  |  |  |  |  |
-| [html > manifest > display](https://developer.mozilla.org/docs/Web/Manifest/display) | 39 | 39 |  |  | 47 |  |  | Yes |
-| [html > manifest > iarc_rating_id](https://developer.mozilla.org/docs/Web/Manifest/iarc_rating_id) |  |  |  |  |  |  |  |  |
-| [html > manifest > icons](https://developer.mozilla.org/docs/Web/Manifest/icons) | 39 | 39 |  |  | 53 |  |  | Yes |
-| [html > manifest > lang](https://developer.mozilla.org/docs/Web/Manifest/lang) |  |  |  |  |  |  |  |  |
-| [html > manifest > name](https://developer.mozilla.org/docs/Web/Manifest/name) | 39 | 39 |  |  | 53 |  | 11.3 | Yes |
-| [html > manifest > orientation](https://developer.mozilla.org/docs/Web/Manifest/orientation) | 39 | 39 |  |  |  |  |  |  |
-| [html > manifest > prefer_related_applications](https://developer.mozilla.org/docs/Web/Manifest/prefer_related_applications) |  | 44 |  |  |  |  |  |  |
-| [html > manifest > related_applications](https://developer.mozilla.org/docs/Web/Manifest/related_applications) |  | 44 |  |  |  |  |  |  |
-| [html > manifest > scope](https://developer.mozilla.org/docs/Web/Manifest/scope) | 53 | 53 |  |  |  |  |  |  |
-| [html > manifest > screenshots](https://developer.mozilla.org/docs/Web/Manifest/screenshots) |  | 88 |  |  |  |  |  |  |
-| [html > manifest > short_name](https://developer.mozilla.org/docs/Web/Manifest/short_name) | 39 | 39 |  |  | 53 |  |  | Yes |
-| [html > manifest > start_url](https://developer.mozilla.org/docs/Web/Manifest/start_url) | 39 | 39 |  |  |  |  |  |  |
-| [html > manifest > theme_color](https://developer.mozilla.org/docs/Web/Manifest/theme_color) | 46 | 46 |  |  | 53 |  |  | Yes |
+| [html > manifest > background_color](https://developer.mozilla.org/docs/Web/Manifest/background_color) | ❓ | 46 | ❓ | ❓ | ❓ | ❓ | ❓ | 46 |
+| [html > manifest > categories](https://developer.mozilla.org/docs/Web/Manifest/categories) | ❓ | 88 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > description](https://developer.mozilla.org/docs/Web/Manifest/description) | ❓ | 88 | ❓ | ❓ | ❓ | ❓ | 11.3 | ❓ |
+| [html > manifest > dir](https://developer.mozilla.org/docs/Web/Manifest/dir) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > display](https://developer.mozilla.org/docs/Web/Manifest/display) | 39 | 39 | ❓ | ❓ | 47 | ❓ | ❓ | Yes |
+| [html > manifest > iarc_rating_id](https://developer.mozilla.org/docs/Web/Manifest/iarc_rating_id) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > icons](https://developer.mozilla.org/docs/Web/Manifest/icons) | 39 | 39 | ❓ | ❓ | 53 | ❓ | ❓ | Yes |
+| [html > manifest > lang](https://developer.mozilla.org/docs/Web/Manifest/lang) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > name](https://developer.mozilla.org/docs/Web/Manifest/name) | 39 | 39 | ❓ | ❓ | 53 | ❓ | 11.3 | Yes |
+| [html > manifest > orientation](https://developer.mozilla.org/docs/Web/Manifest/orientation) | 39 | 39 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > prefer_related_applications](https://developer.mozilla.org/docs/Web/Manifest/prefer_related_applications) | ❓ | 44 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > related_applications](https://developer.mozilla.org/docs/Web/Manifest/related_applications) | ❓ | 44 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > scope](https://developer.mozilla.org/docs/Web/Manifest/scope) | 53 | 53 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > screenshots](https://developer.mozilla.org/docs/Web/Manifest/screenshots) | ❓ | 88 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > short_name](https://developer.mozilla.org/docs/Web/Manifest/short_name) | 39 | 39 | ❓ | ❓ | 53 | ❓ | ❓ | Yes |
+| [html > manifest > start_url](https://developer.mozilla.org/docs/Web/Manifest/start_url) | 39 | 39 | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
+| [html > manifest > theme_color](https://developer.mozilla.org/docs/Web/Manifest/theme_color) | 46 | 46 | ❓ | ❓ | 53 | ❓ | ❓ | Yes |
 | http > data-url > html_files | Yes | Yes | 79 | Yes | Yes | Yes | Yes | Yes |
 | [http > headers > csp > Content-Security-Policy > base-uri](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/base-uri) | 40 | Yes | 79 | 35 | 35 | 10 | 9.3 | Yes |
 | [http > headers > csp > Content-Security-Policy > child-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/child-src) | 40 | Yes | 15 | 45 | 45 | 10 | 9.3 | Yes |
@@ -975,7 +975,7 @@
 | [http > headers > csp > Content-Security-Policy > default-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/default-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
 | [http > headers > csp > Content-Security-Policy > font-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/font-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
 | [http > headers > csp > Content-Security-Policy > form-action](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/form-action) | 40 | Yes | 15 | 36 | 36 | 10 | 9.3 | Yes |
-| [http > headers > csp > Content-Security-Policy > frame-ancestors](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) | 40 | Yes | 15 | 33 | 33 | 10 | 9.3 |  |
+| [http > headers > csp > Content-Security-Policy > frame-ancestors](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors) | 40 | Yes | 15 | 33 | 33 | 10 | 9.3 | ❓ |
 | [http > headers > csp > Content-Security-Policy > frame-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
 | [http > headers > csp > Content-Security-Policy > img-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/img-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
 | [http > headers > csp > Content-Security-Policy > media-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/media-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
@@ -985,9 +985,9 @@
 | [http > headers > csp > Content-Security-Policy > style-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
 | [http > headers > csp > Content-Security-Policy > upgrade-insecure-requests](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests) | 43 | 43 | 17 | 42 | 42 | 10.1 | 10.3 | 43 |
 | http > headers > csp > Content-Security-Policy > worker_support | Yes | Yes | ≤79 | 50 | 50 | 10 | 10 | Yes |
-| [http > headers > Early-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Early-Data) |  |  |  | 58 | 58 |  |  |  |
+| [http > headers > Early-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Early-Data) | ❓ | ❓ | ❓ | 58 | 58 | ❓ | ❓ | ❓ |
 | [http > headers > Feature-Policy](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy) | 60 | 60 | 79 | 65 | 65 | 11.1 | 11.3 | 60 |
-| [http > headers > Server-Timing](https://developer.mozilla.org/docs/Web/HTTP/Headers/Server-Timing) | 65 | 65 | ≤79 | 61 | 61 |  |  | 65 |
+| [http > headers > Server-Timing](https://developer.mozilla.org/docs/Web/HTTP/Headers/Server-Timing) | 65 | 65 | ≤79 | 61 | 61 | ❓ | ❓ | 65 |
 | http > headers > Set-Cookie > SameSite | 51 | 51 | 16 | 60 | 60 | 13 | 13 | 51 |
 | http > headers > Set-Cookie > cookie_prefixes | 49 | 49 | 79 | 50 | 50 | Yes | Yes | 49 |
 | [http > headers > Upgrade-Insecure-Requests](https://developer.mozilla.org/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests) | 44 | 44 | 17 | 48 | 48 | 10.1 | 10.3 | 44 |
@@ -1224,13 +1224,13 @@
 | javascript > statements > try_catch > optional_catch_binding | 66 | 66 | 79 | 58 | 58 | 11.1 | 11.3 | 66 |
 | [svg > elements > animate](https://developer.mozilla.org/docs/Web/SVG/Element/animate) | 2 | 18 | ≤79 | 4 | 4 | 4 | 4 | 4 |
 | [svg > elements > animateMotion](https://developer.mozilla.org/docs/Web/SVG/Element/animateMotion) | Yes | Yes | ≤79 | Yes | Yes | Yes | Yes | Yes |
-| [svg > elements > animateTransform](https://developer.mozilla.org/docs/Web/SVG/Element/animateTransform) | Yes | Yes | ≤79 | Yes | Yes |  |  | Yes |
+| [svg > elements > animateTransform](https://developer.mozilla.org/docs/Web/SVG/Element/animateTransform) | Yes | Yes | ≤79 | Yes | Yes | ❓ | ❓ | Yes |
 | svg > elements > feComposite > operator > lighter | 45 | 45 | ≤18 | 86 | 86 | 6 | 6 | 45 |
-| [svg > elements > feDropShadow](https://developer.mozilla.org/docs/Web/SVG/Element/feDropShadow) | Yes | Yes | 79 | Yes | Yes |  |  | Yes |
-| svg > elements > feMorphology > HTML_elements | Yes | Yes | 79 | Yes | Yes |  |  | Yes |
+| [svg > elements > feDropShadow](https://developer.mozilla.org/docs/Web/SVG/Element/feDropShadow) | Yes | Yes | 79 | Yes | Yes | ❓ | ❓ | Yes |
+| svg > elements > feMorphology > HTML_elements | Yes | Yes | 79 | Yes | Yes | ❓ | ❓ | Yes |
 | [svg > elements > foreignObject](https://developer.mozilla.org/docs/Web/SVG/Element/foreignObject) | 1 | 18 | ≤79 | 2 | 4 | 3 | 3 | 4 |
-| [svg > elements > mpath](https://developer.mozilla.org/docs/Web/SVG/Element/mpath) | Yes | Yes | ≤18 | Yes | Yes |  |  | Yes |
+| [svg > elements > mpath](https://developer.mozilla.org/docs/Web/SVG/Element/mpath) | Yes | Yes | ≤18 | Yes | Yes | ❓ | ❓ | Yes |
 | [svg > elements > set](https://developer.mozilla.org/docs/Web/SVG/Element/set) | 1 | 18 | ≤79 | 4 | 4 | 1 | 1 | 1 |
 | svg > elements > use > data_uri | 22 | Yes | ≤18 | 4 | 4 | 5.1 | 5.1 | 4 |
 | svg > elements > use > external_uri | 22 | Yes | 13 | 4 | 4 | 6.1 | 6.1 | 4.4 |
-| [svg > elements > view](https://developer.mozilla.org/docs/Web/SVG/Element/view) | Yes | Yes | ≤18 | 15 | 15 |  |  | Yes |
+| [svg > elements > view](https://developer.mozilla.org/docs/Web/SVG/Element/view) | Yes | Yes | ≤18 | 15 | 15 | ❓ | ❓ | Yes |
