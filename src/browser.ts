@@ -17,11 +17,8 @@ export function isSupportedBy(
 ): boolean {
   const statement = compat.support[browser];
   if (!statement) return false;
-  if (Array.isArray(statement)) {
-    return statement.every(s => s.version_added !== false);
-  }
-
-  return statement.version_added !== false;
+  const [state] = Array.isArray(statement) ? statement : [statement];
+  return state.version_added !== false && state.version_removed === undefined;
 }
 
 export function isSupportedByModernBrowsers(compat: CompatStatement): boolean {

@@ -156,7 +156,6 @@
 - [api > DynamicsCompressorNode](https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode)
 - [api > EXT_blend_minmax](https://developer.mozilla.org/docs/Web/API/EXT_blend_minmax)
 - [api > EXT_color_buffer_half_float](https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_half_float)
-- [api > EXT_shader_texture_lod](https://developer.mozilla.org/docs/Web/API/EXT_shader_texture_lod)
 - [api > EffectTiming](https://developer.mozilla.org/docs/Web/API/EffectTiming)
 - [api > Element > after](https://developer.mozilla.org/docs/Web/API/Element/after)
 - [api > Element > animate](https://developer.mozilla.org/docs/Web/API/Element/animate)
@@ -389,7 +388,6 @@
 - [api > Navigator > requestMediaKeySystemAccess](https://developer.mozilla.org/docs/Web/API/Navigator/requestMediaKeySystemAccess)
 - [api > Navigator > sendBeacon](https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon)
 - [api > Navigator > serviceWorker](https://developer.mozilla.org/docs/Web/API/Navigator/serviceWorker)
-- [api > NavigatorConcurrentHardware](https://developer.mozilla.org/docs/Web/API/NavigatorConcurrentHardware)
 - [api > NavigatorLanguage > languages](https://developer.mozilla.org/docs/Web/API/NavigatorLanguage/languages)
 - [api > Node > baseURI](https://developer.mozilla.org/docs/Web/API/Node/baseURI)
 - [api > Node > getRootNode](https://developer.mozilla.org/docs/Web/API/Node/getRootNode)
@@ -451,7 +449,8 @@
 - [api > RTCOfferOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferOptions)
 - [api > RTCPeerConnection](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection)
 - [api > RTCPeerConnectionIceErrorEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent)
-- [api > RTCPeerConnectionIceEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent)
+- [api > RTCPeerConnectionIceEvent > RTCPeerConnectionIceEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/RTCPeerConnectionIceEvent)
+- [api > RTCPeerConnectionIceEvent > candidate](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/candidate)
 - [api > RTCRtpContributingSource](https://developer.mozilla.org/docs/Web/API/RTCRtpContributingSource)
 - [api > RTCRtpEncodingParameters](https://developer.mozilla.org/docs/Web/API/RTCRtpEncodingParameters)
 - [api > RTCRtpReceiver](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver)
@@ -606,7 +605,6 @@
 - [css > at-rules > media > -webkit-device-pixel-ratio](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio)
 - [css > at-rules > media > -webkit-max-device-pixel-ratio](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio)
 - [css > at-rules > media > -webkit-min-device-pixel-ratio](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio)
-- [css > at-rules > media > -webkit-transform-3d](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-transform-3d)
 - [css > at-rules > supports](https://developer.mozilla.org/docs/Web/CSS/@supports)
 - [css > properties > -webkit-line-clamp](https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp)
 - [css > properties > -webkit-mask-composite](https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-composite)
@@ -905,9 +903,7 @@
 - [css > types > max](https://developer.mozilla.org/docs/Web/CSS/max())
 - [css > types > min](https://developer.mozilla.org/docs/Web/CSS/min())
 - html > elements > a > download
-- html > elements > a > ping
 - [html > elements > a > rel > noopener](https://developer.mozilla.org/docs/Web/HTML/Link_types/noopener)
-- html > elements > area > ping
 - [html > elements > area > rel > noopener](https://developer.mozilla.org/docs/Web/HTML/Link_types/noopener)
 - [html > elements > bdi](https://developer.mozilla.org/docs/Web/HTML/Element/bdi)
 - html > elements > body > onlanguagechange
@@ -947,6 +943,7 @@
 - html > elements > textarea > minlength
 - [html > elements > time](https://developer.mozilla.org/docs/Web/HTML/Element/time)
 - html > elements > video > aspect_ratio_computed_from_attributes
+- [html > elements > wbr](https://developer.mozilla.org/docs/Web/HTML/Element/wbr)
 - [html > global_attributes > autocomplete](https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete)
 - [html > global_attributes > dir](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/dir)
 - [html > global_attributes > enterkeyhint](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/enterkeyhint)
@@ -1017,11 +1014,8 @@
 - [javascript > builtins > AsyncGenerator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncGenerator)
 - [javascript > builtins > AsyncGeneratorFunction](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncGeneratorFunction)
 - [javascript > builtins > AsyncIterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator)
-- [javascript > builtins > Atomics](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics)
 - [javascript > builtins > BigInt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
 - javascript > builtins > DataView > DataView > new_required
-- javascript > builtins > DataView > DataView > sharedarraybuffer_support
-- javascript > builtins > DataView > buffer > sharedarraybuffer_support
 - javascript > builtins > Date > toLocaleDateString > iana_time_zone_names
 - javascript > builtins > Date > toLocaleString > iana_time_zone_names
 - javascript > builtins > Date > toLocaleTimeString > iana_time_zone_names
@@ -1107,7 +1101,6 @@
 - [javascript > builtins > Set > values](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/values)
 - [javascript > builtins > Set > @@iterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@iterator)
 - [javascript > builtins > Set > @@species](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@species)
-- [javascript > builtins > SharedArrayBuffer](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)
 - [javascript > builtins > String > codePointAt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt)
 - [javascript > builtins > String > endsWith](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith)
 - [javascript > builtins > String > fromCodePoint](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint)
