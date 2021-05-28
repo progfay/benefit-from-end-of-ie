@@ -1,9 +1,18 @@
-import {
+import type {
   CompatStatement,
   SupportStatement,
   VersionValue,
 } from "@mdn/browser-compat-data/types";
+import { readFileSync } from "fs";
+import path from "path";
 import { MODERN_BROWSERS } from "./browser";
+
+function getPackageVersion(packageName: string): string {
+  const filePath = path.resolve("./node_modules", packageName, "package.json");
+  const packageJson = readFileSync(filePath, { encoding: "ascii" });
+  const { version } = JSON.parse(packageJson) as { version?: unknown };
+  return typeof version === "string" ? version : "unknown";
+}
 
 const HEADER = `
 # Benefit from end of IE
@@ -24,6 +33,11 @@ ${MODERN_BROWSERS.map((browser) => `  - \`${browser}\``).join("\n")}
 - But it's unavailable in IE...
 
 ## Features List
+
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): ${getPackageVersion(
+  "@mdn/browser-compat-data"
+)}
+- Generated date: ${new Date().toUTCString()}
 
 | Feature | ${MODERN_BROWSERS.join(" | ")} |
 | :------ | ${" :-: |".repeat(MODERN_BROWSERS.length)}

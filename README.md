@@ -24,6 +24,9 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.4
+- Generated date: Fri, 28 May 2021 18:48:43 GMT
+
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [api > AbortController](https://developer.mozilla.org/docs/Web/API/AbortController) | 66 | 66 | 16 | 57 | 57 | 12.1 | 12.2 | 66 |
