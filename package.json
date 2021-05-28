@@ -7,7 +7,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "tsc -p ./tsconfig.json",
-    "start": "node ./dist/index.js",
+    "generate": "node ./dist/index.js > README.md",
     "lint": "run-s lint:prettier lint:eslint lint:tsc",
     "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint -c ./.eslintrc.js .",

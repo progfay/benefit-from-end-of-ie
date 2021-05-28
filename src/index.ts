@@ -36,10 +36,16 @@ function visitIdentifier(path: string, identifier: Identifier): void {
   const { __compat, ...identifiers } = identifier;
   if (
     __compat &&
+    __compat.status?.deprecated !== true &&
     !isSupportedBy(__compat, "ie") &&
     isSupportedByModernBrowsers(__compat)
   ) {
-    console.log(path);
+    const { mdn_url } = __compat;
+    if (mdn_url) {
+      console.log(`- [${path}](${__compat.mdn_url})`);
+    } else {
+      console.log(`- ${path}`);
+    }
     return;
   }
 
@@ -48,7 +54,20 @@ function visitIdentifier(path: string, identifier: Identifier): void {
   }
 }
 
+const header = `
+# Benefit from end of IE
+
+"Benefit" mean...
+
+- Feature what supported Modern browser
+${modernBrowsers.map((browser) => `  - \`${browser}\``).join("\n")}
+- But it's unavailable in IE...
+
+## Features List
+`.trimStart();
+
 function main() {
+  console.log(header);
   for (const [key, value] of Object.entries(compatData)) {
     if (["browsers", "default", "webextensions"].includes(key)) continue;
     visitIdentifier(key, value);
