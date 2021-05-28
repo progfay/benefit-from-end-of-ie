@@ -1,4 +1,8 @@
-import { CompatStatement } from "@mdn/browser-compat-data/types";
+import {
+  CompatStatement,
+  SupportStatement,
+  VersionValue,
+} from "@mdn/browser-compat-data/types";
 import { MODERN_BROWSERS } from "./browser";
 
 const HEADER = `
@@ -11,7 +15,10 @@ ${MODERN_BROWSERS.map((browser) => `  - \`${browser}\``).join("\n")}
 - But it's unavailable in IE...
 
 ## Features List
-`.trimStart();
+
+| Feature | ${MODERN_BROWSERS.join(" | ")} |
+| :------ | ${" :-: |".repeat(MODERN_BROWSERS.length)}
+`.trim();
 
 export function renderHeader(): string {
   return HEADER;
@@ -21,9 +28,19 @@ function renderFeature(text: string, url?: string): string {
   return url !== undefined ? `[${text}](${url})` : text;
 }
 
+function getVersionAdded(support: SupportStatement | undefined): VersionValue {
+  if (support === undefined) return "❓";
+  const version = Array.isArray(support)
+    ? support[0].version_added
+    : support.version_added;
+  return version !== true ? version : "Yes";
+}
+
 export function renderFeatureTableRow(
   path: string,
   compat: CompatStatement
 ): string {
-  return `- ${renderFeature(path, compat.mdn_url)}`;
+  return `| ${renderFeature(path, compat.mdn_url)} | ${MODERN_BROWSERS.map(
+    (browser) => getVersionAdded(compat.support[browser])
+  ).join(" | ")} |`;
 }
