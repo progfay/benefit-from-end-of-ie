@@ -8,7 +8,16 @@ import { MODERN_BROWSERS } from "./browser";
 const HEADER = `
 # Benefit from end of IE
 
-"Benefit" mean...
+## Description
+
+- Support of IE will be end on [2022/06/15](https://death-to-ie11.com/).
+- This changes should improve browser compatibility.
+
+> Not only is Microsoft Edge a faster, more secure and more modern browsing experience than Internet Explorer, but it is also able to address a key concern: compatibility for older, legacy websites and applications.
+
+Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windows Experience Blog](https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/)
+
+## "Benefit" means...
 
 - Feature what supported Modern browser
 ${MODERN_BROWSERS.map((browser) => `  - \`${browser}\``).join("\n")}
