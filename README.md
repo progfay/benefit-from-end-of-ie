@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.4
-- Generated date: Fri, 28 May 2021 18:48:43 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.5
+- Generated date: Tue, 01 Jun 2021 13:59:50 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -176,8 +176,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Element > assignedSlot](https://developer.mozilla.org/docs/Web/API/Element/assignedSlot) | 53 | 53 | 79 | 63 | 63 | 10.1 | 10.3 | 53 |
 | [api > Element > attachShadow](https://developer.mozilla.org/docs/Web/API/Element/attachShadow) | 53 | 53 | 79 | 63 | 63 | 10 | 10 | 53 |
 | [api > Element > before](https://developer.mozilla.org/docs/Web/API/Element/before) | 54 | 54 | 17 | 49 | 49 | 10 | 10 | 54 |
-| api > Element > classList > add_and_remove_multiple_arguments | 24 | 25 | 12 | 26 | 26 | 7 | 7 | ≤37 |
-| api > Element > classList > toggle_method_second_argument | 24 | Yes | 12 | 24 | 24 | 7 | 7 | ≤37 |
 | [api > Element > closest](https://developer.mozilla.org/docs/Web/API/Element/closest) | 41 | 41 | 15 | 35 | 35 | 6 | 9 | 41 |
 | api > Element > copy_event > clipboardData | 58 | 58 | ≤18 | 22 | 22 | Yes | Yes | 58 |
 | api > Element > cut_event > clipboardData | 58 | 58 | ≤18 | 22 | 22 | Yes | Yes | 58 |
@@ -453,7 +451,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > RTCDTMFSender](https://developer.mozilla.org/docs/Web/API/RTCDTMFSender) | 27 | 27 | 79 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDTMFToneChangeEvent](https://developer.mozilla.org/docs/Web/API/RTCDTMFToneChangeEvent) | 27 | 27 | 12 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDataChannel](https://developer.mozilla.org/docs/Web/API/RTCDataChannel) | Yes | 29 | 79 | 24 | 24 | 11 | 11 | 4.4 |
-| [api > RTCDataChannelEvent](https://developer.mozilla.org/docs/Web/API/RTCDataChannelEvent) | Yes | 28 | ≤79 | 22 | 22 | 11 | 11 | Yes |
+| [api > RTCDataChannelEvent](https://developer.mozilla.org/docs/Web/API/RTCDataChannelEvent) | Yes | 28 | 79 | 22 | 22 | 11 | 11 | Yes |
 | [api > RTCIceCandidate](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate) | 23 | 25 | 15 | 22 | Yes | 11 | 11 | ≤37 |
 | [api > RTCIceCandidateInit](https://developer.mozilla.org/docs/Web/API/RTCIceCandidateInit) | Yes | Yes | ≤18 | 22 | Yes | ❓ | ❓ | Yes |
 | [api > RTCIceCandidatePairStats](https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats) | 56 | 56 | ≤79 | 29 | 29 | ❓ | ❓ | 56 |
@@ -485,17 +483,17 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Request](https://developer.mozilla.org/docs/Web/API/Request) | 42 | 42 | ≤18 | 39 | 39 | 10.1 | 10.3 | 42 |
 | [api > ResizeObserver](https://developer.mozilla.org/docs/Web/API/ResizeObserver) | 64 | 64 | 79 | 69 | 79 | 13.1 | 13.4 | 64 |
 | [api > Response](https://developer.mozilla.org/docs/Web/API/Response) | 42 | 42 | 14 | 39 | 39 | 10.1 | 10.3 | 42 |
-| [api > SVGAnimateElement](https://developer.mozilla.org/docs/Web/API/SVGAnimateElement) | 1 | 18 | 79 | 4 | 4 | 1 | 1 | 1 |
+| [api > SVGAnimateElement](https://developer.mozilla.org/docs/Web/API/SVGAnimateElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 1 |
 | [api > SVGAnimateMotionElement](https://developer.mozilla.org/docs/Web/API/SVGAnimateMotionElement) | 19 | 25 | 79 | 4 | 4 | 6 | 6 | ≤37 |
-| [api > SVGAnimateTransformElement](https://developer.mozilla.org/docs/Web/API/SVGAnimateTransformElement) | 1 | 18 | 79 | 4 | 4 | 1 | 1 | 1 |
+| [api > SVGAnimateTransformElement](https://developer.mozilla.org/docs/Web/API/SVGAnimateTransformElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 1 |
 | api > SVGAnimatedNumber > animVal | 1 | 18 | 79 | 1.5 | 4 | 3 | 1 | 1 |
 | api > SVGAnimatedNumber > baseVal | 1 | 18 | 79 | 1.5 | 4 | 3 | 1 | 1 |
 | [api > SVGAnimatedString](https://developer.mozilla.org/docs/Web/API/SVGAnimatedString) | 5 | 18 | 12 | 1.5 | 4 | 5 | 4 | ≤37 |
-| [api > SVGAnimationElement](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement) | 1 | 18 | 79 | 4 | 4 | 1 | 1 | 1 |
+| [api > SVGAnimationElement](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 1 |
 | [api > SVGElement > dataset](https://developer.mozilla.org/docs/Web/API/HTMLOrForeignElement/dataset) | 55 | 55 | 17 | 51 | 51 | 5.1 | 5 | 55 |
-| [api > SVGElement > focus](https://developer.mozilla.org/docs/Web/API/HTMLOrForeignElement/focus) | 1 | 18 | ≤79 | 51 | 51 | 1.3 | 1 | 1 |
+| [api > SVGElement > focus](https://developer.mozilla.org/docs/Web/API/HTMLOrForeignElement/focus) | 1 | 18 | ≤79 | 51 | 51 | 3 | 1 | 1 |
 | [api > SVGFEDropShadowElement](https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement) | 13 | 18 | 79 | 30 | 30 | 6 | 6 | ≤37 |
-| [api > SVGForeignObjectElement](https://developer.mozilla.org/docs/Web/API/SVGForeignObjectElement) | 1 | 18 | 12 | 3 | 4 | 1 | 1 | 1 |
+| [api > SVGForeignObjectElement](https://developer.mozilla.org/docs/Web/API/SVGForeignObjectElement) | 1 | 18 | 12 | 3 | 4 | 3 | 1 | 1 |
 | [api > SVGGeometryElement > isPointInFill](https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/isPointInFill) | 33 | 33 | 79 | 69 | 79 | 12 | 12 | 4.4.3 |
 | [api > SVGGeometryElement > isPointInStroke](https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/isPointInStroke) | 33 | 33 | 79 | 69 | 79 | 12 | 12 | 4.4.3 |
 | [api > SVGGeometryElement > pathLength](https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/pathLength) | 57 | 57 | 79 | 61 | 61 | 12 | 12 | 57 |
@@ -506,7 +504,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | api > SVGPointList > length | Yes | Yes | 79 | 5 | 5 | Yes | Yes | Yes |
 | api > SVGRadialGradientElement > fr | 24 | 25 | 79 | 55 | 55 | 6.1 | 7 | ≤37 |
 | api > SVGSVGElement > animationsPaused | 1 | 18 | ❓ | 1.5 | 4 | 3 | 1 | 1 |
-| [api > SVGSetElement](https://developer.mozilla.org/docs/Web/API/SVGSetElement) | 1 | 18 | 79 | 4 | 4 | 1 | 1 | 1 |
+| [api > SVGSetElement](https://developer.mozilla.org/docs/Web/API/SVGSetElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 1 |
 | api > SVGStringList > length | Yes | Yes | 79 | 13 | 14 | Yes | Yes | Yes |
 | api > SVGTransformList > length | Yes | Yes | 79 | 9 | 9 | Yes | Yes | Yes |
 | [api > Screen > availLeft](https://developer.mozilla.org/docs/Web/API/Screen/availLeft) | 1 | 18 | 79 | 1 | 4 | 1 | 1 | 1 |
@@ -675,7 +673,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > clip-path > path | 88 | 88 | 88 | 71 | 63 | 13.1 | 13 | 88 |
 | [css > properties > color-adjust](https://developer.mozilla.org/docs/Web/CSS/color-adjust) | 49 | 49 | 79 | 48 | 48 | 6 | 6 | 49 |
 | [css > properties > column-gap > flex_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
-| [css > properties > column-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 66 | 66 | 16 | 61 | 61 | 12.1 | 12 | 66 |
+| [css > properties > column-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
 | css > properties > content > element_replacement | 28 | 28 | 79 | 63 | 63 | 9 | 9 | ≤37 |
 | [css > properties > custom-property](https://developer.mozilla.org/docs/Web/CSS/--*) | 49 | 49 | 15 | 31 | 31 | 9.1 | 9.3 | 49 |
 | css > properties > display > contents | 65 | 65 | 79 | 37 | 37 | 11.1 | 11.3 | 65 |
@@ -693,7 +691,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > font-weight > number | 62 | 62 | 17 | 61 | 61 | 11 | 11 | 62 |
 | css > properties > font > font_stretch_support | 60 | 60 | 79 | 43 | 43 | 11 | 11 | 60 |
 | [css > properties > gap > flex_context](https://developer.mozilla.org/docs/Web/CSS/gap) | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
-| [css > properties > gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/gap) | 66 | 66 | 16 | 61 | 61 | 10.1 | 10.3 | 66 |
+| [css > properties > gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/gap) | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
 | [css > properties > grid-area](https://developer.mozilla.org/docs/Web/CSS/grid-area) | 57 | 57 | 16 | 52 | 52 | 10.1 | 10.3 | 57 |
 | [css > properties > grid-auto-flow](https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow) | 57 | 57 | 16 | 52 | 52 | 10.1 | 10.3 | 57 |
 | [css > properties > grid-column-end](https://developer.mozilla.org/docs/Web/CSS/grid-column-end) | 57 | 57 | 16 | 52 | 52 | 10.1 | 10.3 | 57 |
@@ -814,7 +812,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > position > sticky | 56 | 56 | 16 | 32 | 32 | 13 | 13 | 56 |
 | [css > properties > resize](https://developer.mozilla.org/docs/Web/CSS/resize) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 37 |
 | [css > properties > row-gap > flex_context](https://developer.mozilla.org/docs/Web/CSS/row-gap) | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
-| [css > properties > row-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/row-gap) | 66 | 66 | 16 | 61 | 61 | 12.1 | 12 | 66 |
+| [css > properties > row-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/row-gap) | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
 | [css > properties > ruby-position](https://developer.mozilla.org/docs/Web/CSS/ruby-position) | 84 | 84 | 84 | 38 | 38 | 6.1 | 6.1 | 84 |
 | [css > properties > scroll-behavior](https://developer.mozilla.org/docs/Web/CSS/scroll-behavior) | 61 | 61 | 79 | 36 | 36 | 14 | 14 | 61 |
 | [css > properties > scroll-margin-block-end](https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
@@ -826,7 +824,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > scroll-margin-left](https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
 | [css > properties > scroll-margin-right](https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
 | [css > properties > scroll-margin-top](https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
-| [css > properties > scroll-margin](https://developer.mozilla.org/docs/Web/CSS/scroll-margin) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
+| [css > properties > scroll-margin](https://developer.mozilla.org/docs/Web/CSS/scroll-margin) | 69 | 69 | 79 | 90 | 90 | 14.1 | 14.5 | 69 |
 | [css > properties > scroll-padding-bottom](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
 | [css > properties > scroll-padding-left](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
 | [css > properties > scroll-padding-right](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
@@ -869,15 +867,16 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > selectors > cue](https://developer.mozilla.org/docs/Web/CSS/::cue) | 26 | 26 | 79 | 55 | 55 | 6.1 | 6.1 | ≤37 |
 | [css > selectors > default](https://developer.mozilla.org/docs/Web/CSS/:default) | 10 | 18 | 79 | 4 | 4 | 5 | 5 | 37 |
 | [css > selectors > defined](https://developer.mozilla.org/docs/Web/CSS/:defined) | 54 | 54 | 79 | 63 | 63 | 10 | 10 | 54 |
+| [css > selectors > file-selector-button](https://developer.mozilla.org/docs/Web/CSS/::file-selector-button) | 89 | 89 | 89 | 82 | 82 | 14.1 | 14.5 | 89 |
 | [css > selectors > focus-within](https://developer.mozilla.org/docs/Web/CSS/:focus-within) | 60 | 60 | 79 | 52 | 52 | 10.1 | 10.3 | 60 |
 | [css > selectors > host](https://developer.mozilla.org/docs/Web/CSS/:host) | 54 | 54 | 79 | 63 | 63 | 10 | 10 | 54 |
 | [css > selectors > hostfunction](https://developer.mozilla.org/docs/Web/CSS/:host()) | 54 | 54 | 79 | 63 | 63 | 10 | 10 | 54 |
-| [css > selectors > in-range](https://developer.mozilla.org/docs/Web/CSS/:in-range) | 10 | 18 | 13 | 29 | 16 | 5.1 | 5 | 2.3 |
+| [css > selectors > in-range](https://developer.mozilla.org/docs/Web/CSS/:in-range) | 10 | 18 | 13 | 29 | 16 | 5.1 | 5 | 2.2 |
 | css > selectors > invalid > form | 40 | 40 | 79 | 13 | 14 | 9 | 9 | 40 |
 | [css > selectors > is](https://developer.mozilla.org/docs/Web/CSS/:is) | 88 | 88 | 79 | 78 | 4 | 14 | 14 | 88 |
 | [css > selectors > marker](https://developer.mozilla.org/docs/Web/CSS/::marker) | 86 | 86 | 86 | 68 | 68 | 11.1 | 11.3 | 86 |
 | css > selectors > not > selector_list | 88 | 88 | 88 | 84 | 84 | 9 | 9 | 88 |
-| [css > selectors > out-of-range](https://developer.mozilla.org/docs/Web/CSS/:out-of-range) | 10 | 18 | 13 | 29 | 16 | 5.1 | 5 | 2.3 |
+| [css > selectors > out-of-range](https://developer.mozilla.org/docs/Web/CSS/:out-of-range) | 10 | 18 | 13 | 29 | 16 | 5.1 | 5 | 2.2 |
 | css > selectors > placeholder-shown > non_text_types | 47 | 47 | 79 | 59 | 59 | 9 | 9 | 47 |
 | [css > selectors > placeholder](https://developer.mozilla.org/docs/Web/CSS/::placeholder) | 57 | 57 | 12 | 51 | 51 | 10.1 | 10.3 | 57 |
 | [css > selectors > read-only](https://developer.mozilla.org/docs/Web/CSS/:read-only) | 1 | 18 | 13 | 78 | 4 | 4 | 3.2 | ≤37 |
@@ -1242,7 +1241,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | svg > elements > feMorphology > HTML_elements | Yes | Yes | 79 | Yes | Yes | ❓ | ❓ | Yes |
 | [svg > elements > foreignObject](https://developer.mozilla.org/docs/Web/SVG/Element/foreignObject) | 1 | 18 | ≤79 | 2 | 4 | 3 | 3 | 4 |
 | [svg > elements > mpath](https://developer.mozilla.org/docs/Web/SVG/Element/mpath) | Yes | Yes | ≤18 | Yes | Yes | ❓ | ❓ | Yes |
-| [svg > elements > set](https://developer.mozilla.org/docs/Web/SVG/Element/set) | 1 | 18 | ≤79 | 4 | 4 | 1 | 1 | 1 |
+| [svg > elements > set](https://developer.mozilla.org/docs/Web/SVG/Element/set) | 1 | 18 | ≤79 | 4 | 4 | 3 | 1 | 1 |
 | svg > elements > use > data_uri | 22 | Yes | ≤18 | 4 | 4 | 5.1 | 5.1 | 4 |
 | svg > elements > use > external_uri | 22 | Yes | 13 | 4 | 4 | 6.1 | 6.1 | 4.4 |
 | [svg > elements > view](https://developer.mozilla.org/docs/Web/SVG/Element/view) | Yes | Yes | ≤18 | 15 | 15 | ❓ | ❓ | Yes |
