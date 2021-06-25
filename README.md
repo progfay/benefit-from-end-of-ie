@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.8
-- Generated date: Sat, 19 Jun 2021 06:26:21 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 3.3.9
+- Generated date: Fri, 25 Jun 2021 09:42:19 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -48,7 +48,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > AudioScheduledSourceNode](https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode) | 57 | 57 | 79 | 53 | 53 | 14 | 14 | 57 |
 | [api > AudioWorklet](https://developer.mozilla.org/docs/Web/API/AudioWorklet) | 66 | 66 | 79 | 76 | 79 | 14.1 | 14.5 | 66 |
 | [api > AudioWorkletNode](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode) | 66 | 66 | 79 | 76 | 79 | 14.1 | 14.5 | 66 |
-| api > BarProp | 29 | 29 | 12 | 1 | 4 | 6.1 | 7 | ≤37 |
+| api > BarProp | 29 | 29 | 12 | 1 | 4 | 3 | 1 | ≤37 |
 | [api > BaseAudioContext](https://developer.mozilla.org/docs/Web/API/BaseAudioContext) | 56 | 56 | 79 | 53 | 53 | 14.1 | 14.5 | 56 |
 | api > BeforeUnloadEvent > user_interaction | 60 | 60 | 18 | 44 | 44 | 11 | 11 | 60 |
 | [api > BiquadFilterNode](https://developer.mozilla.org/docs/Web/API/BiquadFilterNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
@@ -69,7 +69,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > CanvasRenderingContext2D > ellipse](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse) | 31 | 31 | 13 | 48 | 48 | 9 | 9 | 4.4.3 |
 | api > CanvasRenderingContext2D > fill > path_parameter | 36 | 36 | ≤18 | 31 | 31 | 7 | 7 | 37 |
 | api > CanvasRenderingContext2D > isPointInPath > path_parameter | 36 | 36 | ≤18 | 31 | 31 | 7 | 7 | 37 |
-| [api > CanvasRenderingContext2D > isPointInStroke](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke) | 26 | 26 | 79 | 20 | 20 | 6.1 | 7 | ≤37 |
+| [api > CanvasRenderingContext2D > isPointInStroke](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke) | 26 | 26 | 79 | 20 | 20 | 7 | 7 | ≤37 |
 | [api > CanvasRenderingContext2D > resetTransform](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/resetTransform) | 31 | 31 | 79 | 36 | 36 | 10.1 | 10.3 | 4.4 |
 | api > CanvasRenderingContext2D > stroke > path_parameter | 36 | 36 | ≤18 | 31 | 31 | 7 | 7 | 37 |
 | [api > ChannelMergerNode](https://developer.mozilla.org/docs/Web/API/ChannelMergerNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
@@ -87,7 +87,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > ClipboardItem](https://developer.mozilla.org/docs/Web/API/ClipboardItem) | 66 | 66 | 79 | 87 | 87 | 13.1 | 13.4 | 66 |
 | [api > Comment > Comment](https://developer.mozilla.org/docs/Web/API/Comment/Comment) | 29 | 29 | 16 | 24 | 24 | 7 | 7 | ≤37 |
 | [api > Console > countReset](https://developer.mozilla.org/docs/Web/API/Console/countReset) | 68 | 68 | 79 | 62 | 62 | 13 | 13 | 68 |
-| [api > Console > table](https://developer.mozilla.org/docs/Web/API/Console/table) | 27 | 27 | 13 | 34 | 34 | 6.1 | 7 | ≤37 |
+| [api > Console > table](https://developer.mozilla.org/docs/Web/API/Console/table) | 27 | 27 | 13 | 34 | 34 | 7 | 7 | ≤37 |
 | [api > Console > timeLog](https://developer.mozilla.org/docs/Web/API/Console/timeLog) | 71 | 71 | 79 | 62 | 62 | 13 | 13 | 71 |
 | [api > ConstantSourceNode](https://developer.mozilla.org/docs/Web/API/ConstantSourceNode) | 56 | 56 | 79 | 52 | 52 | 14.1 | 14.5 | 56 |
 | [api > ConstrainBoolean](https://developer.mozilla.org/docs/Web/API/ConstrainBoolean) | Yes | Yes | ≤79 | 50 | 50 | ❓ | ❓ | Yes |
@@ -108,15 +108,15 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > DOMQuad](https://developer.mozilla.org/docs/Web/API/DOMQuad) | 61 | 61 | 79 | 31 | 31 | 11 | 11 | 61 |
 | [api > DOMRect > DOMRect](https://developer.mozilla.org/docs/Web/API/DOMRect/DOMRect) | 61 | 61 | 79 | 31 | 31 | 10.1 | 10.3 | 61 |
 | [api > DOMRectReadOnly](https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly) | 61 | 61 | 79 | 31 | 31 | 10.1 | 10.3 | 61 |
-| api > DOMTokenList > add > add_multiple_arguments | 24 | 25 | 12 | 26 | 26 | 7 | 7 | ≤37 |
+| api > DOMTokenList > add > multiple_parameters | 24 | 25 | 12 | 26 | 26 | 7 | 7 | ≤37 |
 | [api > DOMTokenList > entries](https://developer.mozilla.org/docs/Web/API/DOMTokenList/entries) | 42 | 45 | 16 | 50 | 50 | 10.1 | 10.3 | 45 |
 | [api > DOMTokenList > forEach](https://developer.mozilla.org/docs/Web/API/DOMTokenList/forEach) | 42 | 45 | 16 | 50 | 50 | 10.1 | 10.3 | 45 |
 | [api > DOMTokenList > keys](https://developer.mozilla.org/docs/Web/API/DOMTokenList/keys) | 42 | 45 | 16 | 50 | 50 | 10.1 | 10.3 | 45 |
-| api > DOMTokenList > remove > remove_multiple_arguments | 24 | 25 | 12 | 26 | 26 | 7 | 7 | ≤37 |
+| api > DOMTokenList > remove > multiple_parameters | 24 | 25 | 12 | 26 | 26 | 7 | 7 | ≤37 |
 | [api > DOMTokenList > remove_duplicates](https://developer.mozilla.org/docs/Web/API/DOMTokenList#Trimming_of_whitespace_and_removal_of_duplicates) | 60 | 60 | 17 | 55 | 55 | 10 | 10 | 60 |
 | [api > DOMTokenList > replace](https://developer.mozilla.org/docs/Web/API/DOMTokenList/replace) | 61 | 61 | 17 | 49 | 49 | 10.1 | 10.3 | 61 |
 | [api > DOMTokenList > supports](https://developer.mozilla.org/docs/Web/API/DOMTokenList/supports) | 49 | 49 | 17 | 49 | 49 | 10.1 | 10.3 | 49 |
-| api > DOMTokenList > toggle > force_argument | 24 | 25 | 12 | 24 | 24 | 6.1 | 6.1 | ≤37 |
+| api > DOMTokenList > toggle > force_parameter | 24 | 25 | 12 | 24 | 24 | 6.1 | 6.1 | ≤37 |
 | [api > DOMTokenList > value](https://developer.mozilla.org/docs/Web/API/DOMTokenList/value) | 50 | 50 | 17 | 47 | 47 | 10 | 10 | 50 |
 | [api > DOMTokenList > values](https://developer.mozilla.org/docs/Web/API/DOMTokenList/values) | 42 | 45 | 16 | 50 | 50 | 10.1 | 10.3 | 45 |
 | api > DOMTokenList > @@iterator | 42 | 42 | 16 | 36 | 36 | 10.1 | 10.3 | 42 |
@@ -272,11 +272,11 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > HTMLElement > inputMode](https://developer.mozilla.org/docs/Web/API/HTMLElement/inputMode) | 66 | 66 | 79 | 77 | 79 | 12.1 | 12.2 | 66 |
 | [api > HTMLElement > nonce](https://developer.mozilla.org/docs/Web/API/HTMLOrForeignElement/nonce) | 61 | 61 | 79 | 75 | 79 | 10 | 10 | 61 |
 | api > HTMLEmbedElement > type | 1 | 18 | 79 | 1 | 4 | 3 | 1 | 1 |
-| [api > HTMLFieldSetElement > elements](https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/elements) | 21 | 25 | 17 | 4 | 4 | 6.1 | 7 | ≤37 |
+| [api > HTMLFieldSetElement > elements](https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/elements) | 21 | 25 | 17 | 4 | 4 | 7 | 7 | ≤37 |
 | [api > HTMLFieldSetElement > name](https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/name) | 19 | 25 | 14 | 1 | 4 | 6 | 6 | ≤37 |
 | [api > HTMLFieldSetElement > reportValidity](https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/reportValidity) | 40 | 40 | 17 | 49 | 64 | 10.1 | 10.3 | 40 |
 | [api > HTMLFieldSetElement > type](https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/type) | 19 | 25 | 17 | 4 | 4 | 6 | 6 | ≤37 |
-| [api > HTMLFormControlsCollection](https://developer.mozilla.org/docs/Web/API/HTMLFormControlsCollection) | 25 | 25 | 79 | 27 | 27 | 6.1 | 7 | ≤37 |
+| [api > HTMLFormControlsCollection](https://developer.mozilla.org/docs/Web/API/HTMLFormControlsCollection) | 25 | 25 | 79 | 27 | 27 | 7 | 7 | ≤37 |
 | [api > HTMLFormElement > reportValidity](https://developer.mozilla.org/docs/Web/API/HTMLFormElement/reportValidity) | 40 | 40 | 17 | 49 | 49 | 10.1 | 10.3 | 40 |
 | api > HTMLIFrameElement > allow | 60 | 66 | 79 | 74 | 79 | 11.1 | 11.3 | 66 |
 | api > HTMLIFrameElement > allowFullscreen | 38 | 38 | 12 | 22 | 22 | 10.1 | 10.3 | 38 |
@@ -294,7 +294,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | api > HTMLInputElement > minLength | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
 | [api > HTMLInputElement > reportValidity](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/reportValidity) | 40 | 40 | 17 | 49 | 64 | 10.1 | 10.3 | 40 |
 | [api > HTMLInputElement > selectionDirection](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionDirection) | 15 | 18 | 13 | 8 | 8 | 6 | 6 | ≤37 |
-| [api > HTMLInputElement > setRangeText](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setRangeText) | 24 | 25 | 79 | 27 | 27 | 6.1 | 7 | ≤37 |
+| [api > HTMLInputElement > setRangeText](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setRangeText) | 24 | 25 | 79 | 27 | 27 | 7 | 7 | ≤37 |
 | api > HTMLInputElement > valueAsDate | 5 | 18 | 12 | 57 | 57 | 5 | 4 | ≤37 |
 | [api > HTMLInputElement > webkitdirectory](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory) | 6 | 18 | 13 | 50 | 50 | 11.1 | 11.3 | ≤37 |
 | [api > HTMLLabelElement > control](https://developer.mozilla.org/docs/Web/API/HTMLLabelElement/control) | 6 | 18 | 18 | 4 | 4 | 5.1 | 5 | ≤37 |
@@ -339,7 +339,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | api > HTMLTextAreaElement > minLength | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
 | [api > HTMLTextAreaElement > reportValidity](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/reportValidity) | 40 | 40 | 17 | 49 | 64 | 10.1 | 10.3 | 40 |
 | api > HTMLTextAreaElement > selectionDirection | 15 | 18 | 79 | 8 | 8 | 6 | 6 | ≤37 |
-| api > HTMLTextAreaElement > setRangeText | 24 | 25 | 79 | 27 | 27 | 6.1 | 7 | ≤37 |
+| api > HTMLTextAreaElement > setRangeText | 24 | 25 | 79 | 27 | 27 | 7 | 7 | ≤37 |
 | [api > HTMLTextAreaElement > textLength](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/textLength) | 4 | 18 | 17 | 1 | 4 | 5 | 4 | ≤37 |
 | [api > HTMLTimeElement](https://developer.mozilla.org/docs/Web/API/HTMLTimeElement) | 62 | 62 | 14 | 22 | 22 | 10 | 10 | 62 |
 | [api > HTMLTrackElement > cuechange_event](https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/cuechange_event) | Yes | Yes | ≤79 | 68 | 68 | Yes | Yes | Yes |
@@ -356,6 +356,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > IDBObjectStore > getAllKeys](https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAllKeys) | 48 | 48 | ≤79 | 44 | 48 | 10.1 | 10.3 | 48 |
 | [api > IDBObjectStore > getKey](https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getKey) | 48 | 48 | ≤79 | 51 | 58 | 10.1 | 10.3 | 48 |
 | [api > IDBTransaction > objectStoreNames](https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStoreNames) | 48 | 48 | 79 | Yes | Yes | Yes | Yes | 48 |
+| [api > IDBVersionChangeEvent > IDBVersionChangeEvent](https://developer.mozilla.org/docs/Web/API/IDBVersionChangeEvent/IDBVersionChangeEvent) | 41 | 41 | 79 | 25 | 25 | 10 | 10 | 41 |
 | [api > IIRFilterNode](https://developer.mozilla.org/docs/Web/API/IIRFilterNode) | 49 | 49 | ≤18 | 50 | 50 | 14.1 | 14.5 | 49 |
 | [api > InputEvent](https://developer.mozilla.org/docs/Web/API/InputEvent) | 60 | 60 | 79 | 31 | 31 | 10.1 | 10.3 | 60 |
 | [api > IntersectionObserver](https://developer.mozilla.org/docs/Web/API/IntersectionObserver) | 51 | 51 | 15 | 55 | 55 | 12.1 | 12.2 | 51 |
@@ -391,7 +392,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > MediaTrackSupportedConstraints](https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints) | 52 | 52 | ≤79 | 42 | 42 | 11 | 11 | 52 |
 | api > MessageEvent > origin > USVString_type | Yes | Yes | ≤79 | 55 | 55 | ❓ | ❓ | Yes |
 | [api > MessageEvent > source](https://developer.mozilla.org/docs/Web/API/MessageEvent/source) | Yes | Yes | 12 | 55 | 55 | Yes | Yes | Yes |
-| [api > MessagePort > messageerror_event](https://developer.mozilla.org/docs/Web/API/MessagePort/messageerror_event) | 60 | 60 | 18 | 57 | 57 | ❓ | ❓ | 60 |
 | [api > MouseEvent > MouseEvent](https://developer.mozilla.org/docs/Web/API/MouseEvent/MouseEvent) | 47 | 47 | 12 | 11 | 14 | Yes | Yes | 47 |
 | [api > MouseEvent > movementX](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX) | 37 | 37 | 13 | 41 | 41 | 9 | 8 | 37 |
 | [api > MouseEvent > movementY](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY) | 37 | 37 | 13 | 41 | 41 | 9 | 8 | 37 |
@@ -448,12 +448,12 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > PublicKeyCredentialRequestOptions](https://developer.mozilla.org/docs/Web/API/PublicKeyCredentialRequestOptions) | 67 | 67 | ≤79 | 60 | ❓ | 13 | 13 | 67 |
 | [api > RTCAnswerOptions](https://developer.mozilla.org/docs/Web/API/RTCAnswerOptions) | 50 | 50 | ≤79 | 42 | 42 | 11 | 11 | 50 |
 | [api > RTCCertificate](https://developer.mozilla.org/docs/Web/API/RTCCertificate) | 49 | 49 | 79 | 42 | 42 | 12.1 | 12.2 | 49 |
-| [api > RTCConfiguration](https://developer.mozilla.org/docs/Web/API/RTCConfiguration) | 23 | 57 | ≤79 | ❓ | ❓ | 11 | 11 | ≤37 |
+| [api > RTCConfiguration](https://developer.mozilla.org/docs/Web/API/RTCConfiguration) | 23 | 57 | ≤79 | 21 | 21 | 11 | 11 | ≤37 |
 | [api > RTCDTMFSender](https://developer.mozilla.org/docs/Web/API/RTCDTMFSender) | 27 | 27 | 79 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDTMFToneChangeEvent](https://developer.mozilla.org/docs/Web/API/RTCDTMFToneChangeEvent) | 27 | 27 | 12 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDataChannel](https://developer.mozilla.org/docs/Web/API/RTCDataChannel) | Yes | 29 | 79 | 24 | 24 | 11 | 11 | 4.4 |
 | [api > RTCDataChannelEvent](https://developer.mozilla.org/docs/Web/API/RTCDataChannelEvent) | Yes | 28 | 79 | 22 | 22 | 11 | 11 | Yes |
-| [api > RTCIceCandidate](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate) | 23 | 25 | 15 | 22 | Yes | 11 | 11 | ≤37 |
+| [api > RTCIceCandidate](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate) | 23 | 25 | 15 | 22 | 22 | 11 | 11 | ≤37 |
 | [api > RTCIceCandidateInit](https://developer.mozilla.org/docs/Web/API/RTCIceCandidateInit) | Yes | Yes | ≤18 | 22 | Yes | 11 | 11 | Yes |
 | [api > RTCIceCandidatePairStats](https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats) | 56 | 56 | ≤79 | 29 | 29 | 11 | 11 | 56 |
 | [api > RTCOfferAnswerOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferAnswerOptions) | 50 | 50 | ≤79 | 42 | 42 | 11 | 11 | 50 |
@@ -500,7 +500,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > SVGMPathElement](https://developer.mozilla.org/docs/Web/API/SVGMPathElement) | 19 | 25 | ≤18 | 4 | 4 | 6 | 6 | ≤37 |
 | api > SVGNumberList > length | 35 | 35 | 79 | 5 | 5 | 13.1 | 13.4 | 37 |
 | api > SVGPointList > length | Yes | Yes | 79 | 5 | 5 | Yes | Yes | Yes |
-| api > SVGRadialGradientElement > fr | 24 | 25 | 79 | 55 | 55 | 6.1 | 7 | ≤37 |
+| api > SVGRadialGradientElement > fr | 24 | 25 | 79 | 55 | 55 | 7 | 7 | ≤37 |
 | api > SVGSVGElement > animationsPaused | 1 | 18 | 79 | 1.5 | 4 | 3 | 1 | ≤37 |
 | [api > SVGSetElement](https://developer.mozilla.org/docs/Web/API/SVGSetElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | ≤37 |
 | api > SVGStringList > length | Yes | Yes | 79 | 13 | 14 | Yes | Yes | Yes |
@@ -534,7 +534,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > TextTrack > id](https://developer.mozilla.org/docs/Web/API/TextTrack/id) | 33 | 33 | 12 | 31 | 31 | 7 | 7 | 4.4.3 |
 | [api > TextTrackList > getTrackById](https://developer.mozilla.org/docs/Web/API/TextTrackList/getTrackById) | 33 | 33 | 18 | Yes | ❓ | 7 | 8 | 4.4.3 |
 | [api > TextTrackList > onchange](https://developer.mozilla.org/docs/Web/API/TextTrackList/onchange) | 33 | 33 | 18 | 31 | 31 | 7 | 7 | 4.4 |
-| [api > TextTrackList > onremovetrack](https://developer.mozilla.org/docs/Web/API/TextTrackList/onremovetrack) | 33 | 33 | 18 | 31 | 31 | 6.1 | 7 | 4.4 |
+| [api > TextTrackList > onremovetrack](https://developer.mozilla.org/docs/Web/API/TextTrackList/onremovetrack) | 33 | 33 | 18 | 31 | 31 | 7 | 7 | 4.4 |
 | [api > TouchList](https://developer.mozilla.org/docs/Web/API/TouchList) | 18 | Yes | ≤18 | 52 | 6 | 10.1 | 2 | Yes |
 | [api > URL > URL](https://developer.mozilla.org/docs/Web/API/URL/URL) | 19 | 25 | 12 | 26 | 26 | 6 | 6 | ≤37 |
 | [api > URL > hash](https://developer.mozilla.org/docs/Web/API/URL/hash) | 32 | 32 | 13 | 22 | 22 | 7 | 7 | 4.4.3 |
@@ -560,6 +560,9 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > WEBGL_depth_texture](https://developer.mozilla.org/docs/Web/API/WEBGL_depth_texture) | 26 | 26 | 12 | 22 | ❓ | 8 | 8 | ≤37 |
 | [api > WEBGL_lose_context](https://developer.mozilla.org/docs/Web/API/WEBGL_lose_context) | 26 | 26 | 17 | 22 | ❓ | 8 | 8 | ≤37 |
 | [api > WaveShaperNode](https://developer.mozilla.org/docs/Web/API/WaveShaperNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
+| [api > WebGL2RenderingContext](https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext) | 56 | 58 | 79 | 51 | 51 | 15 | 15 | 58 |
+| [api > WebGLTransformFeedback](https://developer.mozilla.org/docs/Web/API/WebGLTransformFeedback) | 56 | 58 | 79 | 51 | 51 | 15 | 15 | 58 |
+| [api > WebGLVertexArrayObject](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObject) | 56 | 58 | 79 | 51 | 51 | 15 | 15 | 58 |
 | [api > Window > copy_event](https://developer.mozilla.org/docs/Web/API/Window/copy_event) | 1 | 18 | ≤18 | Yes | Yes | Yes | ❓ | 1 |
 | [api > Window > customElements](https://developer.mozilla.org/docs/Web/API/Window/customElements) | 54 | 54 | 79 | 63 | 63 | 10.1 | 10.3 | 54 |
 | [api > Window > cut_event](https://developer.mozilla.org/docs/Web/API/Window/cut_event) | 1 | 18 | ≤18 | Yes | Yes | Yes | ❓ | 1 |
@@ -572,7 +575,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Window > personalbar](https://developer.mozilla.org/docs/Web/API/Window/personalbar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > Window > rejectionhandled_event](https://developer.mozilla.org/docs/Web/API/Window/rejectionhandled_event) | 49 | 49 | ≤79 | 69 | 68 | 11 | 11.3 | 49 |
 | [api > Window > scrollbars](https://developer.mozilla.org/docs/Web/API/Window/scrollbars) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
-| api > Window > scrollTo > ScrollToOptions | 45 | 45 | 79 | Yes | Yes | 10 | 10 | 45 |
+| api > Window > scrollTo > options_parameter | 45 | 45 | 79 | Yes | Yes | 10 | 10 | 45 |
 | api > Window > scrollX > subpixel_precision | Yes | Yes | ≤18 | 55 | 55 | Yes | ❓ | Yes |
 | api > Window > scrollY > subpixel_precision | Yes | Yes | ≤18 | 55 | 55 | Yes | ❓ | Yes |
 | [api > Window > statusbar](https://developer.mozilla.org/docs/Web/API/Window/statusbar) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
@@ -587,8 +590,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > WindowOrWorkerGlobalScope > isSecureContext](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/isSecureContext) | 55 | 55 | 15 | 52 | 52 | ❓ | ❓ | 55 |
 | [api > WindowOrWorkerGlobalScope > origin](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/origin) | 59 | 59 | ≤79 | 54 | 54 | 11 | 11 | 59 |
 | [api > WindowOrWorkerGlobalScope > queueMicrotask](https://developer.mozilla.org/docs/Web/API/WindowOrWorkerGlobalScope/queueMicrotask) | 71 | 71 | 79 | 69 | 79 | 12.1 | 12.2 | 71 |
-| [api > Worker > messageerror_event](https://developer.mozilla.org/docs/Web/API/Worker/messageerror_event) | 60 | 60 | 18 | 57 | 57 | ❓ | ❓ | 60 |
-| [api > Worker > onmessageerror](https://developer.mozilla.org/docs/Web/API/Worker/onmessageerror) | 60 | 60 | 18 | 57 | 57 | ❓ | ❓ | 60 |
 | [api > WorkerGlobalScope > onoffline](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/onoffline) | 4 | 40 | ≤79 | 29 | 29 | Yes | Yes | 40 |
 | [api > WorkerGlobalScope > ononline](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/ononline) | 4 | 40 | ≤79 | 29 | 29 | Yes | Yes | 40 |
 | [api > WorkerGlobalScope > performance](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/performance) | Yes | Yes | ≤79 | 34 | 34 | Yes | Yes | Yes |
@@ -612,7 +613,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > at-rules > media > display-mode](https://developer.mozilla.org/docs/Web/CSS/@media/display-mode) | 45 | 45 | 79 | 47 | 47 | 13 | 12.2 | 45 |
 | [css > at-rules > media > hover](https://developer.mozilla.org/docs/Web/CSS/@media/hover) | 38 | 50 | 12 | 64 | 64 | 9 | 9 | 38 |
 | [css > at-rules > media > monochrome](https://developer.mozilla.org/docs/Web/CSS/@media/monochrome) | 1 | 18 | 79 | 2 | 4 | 3 | 1 | ≤37 |
-| css > at-rules > media > nested-queries | 26 | 26 | 12 | 11 | 14 | 6.1 | 7 | ≤37 |
+| css > at-rules > media > nested-queries | 26 | 26 | 12 | 11 | 14 | 7 | 7 | ≤37 |
 | [css > at-rules > media > pointer](https://developer.mozilla.org/docs/Web/CSS/@media/pointer) | 41 | 50 | 12 | 64 | 64 | 9 | 9 | 41 |
 | [css > at-rules > media > prefers-color-scheme](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme) | 76 | 76 | 79 | 67 | 67 | 12.1 | 13 | 76 |
 | [css > at-rules > media > prefers-reduced-motion](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion) | 74 | 74 | 79 | 63 | 64 | 10.1 | 10.3 | 74 |
@@ -641,6 +642,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > all](https://developer.mozilla.org/docs/Web/CSS/all) | 37 | 37 | 79 | 27 | 27 | 9.1 | 9.3 | 37 |
 | css > properties > animation-timing-function > jump | 77 | 77 | 79 | 65 | 65 | 14 | 14 | 77 |
 | [css > properties > appearance](https://developer.mozilla.org/docs/Web/CSS/appearance) | 84 | 84 | 84 | 80 | 80 | 3 | 1 | 84 |
+| [css > properties > aspect-ratio](https://developer.mozilla.org/docs/Web/CSS/aspect-ratio) | 88 | 88 | 88 | 89 | 89 | 15 | 15 | 88 |
 | [css > properties > background-blend-mode](https://developer.mozilla.org/docs/Web/CSS/background-blend-mode) | 35 | 35 | 79 | 30 | 30 | 8 | 8 | ≤37 |
 | css > properties > background-clip > text | 3 | 18 | 15 | 49 | 49 | 4 | 3.2 | ≤37 |
 | [css > properties > block-size](https://developer.mozilla.org/docs/Web/CSS/block-size) | 57 | 57 | 79 | 41 | 41 | 12.1 | 12.2 | 57 |
@@ -656,6 +658,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > border-block-style](https://developer.mozilla.org/docs/Web/CSS/border-block-style) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > border-block-width](https://developer.mozilla.org/docs/Web/CSS/border-block-width) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > border-block](https://developer.mozilla.org/docs/Web/CSS/border-block) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
+| [css > properties > border-end-end-radius](https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius) | 89 | 89 | 89 | 66 | 66 | 15 | 15 | 89 |
+| [css > properties > border-end-start-radius](https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius) | 89 | 89 | 89 | 66 | 66 | 15 | 15 | 89 |
 | [css > properties > border-inline-color](https://developer.mozilla.org/docs/Web/CSS/border-inline-color) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > border-inline-end-color](https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color) | 69 | 69 | 79 | 41 | 41 | 12.1 | 12.2 | 69 |
 | [css > properties > border-inline-end-style](https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style) | 69 | 69 | 79 | 41 | 41 | 12.1 | 12.2 | 69 |
@@ -668,7 +672,9 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > border-inline-style](https://developer.mozilla.org/docs/Web/CSS/border-inline-style) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > border-inline-width](https://developer.mozilla.org/docs/Web/CSS/border-inline-width) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > border-inline](https://developer.mozilla.org/docs/Web/CSS/border-inline) | 87 | 87 | 79 | 66 | 66 | 14.1 | 14.5 | 87 |
-| [css > properties > box-decoration-break](https://developer.mozilla.org/docs/Web/CSS/box-decoration-break) | 22 | 18 | 79 | 32 | 32 | 6.1 | 7 | ≤37 |
+| [css > properties > border-start-end-radius](https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius) | 89 | 89 | 89 | 66 | 66 | 15 | 15 | 89 |
+| [css > properties > border-start-start-radius](https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius) | 89 | 89 | 89 | 66 | 66 | 15 | 15 | 89 |
+| [css > properties > box-decoration-break](https://developer.mozilla.org/docs/Web/CSS/box-decoration-break) | 22 | 18 | 79 | 32 | 32 | 7 | 7 | ≤37 |
 | [css > properties > caret-color](https://developer.mozilla.org/docs/Web/CSS/caret-color) | 57 | 57 | 79 | 53 | 53 | 11.1 | 11.3 | 57 |
 | css > properties > clip-path > basic_shape | 23 | 25 | 79 | 54 | 54 | 6.1 | 6.1 | 4.4 |
 | css > properties > clip-path > html | 23 | 25 | 79 | 3.5 | 4 | 6.1 | 6.1 | 4.4 |
@@ -774,7 +780,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > mask-position](https://developer.mozilla.org/docs/Web/CSS/mask-position) | 1 | 18 | 18 | 53 | 53 | 3.2 | 3.2 | 2 |
 | [css > properties > mask-repeat](https://developer.mozilla.org/docs/Web/CSS/mask-repeat) | 1 | 18 | 18 | 53 | 53 | 3.2 | 3.2 | 2 |
 | [css > properties > mask-size](https://developer.mozilla.org/docs/Web/CSS/mask-size) | 4 | 18 | 18 | 53 | 53 | 4 | 2 | 4.4 |
-| [css > properties > mask-type](https://developer.mozilla.org/docs/Web/CSS/mask-type) | 24 | 25 | 79 | 35 | 35 | 6.1 | 7 | 37 |
+| [css > properties > mask-type](https://developer.mozilla.org/docs/Web/CSS/mask-type) | 24 | 25 | 79 | 35 | 35 | 7 | 7 | 37 |
 | [css > properties > mask](https://developer.mozilla.org/docs/Web/CSS/mask) | 1 | 18 | 12 | 2 | 4 | 3.2 | 3.2 | 2 |
 | [css > properties > max-block-size](https://developer.mozilla.org/docs/Web/CSS/max-block-size) | 57 | 57 | 79 | 41 | 41 | 12.1 | 12.2 | 57 |
 | css > properties > max-height > fit-content | 46 | 46 | 79 | 3 | 4 | 11 | 11 | 46 |
@@ -804,12 +810,9 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > padding-inline-start](https://developer.mozilla.org/docs/Web/CSS/padding-inline-start) | 69 | 69 | 79 | 41 | 41 | 12.1 | 12.2 | 69 |
 | [css > properties > padding-inline](https://developer.mozilla.org/docs/Web/CSS/padding-inline) | 87 | 87 | 87 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > paint-order](https://developer.mozilla.org/docs/Web/CSS/paint-order) | 35 | 35 | 17 | 60 | 60 | 8 | 8 | 37 |
-| [css > properties > place-content > flex_context](https://developer.mozilla.org/docs/Web/CSS/place-content) | 59 | 59 | 79 | 45 | 45 | 9 | 9 | 59 |
-| [css > properties > place-content > grid_context](https://developer.mozilla.org/docs/Web/CSS/place-content) | 59 | 59 | 79 | 53 | 53 | 11 | 11 | 59 |
-| [css > properties > place-items > flex_context](https://developer.mozilla.org/docs/Web/CSS/place-items) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
-| [css > properties > place-items > grid_context](https://developer.mozilla.org/docs/Web/CSS/place-items) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
-| [css > properties > place-self > flex_context](https://developer.mozilla.org/docs/Web/CSS/place-self) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
-| [css > properties > place-self > grid_context](https://developer.mozilla.org/docs/Web/CSS/place-self) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
+| [css > properties > place-content](https://developer.mozilla.org/docs/Web/CSS/place-content) | 59 | 59 | 79 | 45 | 45 | 9 | 9 | 59 |
+| [css > properties > place-items](https://developer.mozilla.org/docs/Web/CSS/place-items) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
+| [css > properties > place-self](https://developer.mozilla.org/docs/Web/CSS/place-self) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
 | css > properties > position > position_sticky_table_elements | 56 | 56 | 16 | 59 | 59 | 8 | 8 | 56 |
 | css > properties > position > sticky | 56 | 56 | 16 | 32 | 32 | 13 | 13 | 56 |
 | [css > properties > resize](https://developer.mozilla.org/docs/Web/CSS/resize) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 37 |
@@ -827,7 +830,13 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > scroll-margin-right](https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
 | [css > properties > scroll-margin-top](https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top) | 69 | 69 | 79 | 68 | 68 | 14.1 | 14.5 | 69 |
 | [css > properties > scroll-margin](https://developer.mozilla.org/docs/Web/CSS/scroll-margin) | 69 | 69 | 79 | 90 | 90 | 14.1 | 14.5 | 69 |
+| [css > properties > scroll-padding-block-end](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end) | 69 | 69 | 79 | 68 | 68 | 15 | 15 | 69 |
+| [css > properties > scroll-padding-block-start](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start) | 69 | 69 | 79 | 68 | 68 | 15 | 15 | 69 |
+| [css > properties > scroll-padding-block](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block) | 69 | 69 | 79 | 68 | 68 | 15 | 15 | 69 |
 | [css > properties > scroll-padding-bottom](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
+| [css > properties > scroll-padding-inline-end](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end) | 69 | 69 | 79 | 68 | 68 | 15 | 15 | 69 |
+| [css > properties > scroll-padding-inline-start](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start) | 69 | 69 | 79 | 68 | 68 | 15 | 15 | 69 |
+| [css > properties > scroll-padding-inline](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline) | 69 | 69 | 79 | 68 | 68 | 15 | 15 | 69 |
 | [css > properties > scroll-padding-left](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
 | [css > properties > scroll-padding-right](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
 | [css > properties > scroll-padding-top](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top) | 69 | 69 | 79 | 68 | 68 | 11 | 11 | 69 |
@@ -836,16 +845,16 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > shape-image-threshold](https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold) | 37 | 37 | 79 | 62 | 62 | 10.1 | 10.3 | 37 |
 | [css > properties > shape-margin](https://developer.mozilla.org/docs/Web/CSS/shape-margin) | 37 | 37 | 79 | 62 | 62 | 10.1 | 10.3 | 37 |
 | [css > properties > shape-outside](https://developer.mozilla.org/docs/Web/CSS/shape-outside) | 37 | 37 | 79 | 62 | 62 | 10.1 | 10.3 | 37 |
-| [css > properties > tab-size](https://developer.mozilla.org/docs/Web/CSS/tab-size) | 21 | 25 | 79 | 4 | 4 | 6.1 | 7 | 4.4 |
+| [css > properties > tab-size](https://developer.mozilla.org/docs/Web/CSS/tab-size) | 21 | 25 | 79 | 4 | 4 | 7 | 7 | 4.4 |
 | css > properties > text-align > flow_relative_values_start_and_end | 1 | 18 | 79 | 1 | 4 | 3.1 | 2 | 37 |
 | [css > properties > text-decoration-color](https://developer.mozilla.org/docs/Web/CSS/text-decoration-color) | 57 | 57 | 79 | 36 | 36 | 12.1 | 12.2 | 57 |
 | [css > properties > text-decoration-line](https://developer.mozilla.org/docs/Web/CSS/text-decoration-line) | 57 | 57 | 79 | 36 | 36 | 12.1 | 12.2 | 57 |
 | [css > properties > text-decoration-style](https://developer.mozilla.org/docs/Web/CSS/text-decoration-style) | 57 | 57 | 79 | 36 | 36 | 12.1 | 12.2 | 57 |
 | css > properties > text-decoration > shorthand | 57 | 57 | 79 | 36 | 36 | 8 | 8 | 57 |
-| [css > properties > text-emphasis-color](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color) | 25 | 25 | 79 | 46 | 46 | 6.1 | 7 | 4.4 |
-| [css > properties > text-emphasis-position](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position) | 25 | 25 | 79 | 46 | 46 | 6.1 | 7 | 4.4 |
-| [css > properties > text-emphasis-style](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style) | 25 | 25 | 79 | 46 | 46 | 6.1 | 7 | 4.4 |
-| [css > properties > text-emphasis](https://developer.mozilla.org/docs/Web/CSS/text-emphasis) | 25 | 25 | 79 | 46 | 46 | 6.1 | 7 | 4.4 |
+| [css > properties > text-emphasis-color](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color) | 25 | 25 | 79 | 46 | 46 | 7 | 7 | 4.4 |
+| [css > properties > text-emphasis-position](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position) | 25 | 25 | 79 | 46 | 46 | 7 | 7 | 4.4 |
+| [css > properties > text-emphasis-style](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style) | 25 | 25 | 79 | 46 | 46 | 7 | 7 | 4.4 |
+| [css > properties > text-emphasis](https://developer.mozilla.org/docs/Web/CSS/text-emphasis) | 25 | 25 | 79 | 46 | 46 | 7 | 7 | 4.4 |
 | [css > properties > text-orientation](https://developer.mozilla.org/docs/Web/CSS/text-orientation) | 48 | 48 | 79 | 41 | 41 | 14 | 14 | 48 |
 | [css > properties > text-rendering](https://developer.mozilla.org/docs/Web/CSS/text-rendering) | 4 | 18 | 79 | 1 | 46 | 5 | 4.2 | 3 |
 | css > properties > text-transform > uppercase_eszett | 1 | 18 | 18 | 1 | 4 | 1 | 1 | 1 |
@@ -911,7 +920,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > types > image > gradient > repeating-linear-gradient > interpolation_hints | 40 | 40 | 79 | 36 | 36 | 6.1 | 6.1 | 40 |
 | css > types > image > gradient > repeating-linear-gradient > unitless_0_angle | 26 | 26 | 12 | 55 | 55 | 6.1 | 6.1 | ≤37 |
 | css > types > image > gradient > repeating-radial-gradient > doubleposition | 71 | 71 | 79 | 64 | 64 | 12.1 | 12.2 | 71 |
-| css > types > image > gradient > repeating-radial-gradient > interpolation_hints | 40 | 40 | 79 | 36 | 46 | 6.1 | 7 | 40 |
+| css > types > image > gradient > repeating-radial-gradient > interpolation_hints | 40 | 40 | 79 | 36 | 46 | 7 | 7 | 40 |
 | [css > types > image > image-set](https://developer.mozilla.org/docs/Web/CSS/image-set()) | 21 | 25 | 79 | 88 | 88 | 6 | 6 | 4.4 |
 | css > types > length-percentage > vmax | 26 | 26 | 16 | 19 | 19 | 6.1 | 6.1 | 1.5 |
 | css > types > length > vmax | 26 | 26 | 16 | 19 | 19 | 6.1 | 6.1 | 1.5 |
@@ -1026,10 +1035,12 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > AsyncGeneratorFunction](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncGeneratorFunction) | 63 | 63 | 79 | 55 | 55 | 12 | 12 | 63 |
 | [javascript > builtins > AsyncIterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator) | 63 | 63 | 79 | 57 | 57 | 11.1 | 11.3 | 63 |
 | [javascript > builtins > BigInt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/BigInt) | 67 | 67 | 79 | 68 | 68 | 14 | 14 | 67 |
+| [javascript > builtins > BigInt64Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array) | 67 | 67 | 79 | 68 | 68 | 15 | 15 | 67 |
+| [javascript > builtins > BigUint64Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/BigUint64Array) | 67 | 67 | 79 | 68 | 68 | 15 | 15 | 67 |
 | javascript > builtins > DataView > DataView > new_required | 11 | 18 | 13 | 40 | 40 | 5.1 | 5.1 | ≤37 |
-| javascript > builtins > Date > toLocaleDateString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 6.1 | 7 | 4.4 |
-| javascript > builtins > Date > toLocaleString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 6.1 | 7 | 4.4 |
-| javascript > builtins > Date > toLocaleTimeString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 6.1 | 7 | 4.4 |
+| javascript > builtins > Date > toLocaleDateString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 7 | 7 | 4.4 |
+| javascript > builtins > Date > toLocaleString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 7 | 7 | 4.4 |
+| javascript > builtins > Date > toLocaleTimeString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 7 | 7 | 4.4 |
 | [javascript > builtins > Date > @@toPrimitive](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive) | 47 | 47 | 15 | 44 | 44 | 10 | 10 | 47 |
 | [javascript > builtins > FinalizationRegistry](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry) | 84 | 84 | 84 | 79 | 79 | 14.1 | 14.5 | 84 |
 | javascript > builtins > Float32Array > Float32Array > iterable_allowed | 39 | 39 | 14 | 52 | 52 | 10 | 10 | 39 |
