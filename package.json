@@ -30,14 +30,14 @@
   "devDependencies": {
     "@tsconfig/node16": "1.0.1",
     "@types/core-js": "2.5.4",
-    "@types/node": "15.12.1",
-    "@typescript-eslint/eslint-plugin": "4.26.0",
-    "@typescript-eslint/parser": "4.26.0",
-    "eslint": "7.28.0",
+    "@types/node": "16.3.1",
+    "@typescript-eslint/eslint-plugin": "4.28.2",
+    "@typescript-eslint/parser": "4.28.2",
+    "eslint": "7.30.0",
     "eslint-config-prettier": "8.3.0",
     "npm-run-all": "4.1.5",
-    "prettier": "2.3.1",
-    "typescript": "4.3.2"
+    "prettier": "2.3.2",
+    "typescript": "4.3.5"
   },
   "dependencies": {
     "@mdn/browser-compat-data": "3.3.10"
