@@ -40,6 +40,6 @@
     "typescript": "4.4.2"
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "4.0.2"
+    "@mdn/browser-compat-data": "4.0.3"
   }
 }
