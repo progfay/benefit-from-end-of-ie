@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.3
-- Generated date: Sat, 11 Sep 2021 12:45:39 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.0.4
+- Generated date: Sat, 18 Sep 2021 00:01:15 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -42,7 +42,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > AudioDestinationNode](https://developer.mozilla.org/docs/Web/API/AudioDestinationNode) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > AudioListener](https://developer.mozilla.org/docs/Web/API/AudioListener) | 14 | 18 | 12 | 25 | 25 | 6 | Yes | ≤37 |
 | [api > AudioNode](https://developer.mozilla.org/docs/Web/API/AudioNode) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | ≤37 |
-| [api > AudioNodeOptions](https://developer.mozilla.org/docs/Web/API/AudioNodeOptions) | 55 | 55 | ≤79 | 53 | 53 | 14.1 | 14.5 | 55 |
 | [api > AudioParam](https://developer.mozilla.org/docs/Web/API/AudioParam) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | ≤37 |
 | [api > AudioParamMap](https://developer.mozilla.org/docs/Web/API/AudioParamMap) | 66 | 66 | 79 | 76 | 79 | 14.1 | 14.5 | 66 |
 | [api > AudioScheduledSourceNode](https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode) | 57 | 57 | 79 | 53 | 53 | 14 | 14 | 57 |
@@ -476,7 +475,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > RTCOfferOptions](https://developer.mozilla.org/docs/Web/API/RTCOfferOptions) | 50 | 50 | ≤79 | 42 | 42 | 11 | 11 | 50 |
 | [api > RTCPeerConnection](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection) | 55 | 55 | 15 | 44 | 44 | 11 | 11 | 55 |
 | [api > RTCPeerConnectionIceEvent > RTCPeerConnectionIceEvent](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/RTCPeerConnectionIceEvent) | 56 | 56 | 15 | 24 | 24 | 12 | 12 | 56 |
-| [api > RTCPeerConnectionIceEvent > candidate](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/candidate) | 56 | 56 | 15 | 24 | 24 | 12 | 12 | 56 |
+| [api > RTCPeerConnectionIceEvent > candidate](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceEvent/candidate) | 24 | 25 | 15 | 24 | 24 | 12 | 12 | ≤37 |
 | [api > RTCRtpContributingSource](https://developer.mozilla.org/docs/Web/API/RTCRtpContributingSource) | 59 | 59 | ≤79 | 59 | 59 | 12.1 | 12.2 | 59 |
 | [api > RTCRtpEncodingParameters](https://developer.mozilla.org/docs/Web/API/RTCRtpEncodingParameters) | 67 | 67 | ≤79 | 46 | 46 | 11 | 11 | 67 |
 | [api > RTCRtpReceiver](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver) | 59 | 59 | 12 | 34 | 34 | 11 | 11 | 59 |
@@ -502,7 +501,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > SVGAnimateTransformElement](https://developer.mozilla.org/docs/Web/API/SVGAnimateTransformElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | ≤37 |
 | api > SVGAnimatedNumber > animVal | 1 | 18 | 79 | 1.5 | 4 | 3 | 1 | ≤37 |
 | api > SVGAnimatedNumber > baseVal | 1 | 18 | 79 | 1.5 | 4 | 3 | 1 | ≤37 |
-| [api > SVGAnimatedString](https://developer.mozilla.org/docs/Web/API/SVGAnimatedString) | 5 | 18 | 12 | 1.5 | 4 | 5 | 4 | ≤37 |
 | [api > SVGAnimationElement](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | ≤37 |
 | api > SVGElement > blur | 1 | 18 | 17 | 51 | 51 | 3 | 1 | ≤37 |
 | [api > SVGElement > dataset](https://developer.mozilla.org/docs/Web/API/SVGElement/dataset) | 55 | 55 | 17 | 51 | 51 | 5.1 | 5 | 55 |
