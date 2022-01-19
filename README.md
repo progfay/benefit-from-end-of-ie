@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.3
-- Generated date: Wed, 12 Jan 2022 13:16:08 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.4
+- Generated date: Wed, 19 Jan 2022 14:42:39 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -315,8 +315,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > HTMLImageElement > y](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/y) | 1 | 18 | 12 | 14 | 14 | 3 | 1 | 1 |
 | [api > HTMLInputElement > labels](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/labels) | 6 | 18 | 18 | 56 | 56 | 5 | 4.2 | 3 |
 | api > HTMLInputElement > minLength | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
-| [api > HTMLInputElement > reportValidity](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/reportValidity) | 40 | 40 | 17 | 49 | 64 | 10.1 | 10.3 | 40 |
-| [api > HTMLInputElement > selectionDirection](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionDirection) | 15 | 18 | 13 | 8 | 8 | 6 | 6 | 4.4 |
+| api > HTMLInputElement > reportValidity | 40 | 40 | 17 | 49 | 64 | 10.1 | 10.3 | 40 |
+| api > HTMLInputElement > selectionDirection | 15 | 18 | 13 | 8 | 8 | 6 | 6 | 4.4 |
 | [api > HTMLInputElement > setRangeText](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setRangeText) | 24 | 25 | 79 | 27 | 27 | 7 | 7 | 4.4 |
 | api > HTMLInputElement > valueAsDate | 5 | 18 | 12 | 57 | 57 | 5 | 4 | ≤37 |
 | [api > HTMLInputElement > webkitdirectory](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory) | 6 | 18 | 13 | 50 | 50 | 11.1 | 11.3 | 4.4 |
@@ -426,6 +426,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Navigator > clipboard](https://developer.mozilla.org/docs/Web/API/Navigator/clipboard) | 66 | 66 | 79 | 63 | 63 | 13.1 | 13.4 | 66 |
 | [api > Navigator > credentials](https://developer.mozilla.org/docs/Web/API/Navigator/credentials) | 51 | 51 | 18 | 61 | 61 | 13 | 13 | 51 |
 | api > Navigator > geolocation > secure_context_required | 47 | 47 | 79 | 55 | 55 | 10 | 10 | 47 |
+| [api > Navigator > getGamepads](https://developer.mozilla.org/docs/Web/API/Navigator/getGamepads) | 35 | 35 | 12 | 29 | 32 | 10.1 | 10.3 | 37 |
 | [api > Navigator > languages](https://developer.mozilla.org/docs/Web/API/Navigator/languages) | 37 | 37 | 16 | 32 | 32 | 10.1 | 10.3 | 37 |
 | [api > Navigator > mediaCapabilities](https://developer.mozilla.org/docs/Web/API/Navigator/mediaCapabilities) | 66 | 66 | 79 | 63 | 63 | 13 | 13 | 66 |
 | [api > Navigator > mediaDevices](https://developer.mozilla.org/docs/Web/API/Navigator/mediaDevices) | 47 | 47 | 12 | 36 | 36 | 11 | 11 | 47 |
@@ -690,7 +691,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > align-items > grid_context](https://developer.mozilla.org/docs/Web/CSS/align-items) | 57 | 52 | 16 | 52 | 52 | 10.1 | 10.3 | 57 |
 | css > properties > align-self > flex_context > baseline | 57 | 57 | 79 | 45 | 45 | 9 | 9 | 57 |
 | css > properties > align-self > flex_context > first_last_baseline | 57 | 57 | 79 | 52 | 52 | 11.1 | 11.3 | 57 |
-| css > properties > align-self > flex_context > start_end | 93 | 93 | 93 | 45 | 45 | 9 | 9 | 93 |
 | css > properties > align-self > flex_context > stretch | 57 | 57 | 79 | 52 | 52 | 9 | 9 | 57 |
 | [css > properties > all](https://developer.mozilla.org/docs/Web/CSS/all) | 37 | 37 | 79 | 27 | 27 | 9.1 | 9.3 | 37 |
 | css > properties > animation-timing-function > jump | 77 | 77 | 79 | 65 | 65 | 14 | 14 | 77 |
@@ -788,7 +788,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > isolation](https://developer.mozilla.org/docs/Web/CSS/isolation) | 41 | 41 | 79 | 36 | 36 | 8 | 8 | 41 |
 | css > properties > justify-content > flex_context > left_right | 93 | 93 | 93 | 52 | 52 | 9 | 9 | 93 |
 | css > properties > justify-content > flex_context > space-evenly | 60 | 60 | 79 | 52 | 52 | 11 | 11 | 60 |
-| css > properties > justify-content > flex_context > start_end | 93 | 93 | 93 | 45 | 45 | 9 | 9 | 93 |
 | css > properties > justify-content > flex_context > stretch | 57 | 57 | 79 | 52 | 52 | 9 | 9 | 57 |
 | [css > properties > justify-content > grid_context](https://developer.mozilla.org/docs/Web/CSS/justify-content) | 57 | 52 | 16 | 52 | 52 | 10.1 | 10.3 | 57 |
 | [css > properties > justify-items > grid_context](https://developer.mozilla.org/docs/Web/CSS/justify-items) | 57 | 57 | 16 | 45 | 45 | 10.1 | 10.3 | 57 |
@@ -1008,7 +1007,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | html > elements > iframe > sandbox-allow-popups-to-escape-sandbox | 46 | 46 | 79 | 49 | 49 | ❓ | ❓ | 46 |
 | html > elements > iframe > sandbox-allow-top-navigation-by-user-activation | 58 | 58 | 79 | 79 | 79 | 11.1 | ❓ | 58 |
 | html > elements > iframe > srcdoc | 20 | 25 | 79 | 25 | 25 | 6 | ❓ | 37 |
-| html > elements > img > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
+| html > elements > img > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 15 | 15 | 79 |
 | html > elements > img > decoding | Yes | Yes | ≤79 | 63 | 63 | 11.1 | 11.3 | Yes |
 | html > elements > img > srcset | 34 | 34 | ≤18 | 38 | 38 | 8 | 8 | 37 |
 | html > elements > img > usemap > caseless_usemap | 58 | 58 | 79 | 51 | 53 | Yes | Yes | 58 |
