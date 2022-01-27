@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.4
-- Generated date: Wed, 19 Jan 2022 14:42:39 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.5
+- Generated date: Thu, 27 Jan 2022 15:28:35 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -697,7 +697,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > appearance](https://developer.mozilla.org/docs/Web/CSS/appearance) | 84 | 84 | 84 | 80 | 80 | preview | 1 | 84 |
 | [css > properties > aspect-ratio](https://developer.mozilla.org/docs/Web/CSS/aspect-ratio) | 88 | 88 | 88 | 89 | 89 | 15 | 15 | 88 |
 | [css > properties > background-blend-mode](https://developer.mozilla.org/docs/Web/CSS/background-blend-mode) | 35 | 35 | 79 | 30 | 30 | 8 | 8 | ≤37 |
-| css > properties > background-clip > text | 3 | 18 | 15 | 49 | 49 | 4 | 3.2 | ≤37 |
+| css > properties > background-clip > text | 3 | 18 | 15 | 49 | 49 | 14 | 14 | ≤37 |
 | [css > properties > block-size](https://developer.mozilla.org/docs/Web/CSS/block-size) | 57 | 57 | 79 | 41 | 41 | 12.1 | 12.2 | 57 |
 | [css > properties > border-block-color](https://developer.mozilla.org/docs/Web/CSS/border-block-color) | 87 | 87 | 87 | 66 | 66 | 14.1 | 14.5 | 87 |
 | [css > properties > border-block-end-color](https://developer.mozilla.org/docs/Web/CSS/border-block-end-color) | 69 | 69 | 79 | 41 | 41 | 12.1 | 12.2 | 69 |
@@ -1003,7 +1003,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | html > elements > embed > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
 | html > elements > embed > type | 1 | 18 | 79 | 1 | 4 | ≤4 | ≤3 | 1 |
 | html > elements > iframe > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
-| html > elements > iframe > sandbox-allow-modals | ❓ | ❓ | ❓ | 49 | 49 | ❓ | ❓ | ❓ |
+| html > elements > iframe > sandbox-allow-modals | 46 | 46 | 79 | 49 | 49 | ❓ | ❓ | 46 |
 | html > elements > iframe > sandbox-allow-popups-to-escape-sandbox | 46 | 46 | 79 | 49 | 49 | ❓ | ❓ | 46 |
 | html > elements > iframe > sandbox-allow-top-navigation-by-user-activation | 58 | 58 | 79 | 79 | 79 | 11.1 | ❓ | 58 |
 | html > elements > iframe > srcdoc | 20 | 25 | 79 | 25 | 25 | 6 | ❓ | 37 |
