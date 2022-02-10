@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.6
-- Generated date: Wed, 02 Feb 2022 14:44:49 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.7
+- Generated date: Thu, 10 Feb 2022 13:20:16 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -59,6 +59,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Blob > stream](https://developer.mozilla.org/docs/Web/API/Blob/stream) | 76 | 76 | 79 | 69 | 79 | 14.1 | 14.5 | 76 |
 | [api > Blob > text](https://developer.mozilla.org/docs/Web/API/Blob/text) | 76 | 76 | 79 | 69 | 79 | 14 | 14 | 76 |
 | [api > BlobEvent](https://developer.mozilla.org/docs/Web/API/BlobEvent) | 49 | 49 | 79 | 21 | 21 | 14 | 14 | 49 |
+| [api > BroadcastChannel](https://developer.mozilla.org/docs/Web/API/BroadcastChannel) | 54 | 54 | 79 | 38 | 38 | 15.4 | 15.4 | 54 |
 | [api > ByteLengthQueuingStrategy](https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy) | 52 | 52 | 16 | 65 | 65 | 10.1 | 10.3 | 52 |
 | [api > CSS](https://developer.mozilla.org/docs/Web/API/CSS) | 28 | 28 | 12 | 22 | 22 | 9 | 9 | 4.4 |
 | [api > CSSAnimation](https://developer.mozilla.org/docs/Web/API/CSSAnimation) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
@@ -101,9 +102,10 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > console > timeLog](https://developer.mozilla.org/docs/Web/API/console/timeLog) | 71 | 71 | 79 | 62 | 62 | 13 | 13 | 71 |
 | [api > ConstantSourceNode](https://developer.mozilla.org/docs/Web/API/ConstantSourceNode) | 56 | 56 | 79 | 52 | 52 | 14.1 | 14.5 | 56 |
 | [api > ConvolverNode](https://developer.mozilla.org/docs/Web/API/ConvolverNode) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | 4.4.3 |
-| [api > CountQueuingStrategy](https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy) | 59 | 59 | 16 | 65 | 65 | 10.1 | 10.3 | 59 |
+| [api > CountQueuingStrategy](https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy) | 52 | 52 | 16 | 65 | 65 | 10.1 | 10.3 | 52 |
 | [api > Credential](https://developer.mozilla.org/docs/Web/API/Credential) | 51 | 51 | 18 | 60 | 60 | 13 | 13 | 51 |
 | [api > CredentialsContainer](https://developer.mozilla.org/docs/Web/API/CredentialsContainer) | 51 | 51 | 18 | 61 | 61 | 13 | 13 | 51 |
+| [api > Crypto > randomUUID](https://developer.mozilla.org/docs/Web/API/Crypto/randomUUID) | 92 | 92 | 92 | 95 | 95 | 15.4 | 15.4 | 92 |
 | [api > CustomElementRegistry](https://developer.mozilla.org/docs/Web/API/CustomElementRegistry) | 54 | 54 | 79 | 63 | 63 | 10.1 | 10.3 | 54 |
 | [api > CustomEvent > CustomEvent](https://developer.mozilla.org/docs/Web/API/CustomEvent/CustomEvent) | 15 | 18 | 12 | 11 | 14 | 6 | 6 | 4.4 |
 | [api > CustomEvent > detail](https://developer.mozilla.org/docs/Web/API/CustomEvent/detail) | 15 | 18 | 12 | 11 | 14 | 5 | 5 | 3 |
@@ -309,6 +311,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > HTMLImageElement > currentSrc](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/currentSrc) | 38 | 38 | 13 | 38 | 38 | 9 | 9 | 38 |
 | [api > HTMLImageElement > decode](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/decode) | 64 | 64 | 79 | 68 | 68 | 11.1 | 11.3 | 64 |
 | [api > HTMLImageElement > decoding](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/decoding) | 65 | 65 | 79 | 63 | 63 | 11.1 | 11.3 | 65 |
+| [api > HTMLImageElement > loading](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/loading) | 77 | 77 | 79 | 75 | 79 | 15.4 | 15.4 | 77 |
 | [api > HTMLImageElement > referrerPolicy](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/referrerPolicy) | 53 | 53 | 79 | 50 | 50 | 14 | 14 | 53 |
 | [api > HTMLImageElement > sizes](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes) | 38 | 38 | 13 | 38 | 38 | 9 | 9 | 38 |
 | [api > HTMLImageElement > srcset](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/srcset) | 34 | 34 | 12 | 38 | 38 | 8 | 8 | 37 |
@@ -642,6 +645,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > WindowEventHandlers > onunhandledrejection](https://developer.mozilla.org/docs/Web/API/WindowEventHandlers/onunhandledrejection) | 49 | 49 | 79 | 69 | 68 | 11 | 11.3 | 49 |
 | [api > WorkerLocation > origin](https://developer.mozilla.org/docs/Web/API/WorkerLocation/origin) | 38 | 38 | 14 | 29 | 29 | 10 | 10 | 38 |
 | [api > WorkerNavigator > languages](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/languages) | 37 | 37 | 16 | 32 | 32 | 10.1 | 10.3 | 37 |
+| api > WorkerNavigator > mediaCapabilities | 76 | 76 | 79 | 63 | 63 | 15.4 | 15.4 | 76 |
 | [api > WorkerNavigator > storage](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage) | 55 | 55 | 79 | 57 | 57 | 15.2 | 15.2 | 55 |
 | [api > Worklet](https://developer.mozilla.org/docs/Web/API/Worklet) | 65 | 65 | 79 | 76 | 79 | 14.1 | 14.5 | 65 |
 | api > WorkletGlobalScope | 65 | 65 | 79 | 76 | 79 | 14.1 | 14.5 | 65 |
@@ -661,6 +665,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > origin](https://developer.mozilla.org/docs/Web/API/origin) | 59 | 59 | 18 | 54 | 54 | 11 | 11 | 59 |
 | api > performance > worker_support | 30 | 30 | 14 | 34 | 34 | 11 | 11 | 4.4 |
 | [api > queueMicrotask](https://developer.mozilla.org/docs/Web/API/queueMicrotask) | 71 | 71 | 79 | 69 | 79 | 12.1 | 12.2 | 71 |
+| api > reportError | 95 | 95 | 95 | 93 | 93 | 15.4 | 15.4 | 95 |
 | css > at-rules > font-face > WOFF_2 | 36 | 36 | 14 | 39 | 39 | 10 | 10 | 37 |
 | [css > at-rules > font-face > font-display](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) | 72 | 72 | 79 | 58 | 58 | 11.1 | 11.3 | 72 |
 | [css > at-rules > font-face > font-stretch](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch) | 62 | 62 | 17 | 62 | 62 | 10.1 | 10.3 | 62 |
@@ -701,7 +706,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > align-self > flex_context > stretch | 57 | 57 | 79 | 52 | 52 | 9 | 9 | 57 |
 | [css > properties > all](https://developer.mozilla.org/docs/Web/CSS/all) | 37 | 37 | 79 | 27 | 27 | 9.1 | 9.3 | 37 |
 | css > properties > animation-timing-function > jump | 77 | 77 | 79 | 65 | 65 | 14 | 14 | 77 |
-| [css > properties > appearance](https://developer.mozilla.org/docs/Web/CSS/appearance) | 84 | 84 | 84 | 80 | 80 | preview | 1 | 84 |
+| [css > properties > appearance](https://developer.mozilla.org/docs/Web/CSS/appearance) | 84 | 84 | 84 | 80 | 80 | 15.4 | 15.4 | 84 |
 | [css > properties > aspect-ratio](https://developer.mozilla.org/docs/Web/CSS/aspect-ratio) | 88 | 88 | 88 | 89 | 89 | 15 | 15 | 88 |
 | [css > properties > background-blend-mode](https://developer.mozilla.org/docs/Web/CSS/background-blend-mode) | 35 | 35 | 79 | 30 | 30 | 8 | 8 | ≤37 |
 | css > properties > background-clip > text | 3 | 18 | 15 | 49 | 49 | 14 | 14 | ≤37 |
@@ -739,7 +744,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > clip-path > basic_shape | 23 | 25 | 79 | 54 | 54 | 7 | 7 | 4.4 |
 | css > properties > clip-path > html | 23 | 25 | 79 | 3.5 | 4 | 7 | 7 | 4.4 |
 | css > properties > clip-path > path | 88 | 88 | 88 | 71 | 63 | 13.1 | 13 | 88 |
-| [css > properties > color-adjust](https://developer.mozilla.org/docs/Web/CSS/color-adjust) | 49 | 49 | 79 | 48 | 48 | 6 | 6 | 49 |
+| [css > properties > color-adjust](https://developer.mozilla.org/docs/Web/CSS/color-adjust) | 49 | 49 | 79 | 48 | 48 | 6 | 15.4 | 49 |
 | [css > properties > color-scheme](https://developer.mozilla.org/docs/Web/CSS/color-scheme) | 81 | 81 | 81 | 96 | 96 | 13 | 13 | 81 |
 | [css > properties > column-gap > flex_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
 | [css > properties > column-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
@@ -846,12 +851,12 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > margin-inline-end](https://developer.mozilla.org/docs/Web/CSS/margin-inline-end) | 69 | 69 | 79 | 41 | 41 | 12.1 | 12.2 | 69 |
 | [css > properties > margin-inline-start](https://developer.mozilla.org/docs/Web/CSS/margin-inline-start) | 69 | 69 | 79 | 41 | 41 | 12.1 | 12.2 | 69 |
 | [css > properties > margin-inline](https://developer.mozilla.org/docs/Web/CSS/margin-inline) | 87 | 87 | 87 | 66 | 66 | 14.1 | 14.5 | 87 |
-| [css > properties > mask-clip](https://developer.mozilla.org/docs/Web/CSS/mask-clip) | 1 | 18 | 79 | 53 | 53 | 4 | 3.2 | 2 |
-| [css > properties > mask-image](https://developer.mozilla.org/docs/Web/CSS/mask-image) | 1 | 18 | 79 | 53 | 53 | 4 | 3.2 | 2 |
-| [css > properties > mask-origin](https://developer.mozilla.org/docs/Web/CSS/mask-origin) | 1 | 18 | 79 | 53 | 53 | 4 | 3.2 | 2 |
-| [css > properties > mask-position](https://developer.mozilla.org/docs/Web/CSS/mask-position) | 1 | 18 | 79 | 53 | 53 | 3.1 | 2 | 2 |
-| [css > properties > mask-repeat](https://developer.mozilla.org/docs/Web/CSS/mask-repeat) | 1 | 18 | 79 | 53 | 53 | 3.1 | 2 | 2 |
-| [css > properties > mask-size](https://developer.mozilla.org/docs/Web/CSS/mask-size) | 4 | 18 | 79 | 53 | 53 | 4 | 2 | 4.4 |
+| [css > properties > mask-clip](https://developer.mozilla.org/docs/Web/CSS/mask-clip) | 1 | 18 | 79 | 53 | 53 | 15.4 | 15.4 | 2 |
+| [css > properties > mask-image](https://developer.mozilla.org/docs/Web/CSS/mask-image) | 1 | 18 | 79 | 53 | 53 | 15.4 | 15.4 | 2 |
+| [css > properties > mask-origin](https://developer.mozilla.org/docs/Web/CSS/mask-origin) | 1 | 18 | 79 | 53 | 53 | 15.4 | 15.4 | 2 |
+| [css > properties > mask-position](https://developer.mozilla.org/docs/Web/CSS/mask-position) | 1 | 18 | 79 | 53 | 53 | 15.4 | 15.4 | 2 |
+| [css > properties > mask-repeat](https://developer.mozilla.org/docs/Web/CSS/mask-repeat) | 1 | 18 | 79 | 53 | 53 | 15.4 | 15.4 | 2 |
+| [css > properties > mask-size](https://developer.mozilla.org/docs/Web/CSS/mask-size) | 4 | 18 | 79 | 53 | 53 | 15.4 | 15.4 | 4.4 |
 | [css > properties > mask-type](https://developer.mozilla.org/docs/Web/CSS/mask-type) | 24 | 25 | 79 | 35 | 35 | 7 | 7 | 37 |
 | [css > properties > mask](https://developer.mozilla.org/docs/Web/CSS/mask) | 1 | 18 | 79 | 2 | 4 | 3.1 | 2 | 2 |
 | [css > properties > max-block-size](https://developer.mozilla.org/docs/Web/CSS/max-block-size) | 57 | 57 | 79 | 41 | 41 | 12.1 | 12.2 | 57 |
@@ -1018,6 +1023,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | html > elements > iframe > srcdoc | 20 | 25 | 79 | 25 | 25 | 6 | ❓ | 37 |
 | html > elements > img > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 15 | 15 | 79 |
 | html > elements > img > decoding | Yes | Yes | ≤79 | 63 | 63 | 11.1 | 11.3 | Yes |
+| [html > elements > img > loading](https://developer.mozilla.org/docs/Web/Performance/Lazy_loading) | 77 | 77 | 79 | 75 | 79 | 15.4 | 15.4 | 77 |
 | html > elements > img > srcset | 34 | 34 | ≤18 | 38 | 38 | 8 | 8 | 37 |
 | html > elements > img > usemap > caseless_usemap | 58 | 58 | 79 | 51 | 53 | Yes | Yes | 58 |
 | [html > elements > input > input-color](https://developer.mozilla.org/docs/Web/HTML/Element/input/color) | 20 | 25 | 14 | 29 | 27 | 12.1 | 12.2 | 4.4 |
