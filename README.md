@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.8
-- Generated date: Thu, 17 Feb 2022 12:08:50 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.9
+- Generated date: Wed, 23 Feb 2022 07:09:33 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -156,9 +156,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Document > fonts](https://developer.mozilla.org/docs/Web/API/Document/fonts) | 35 | 35 | 79 | 41 | 41 | 10 | 10 | ≤37 |
 | [api > Document > gotpointercapture_event](https://developer.mozilla.org/docs/Web/API/Document/gotpointercapture_event) | 57 | 57 | 17 | 59 | 79 | 13 | 13 | 57 |
 | [api > Document > lostpointercapture_event](https://developer.mozilla.org/docs/Web/API/Document/lostpointercapture_event) | 57 | 57 | 17 | 59 | 79 | 13 | 13 | 57 |
-| [api > Document > oncopy](https://developer.mozilla.org/docs/Web/API/Document/oncopy) | 1 | 18 | 17 | 6 | 6 | 2 | 1 | 1 |
-| [api > Document > oncut](https://developer.mozilla.org/docs/Web/API/Document/oncut) | 1 | 18 | 17 | 6 | 6 | 2 | 1 | 1 |
-| [api > Document > onpaste](https://developer.mozilla.org/docs/Web/API/Document/onpaste) | 1 | 18 | 17 | 6 | 6 | 2 | 1 | 1 |
 | [api > Document > onvisibilitychange](https://developer.mozilla.org/docs/Web/API/Document/onvisibilitychange) | 62 | 62 | 18 | 56 | 56 | 10.1 | 10.3 | 62 |
 | [api > Document > scrollingElement](https://developer.mozilla.org/docs/Web/API/Document/scrollingElement) | 44 | 44 | 12 | 48 | 48 | 9 | 9 | 44 |
 | [api > Document > timeline](https://developer.mozilla.org/docs/Web/API/Document/timeline) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
@@ -224,6 +221,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > ExtendableMessageEvent](https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent) | 51 | 51 | 17 | 44 | 44 | 11.1 | 11.3 | 51 |
 | [api > FetchEvent](https://developer.mozilla.org/docs/Web/API/FetchEvent) | 40 | 40 | 17 | 44 | 44 | 11.1 | 11.3 | 40 |
 | [api > File > File](https://developer.mozilla.org/docs/Web/API/File/File) | 38 | 38 | 79 | 28 | 28 | 10 | 10 | 38 |
+| [api > File > lastModified](https://developer.mozilla.org/docs/Web/API/File/lastModified) | 13 | 18 | 18 | 15 | 15 | 10 | 10 | ≤37 |
 | [api > File > webkitRelativePath](https://developer.mozilla.org/docs/Web/API/File/webkitRelativePath) | 13 | 18 | 13 | 49 | 49 | 11.1 | 11.3 | ≤37 |
 | [api > FileReader > readAsBinaryString](https://developer.mozilla.org/docs/Web/API/FileReader/readAsBinaryString) | 6 | 18 | 12 | 3.6 | 32 | 6 | 6 | 3 |
 | [api > FileSystem](https://developer.mozilla.org/docs/Web/API/FileSystem) | 7 | 18 | ≤18 | 50 | 50 | 11.1 | 11.3 | ≤37 |
@@ -1068,6 +1066,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [html > manifest > start_url](https://developer.mozilla.org/docs/Web/Manifest/start_url) | 39 | 39 | 79 | ❓ | ❓ | ❓ | 11.3 | ❓ |
 | [html > manifest > theme_color](https://developer.mozilla.org/docs/Web/Manifest/theme_color) | 46 | 46 | 79 | ❓ | 53 | ❓ | 15 | Yes |
 | http > data-url > html_files | Yes | Yes | 79 | Yes | Yes | Yes | Yes | Yes |
+| http > headers > Content-Length > cors_response_safelist | 76 | 76 | ≤79 | 87 | 87 | 12.1 | 12.2 | 76 |
 | [http > headers > csp > Content-Security-Policy > base-uri](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/base-uri) | 40 | Yes | 79 | 35 | 35 | 10 | 9.3 | Yes |
 | [http > headers > csp > Content-Security-Policy > child-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/child-src) | 40 | Yes | 15 | 45 | 45 | 10 | 9.3 | Yes |
 | [http > headers > csp > Content-Security-Policy > connect-src](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src) | 25 | Yes | 14 | 23 | 23 | 7 | 7 | Yes |
