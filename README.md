@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.9
-- Generated date: Wed, 23 Feb 2022 07:09:33 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.10
+- Generated date: Wed, 02 Mar 2022 14:06:31 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -735,8 +735,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > caret-color](https://developer.mozilla.org/docs/Web/CSS/caret-color) | 57 | 57 | 79 | 53 | 53 | 11.1 | 11.3 | 57 |
 | css > properties > clip-path > basic_shape | 23 | 25 | 79 | 54 | 54 | 7 | 7 | 4.4 |
 | css > properties > clip-path > html | 23 | 25 | 79 | 3.5 | 4 | 7 | 7 | 4.4 |
-| css > properties > clip-path > path | 88 | 88 | 88 | 71 | 63 | 13.1 | 13 | 88 |
-| [css > properties > color-adjust](https://developer.mozilla.org/docs/Web/CSS/color-adjust) | 49 | 49 | 79 | 48 | 48 | 6 | 15.4 | 49 |
+| css > properties > clip-path > path | 88 | 88 | 88 | 71 | 79 | 13.1 | 13 | 88 |
 | [css > properties > color-scheme](https://developer.mozilla.org/docs/Web/CSS/color-scheme) | 81 | 81 | 81 | 96 | 96 | 13 | 13 | 81 |
 | [css > properties > column-gap > flex_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
 | [css > properties > column-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/column-gap) | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
@@ -780,6 +779,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > grid](https://developer.mozilla.org/docs/Web/CSS/grid) | 57 | 57 | 16 | 52 | 52 | 10.1 | 10.3 | 57 |
 | css > properties > height > max-content | 46 | 46 | 79 | 66 | 66 | 11 | 11 | 46 |
 | css > properties > height > min-content | 46 | 46 | 79 | 66 | 66 | 11 | 11 | 46 |
+| [css > properties > hyphenate-character](https://developer.mozilla.org/docs/Web/CSS/hyphenate-character) | 6 | 18 | 79 | 98 | 98 | 5.1 | 5 | ≤37 |
 | [css > properties > image-orientation](https://developer.mozilla.org/docs/Web/CSS/image-orientation) | 81 | 81 | 81 | 26 | 26 | 13.1 | 13.4 | 81 |
 | [css > properties > image-rendering](https://developer.mozilla.org/docs/Web/CSS/image-rendering) | 13 | 18 | 79 | 3.6 | 4 | 6 | 6 | 3 |
 | [css > properties > inline-size](https://developer.mozilla.org/docs/Web/CSS/inline-size) | 57 | 57 | 79 | 41 | 41 | 12.1 | 12.2 | 57 |
@@ -885,6 +885,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > place-self](https://developer.mozilla.org/docs/Web/CSS/place-self) | 59 | 59 | 79 | 45 | 45 | 11 | 11 | 59 |
 | css > properties > position > position_sticky_table_elements | 56 | 56 | 16 | 59 | 59 | 8 | 8 | 56 |
 | css > properties > position > sticky | 56 | 56 | 16 | 32 | 32 | 13 | 13 | 56 |
+| [css > properties > print-color-adjust](https://developer.mozilla.org/docs/Web/CSS/print-color-adjust) | 17 | 18 | 79 | 97 | 97 | 15.4 | 15.4 | 4.4 |
 | [css > properties > resize](https://developer.mozilla.org/docs/Web/CSS/resize) | 1 | 18 | 79 | 4 | 4 | 3 | 1 | 37 |
 | [css > properties > row-gap > flex_context](https://developer.mozilla.org/docs/Web/CSS/row-gap) | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
 | [css > properties > row-gap > grid_context](https://developer.mozilla.org/docs/Web/CSS/row-gap) | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
@@ -1128,6 +1129,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | javascript > builtins > Date > toLocaleString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 7 | 7 | 4.4 |
 | javascript > builtins > Date > toLocaleTimeString > iana_time_zone_names | 24 | 25 | 14 | 52 | 56 | 7 | 7 | 4.4 |
 | [javascript > builtins > Date > @@toPrimitive](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive) | 47 | 47 | 15 | 44 | 44 | 10 | 10 | 47 |
+| javascript > builtins > Error > Error > options_cause_parameter | 93 | 93 | 93 | 91 | 91 | 15 | 15 | 93 |
+| javascript > builtins > Error > cause | 93 | 93 | 93 | 91 | 91 | 15 | 15 | 93 |
 | [javascript > builtins > FinalizationRegistry](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry) | 84 | 84 | 84 | 79 | 79 | 14.1 | 14.5 | 84 |
 | javascript > builtins > Float32Array > Float32Array > iterable_allowed | 39 | 39 | 14 | 52 | 52 | 10 | 10 | 39 |
 | javascript > builtins > Float32Array > Float32Array > new_required | 7 | 18 | 14 | 44 | 44 | 5.1 | 5 | ≤37 |
