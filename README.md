@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.10
-- Generated date: Wed, 02 Mar 2022 14:06:31 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.11
+- Generated date: Sat, 12 Mar 2022 11:09:58 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -35,7 +35,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > AnalyserNode](https://developer.mozilla.org/docs/Web/API/AnalyserNode) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | 4.4.3 |
 | [api > Animation](https://developer.mozilla.org/docs/Web/API/Animation) | 44 | 44 | 79 | 48 | 48 | 13.1 | 13.4 | 44 |
 | [api > AnimationEffect](https://developer.mozilla.org/docs/Web/API/AnimationEffect) | 75 | 75 | 79 | 63 | 63 | 13.1 | 13.4 | 75 |
-| [api > AnimationEvent > AnimationEvent](https://developer.mozilla.org/docs/Web/API/AnimationEvent/AnimationEvent) | 43 | 43 | 14 | 23 | 23 | 9.1 | 9.3 | 43 |
+| [api > AnimationEvent > AnimationEvent](https://developer.mozilla.org/docs/Web/API/AnimationEvent/AnimationEvent) | 43 | 43 | 14 | 23 | 23 | 9 | 9 | 43 |
 | [api > AnimationEvent > pseudoElement](https://developer.mozilla.org/docs/Web/API/AnimationEvent/pseudoElement) | 68 | 68 | 79 | 23 | 23 | 13.1 | 13.4 | 68 |
 | [api > AnimationPlaybackEvent](https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent) | 84 | 84 | 84 | 42 | 42 | 13.1 | 13.4 | 84 |
 | [api > AnimationTimeline](https://developer.mozilla.org/docs/Web/API/AnimationTimeline) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
@@ -156,7 +156,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Document > fonts](https://developer.mozilla.org/docs/Web/API/Document/fonts) | 35 | 35 | 79 | 41 | 41 | 10 | 10 | ≤37 |
 | [api > Document > gotpointercapture_event](https://developer.mozilla.org/docs/Web/API/Document/gotpointercapture_event) | 57 | 57 | 17 | 59 | 79 | 13 | 13 | 57 |
 | [api > Document > lostpointercapture_event](https://developer.mozilla.org/docs/Web/API/Document/lostpointercapture_event) | 57 | 57 | 17 | 59 | 79 | 13 | 13 | 57 |
-| [api > Document > onvisibilitychange](https://developer.mozilla.org/docs/Web/API/Document/onvisibilitychange) | 62 | 62 | 18 | 56 | 56 | 10.1 | 10.3 | 62 |
+| [api > Document > onvisibilitychange](https://developer.mozilla.org/docs/Web/API/Document/onvisibilitychange) | 62 | 62 | 18 | 56 | 56 | 14.1 | 14.5 | 62 |
 | [api > Document > scrollingElement](https://developer.mozilla.org/docs/Web/API/Document/scrollingElement) | 44 | 44 | 12 | 48 | 48 | 9 | 9 | 44 |
 | [api > Document > timeline](https://developer.mozilla.org/docs/Web/API/Document/timeline) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
 | [api > Document > transitioncancel_event](https://developer.mozilla.org/docs/Web/API/Document/transitioncancel_event) | 74 | 74 | 79 | 53 | 53 | 13.1 | 13.4 | 74 |
