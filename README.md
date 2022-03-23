@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.12
-- Generated date: Wed, 16 Mar 2022 08:44:58 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.13
+- Generated date: Wed, 23 Mar 2022 10:33:22 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -328,13 +328,13 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > HTMLLinkElement > sizes](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/sizes) | 15 | 18 | 79 | 31 | 31 | 6 | 6 | 4.4 |
 | [api > HTMLMediaElement > crossOrigin](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/crossOrigin) | 33 | 33 | 13 | 22 | 22 | 10 | 10 | 4.4.3 |
 | [api > HTMLMediaElement > defaultMuted](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/defaultMuted) | 15 | 18 | 12 | 11 | 14 | 6 | 6 | 4.4 |
+| [api > HTMLMediaElement > encrypted_event](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/encrypted_event) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 42 |
 | [api > HTMLMediaElement > mediaKeys](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/mediaKeys) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 42 |
-| [api > HTMLMediaElement > onencrypted](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/onencrypted) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 42 |
-| [api > HTMLMediaElement > onwaitingforkey](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/onwaitingforkey) | 55 | 55 | 79 | 52 | 52 | 12.1 | 12.2 | 55 |
 | api > HTMLMediaElement > play > returns_promise | 50 | 50 | 17 | 53 | 53 | 10 | 10 | 50 |
 | [api > HTMLMediaElement > preservesPitch](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preservesPitch) | 86 | 86 | 86 | 20 | 20 | 4 | 4 | 86 |
 | [api > HTMLMediaElement > setMediaKeys](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/setMediaKeys) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 42 |
 | [api > HTMLMediaElement > srcObject](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/srcObject) | 52 | 52 | 12 | 42 | 42 | 11 | 11 | 52 |
+| [api > HTMLMediaElement > waitingforkey_event](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/waitingforkey_event) | 55 | 55 | 79 | 52 | 52 | 12.1 | 12.2 | 55 |
 | [api > HTMLMeterElement](https://developer.mozilla.org/docs/Web/API/HTMLMeterElement) | 6 | 18 | 12 | 16 | 16 | 6 | 6 | 4.4 |
 | [api > HTMLOListElement > reversed](https://developer.mozilla.org/docs/Web/API/HTMLOListElement/reversed) | 18 | 18 | 79 | 18 | 18 | 6 | 6 | 4.4 |
 | [api > HTMLObjectElement > contentWindow](https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/contentWindow) | 53 | 53 | 17 | 22 | 22 | 13 | 13 | 53 |
@@ -1087,6 +1087,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [http > headers > Cross-Origin-Embedder-Policy](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy) | 83 | 83 | 83 | 79 | 79 | 15.2 | 15.2 | 86 |
 | [http > headers > Early-Data](https://developer.mozilla.org/docs/Web/HTTP/Headers/Early-Data) | ❓ | ❓ | ❓ | 58 | 58 | ❓ | ❓ | ❓ |
 | [http > headers > Feature-Policy](https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy) | 60 | 60 | 79 | 74 | 79 | 11.1 | 11.3 | 60 |
+| [http > headers > Referrer-Policy](https://developer.mozilla.org/docs/Web/HTTP/Headers/Referrer-Policy) | 56 | 56 | 79 | 50 | 50 | 11.1 | 12 | 56 |
 | [http > headers > Server-Timing](https://developer.mozilla.org/docs/Web/HTTP/Headers/Server-Timing) | 65 | 65 | ≤79 | 61 | 61 | ❓ | ❓ | 65 |
 | http > headers > Set-Cookie > cookie_prefixes | 49 | 49 | 79 | 50 | 50 | Yes | Yes | 49 |
 | [http > headers > Upgrade-Insecure-Requests](https://developer.mozilla.org/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests) | 44 | 44 | 17 | 48 | 48 | 10.1 | 10.3 | 44 |
