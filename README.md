@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.13
-- Generated date: Wed, 23 Mar 2022 10:33:22 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.14
+- Generated date: Wed, 30 Mar 2022 13:00:03 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -412,6 +412,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > MediaQueryList > change_event](https://developer.mozilla.org/docs/Web/API/MediaQueryList/change_event) | 45 | 45 | 79 | 55 | 55 | 14 | 14 | 45 |
 | [api > MediaQueryListEvent](https://developer.mozilla.org/docs/Web/API/MediaQueryListEvent) | 39 | 39 | 79 | 55 | 55 | 14 | 14 | 39 |
 | [api > MediaRecorder](https://developer.mozilla.org/docs/Web/API/MediaRecorder) | 47 | 47 | 79 | 25 | 25 | 14 | 14 | 47 |
+| [api > MediaSource > clearLiveSeekableRange](https://developer.mozilla.org/docs/Web/API/MediaSource/clearLiveSeekableRange) | 62 | 62 | 17 | 50 | 50 | 10.1 | 13 | 62 |
+| [api > MediaSource > setLiveSeekableRange](https://developer.mozilla.org/docs/Web/API/MediaSource/setLiveSeekableRange) | 62 | 62 | 17 | 50 | 50 | 10.1 | 13 | 62 |
 | [api > MediaStream](https://developer.mozilla.org/docs/Web/API/MediaStream) | 55 | 55 | 12 | 15 | 15 | 11 | 11 | 55 |
 | [api > MediaStreamAudioDestinationNode](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode) | 14 | 18 | 18 | 25 | 25 | 6 | 6 | ≤37 |
 | [api > MediaStreamAudioSourceNode](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceNode) | 23 | 25 | 12 | 25 | 25 | 11 | 11 | ≤37 |
@@ -658,7 +660,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | api > reportError | 95 | 95 | 95 | 93 | 93 | 15.4 | 15.4 | 95 |
 | [api > structuredClone](https://developer.mozilla.org/docs/Web/API/structuredClone) | 98 | 98 | 98 | 94 | 94 | 15.4 | 15.4 | 98 |
 | css > at-rules > font-face > WOFF_2 | 36 | 36 | 14 | 39 | 39 | 10 | 10 | 37 |
-| [css > at-rules > font-face > font-display](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) | 72 | 72 | 79 | 58 | 58 | 11.1 | 11.3 | 72 |
+| [css > at-rules > font-face > font-display](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) | 60 | 60 | 79 | 58 | 58 | 11.1 | 11.3 | 60 |
 | [css > at-rules > font-face > font-stretch](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch) | 62 | 62 | 17 | 62 | 62 | 10.1 | 10.3 | 62 |
 | css > at-rules > font-face > src > format_variations | 66 | 66 | 17 | 62 | 62 | 11 | 11 | 66 |
 | css > at-rules > keyframes > ignore_important_declarations | 45 | 45 | 79 | 19 | 19 | 10.1 | 10.3 | 45 |
@@ -950,6 +952,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > selectors > cue](https://developer.mozilla.org/docs/Web/CSS/::cue) | 26 | 26 | 79 | 55 | 55 | 7 | 7 | ≤37 |
 | [css > selectors > default](https://developer.mozilla.org/docs/Web/CSS/:default) | 10 | 18 | 79 | 4 | 4 | 5 | 5 | 37 |
 | [css > selectors > defined](https://developer.mozilla.org/docs/Web/CSS/:defined) | 54 | 54 | 79 | 63 | 63 | 10 | 10 | 54 |
+| [css > selectors > focus-visible](https://developer.mozilla.org/docs/Web/CSS/:focus-visible) | 86 | 86 | 86 | 85 | 85 | 15.4 | 15.4 | 86 |
 | [css > selectors > focus-within](https://developer.mozilla.org/docs/Web/CSS/:focus-within) | 60 | 60 | 79 | 52 | 52 | 10.1 | 10.3 | 60 |
 | [css > selectors > host](https://developer.mozilla.org/docs/Web/CSS/:host) | 54 | 54 | 79 | 63 | 63 | 10 | 10 | 54 |
 | [css > selectors > hostfunction](https://developer.mozilla.org/docs/Web/CSS/:host()) | 54 | 54 | 79 | 63 | 63 | 10 | 10 | 54 |
