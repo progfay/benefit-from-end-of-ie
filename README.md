@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.14
-- Generated date: Wed, 30 Mar 2022 13:00:03 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.1.15
+- Generated date: Thu, 07 Apr 2022 13:58:43 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -108,7 +108,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Crypto > randomUUID](https://developer.mozilla.org/docs/Web/API/Crypto/randomUUID) | 92 | 92 | 92 | 95 | 95 | 15.4 | 15.4 | 92 |
 | [api > CustomElementRegistry](https://developer.mozilla.org/docs/Web/API/CustomElementRegistry) | 54 | 54 | 79 | 63 | 63 | 10.1 | 10.3 | 54 |
 | [api > CustomEvent > CustomEvent](https://developer.mozilla.org/docs/Web/API/CustomEvent/CustomEvent) | 15 | 18 | 12 | 11 | 14 | 6 | 6 | 4.4 |
-| [api > CustomEvent > detail](https://developer.mozilla.org/docs/Web/API/CustomEvent/detail) | 15 | 18 | 12 | 11 | 14 | 5 | 5 | 3 |
 | api > CustomEvent > worker_support | 43 | 43 | 17 | 48 | 48 | 12 | 12 | 43 |
 | [api > DOMException > DOMException](https://developer.mozilla.org/docs/Web/API/DOMException/DOMException) | 46 | 46 | 79 | 37 | 37 | 10.1 | 10.3 | 46 |
 | [api > DOMMatrix](https://developer.mozilla.org/docs/Web/API/DOMMatrix) | 61 | 61 | 79 | 33 | 33 | 11 | 11 | 61 |
@@ -641,6 +640,9 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > WorkerNavigator > storage](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage) | 55 | 55 | 79 | 57 | 57 | 15.2 | 15.2 | 55 |
 | [api > Worklet](https://developer.mozilla.org/docs/Web/API/Worklet) | 65 | 65 | 79 | 76 | 79 | 14.1 | 14.5 | 65 |
 | api > WorkletGlobalScope | 65 | 65 | 79 | 76 | 79 | 14.1 | 14.5 | 65 |
+| [api > WritableStream](https://developer.mozilla.org/docs/Web/API/WritableStream) | 59 | 59 | 16 | 100 | 100 | 14.1 | 14.5 | 59 |
+| [api > WritableStreamDefaultController](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController) | 58 | 58 | 16 | 100 | 100 | 14.1 | 14.5 | 58 |
+| [api > WritableStreamDefaultWriter](https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter) | 59 | 59 | 16 | 100 | 100 | 14.1 | 14.5 | 59 |
 | api > XMLHttpRequest > getAllResponseHeaders > lowercase | 60 | 60 | 79 | 64 | 64 | 11 | 11 | 60 |
 | [api > XMLHttpRequest > responseType > json](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json) | 31 | 31 | 79 | 10 | 50 | 7 | 7 | 4.4.3 |
 | [api > XMLHttpRequest > responseURL](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseURL) | 37 | 37 | 14 | 32 | 32 | 8 | 8 | 37 |
@@ -978,6 +980,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > types > color > alpha_hexadecimal_notation | 62 | 62 | 79 | 49 | 49 | 10 | 9.3 | 62 |
 | css > types > color > floats_in_rgb_rgba | 66 | 66 | 79 | 52 | 52 | 12.1 | 12.2 | 66 |
 | css > types > color > hsl_function_accepts_alpha | 65 | 65 | 79 | 52 | 52 | 12.1 | 12.2 | 65 |
+| [css > types > color > hwb](https://developer.mozilla.org/docs/Web/CSS/color_value/hwb()) | 101 | 101 | 101 | 96 | 96 | 15 | 15 | 101 |
 | css > types > color > rgb_function_accepts_alpha | 65 | 65 | 79 | 52 | 52 | 12.1 | 12.2 | 65 |
 | css > types > color > space_separated_functional_notation | 65 | 65 | 79 | 52 | 52 | 12.1 | 12.2 | 65 |
 | css > types > easing-function > steps > jump | 77 | 77 | 79 | 65 | 65 | 14 | 14 | 77 |
