@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.2.0
-- Generated date: Tue, 17 May 2022 13:17:32 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 4.2.1
+- Generated date: Wed, 18 May 2022 14:29:17 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -69,8 +69,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | api > CSSStyleSheet > insertRule > index_parameter_optional | 1 | 18 | 12 | 55 | 55 | 1 | 1 | 1 |
 | [api > CSSSupportsRule](https://developer.mozilla.org/docs/Web/API/CSSSupportsRule) | 28 | 28 | 12 | 22 | 22 | 9 | 9 | 4.4 |
 | [api > CSSTransition](https://developer.mozilla.org/docs/Web/API/CSSTransition) | 78 | 78 | 84 | 75 | 79 | 13.1 | 13.4 | 78 |
-| [api > Cache](https://developer.mozilla.org/docs/Web/API/Cache) | 40 | 40 | 16 | 39 | 39 | 11.1 | 11.3 | 40 |
-| [api > CacheStorage](https://developer.mozilla.org/docs/Web/API/CacheStorage) | 40 | 40 | 16 | 44 | 44 | 11.1 | 11.3 | 40 |
+| [api > Cache](https://developer.mozilla.org/docs/Web/API/Cache) | 40 | 40 | 16 | 41 | 41 | 11.1 | 11.3 | 40 |
+| [api > CacheStorage](https://developer.mozilla.org/docs/Web/API/CacheStorage) | 40 | 40 | 16 | 41 | 41 | 11.1 | 11.3 | 40 |
 | [api > CanvasPattern > setTransform](https://developer.mozilla.org/docs/Web/API/CanvasPattern/setTransform) | 68 | 68 | 79 | 33 | 33 | 11.1 | 11.3 | 68 |
 | api > CanvasRenderingContext2D > clip > path_parameter | 36 | 36 | ≤18 | 31 | 31 | 7 | 7 | 37 |
 | [api > CanvasRenderingContext2D > createConicGradient](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createConicGradient) | 99 | 99 | 99 | 90 | 90 | 15 | 15 | 99 |
@@ -422,6 +422,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > MouseEvent > MouseEvent](https://developer.mozilla.org/docs/Web/API/MouseEvent/MouseEvent) | 26 | 26 | 12 | 11 | 14 | 7 | 7 | 4.4 |
 | [api > MouseEvent > movementX](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX) | 37 | 37 | 13 | 41 | 41 | 9 | 8 | 37 |
 | [api > MouseEvent > movementY](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY) | 37 | 37 | 13 | 41 | 41 | 9 | 8 | 37 |
+| [api > NavigationPreloadManager](https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager) | 59 | 59 | 18 | 99 | 99 | 15.4 | 15.4 | 59 |
 | [api > Navigator > clipboard](https://developer.mozilla.org/docs/Web/API/Navigator/clipboard) | 66 | 66 | 79 | 63 | 63 | 13.1 | 13.4 | 66 |
 | [api > Navigator > credentials](https://developer.mozilla.org/docs/Web/API/Navigator/credentials) | 51 | 51 | 18 | 60 | 60 | 13 | 13 | 51 |
 | api > Navigator > geolocation > secure_context_required | 47 | 47 | 79 | 55 | 55 | 10 | 10 | 47 |
@@ -628,6 +629,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > Window > unhandledrejection_event](https://developer.mozilla.org/docs/Web/API/Window/unhandledrejection_event) | 49 | 49 | 79 | 69 | 79 | 11 | 11.3 | 49 |
 | [api > Window > visualViewport](https://developer.mozilla.org/docs/Web/API/Window/visualViewport) | 61 | 61 | 79 | 91 | 68 | 13 | 13 | 61 |
 | [api > WindowClient](https://developer.mozilla.org/docs/Web/API/WindowClient) | 42 | 42 | 17 | 44 | 44 | 11.1 | 11.3 | 42 |
+| [api > WorkerGlobalScope > languagechange_event](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/languagechange_event) | 4 | 40 | 79 | 74 | 79 | 4 | 5 | ≤37 |
 | [api > WorkerLocation > origin](https://developer.mozilla.org/docs/Web/API/WorkerLocation/origin) | 38 | 38 | 14 | 29 | 29 | 10 | 10 | 38 |
 | [api > WorkerNavigator > languages](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/languages) | 37 | 37 | 16 | 32 | 32 | 10.1 | 10.3 | 37 |
 | api > WorkerNavigator > mediaCapabilities | 76 | 76 | 79 | 63 | 63 | 15.4 | 15.4 | 76 |
@@ -645,7 +647,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > XPathExpression](https://developer.mozilla.org/docs/Web/API/XPathExpression) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > XPathResult](https://developer.mozilla.org/docs/Web/API/XPathResult) | 1 | 18 | 12 | 1 | 4 | 3 | 1 | 1 |
 | [api > XSLTProcessor](https://developer.mozilla.org/docs/Web/API/XSLTProcessor) | 1 | 18 | 12 | 1 | 4 | 3.1 | 2 | 3 |
-| [api > caches](https://developer.mozilla.org/docs/Web/API/caches) | 40 | 40 | 16 | 42 | 42 | 11.1 | 11.3 | 40 |
+| [api > caches](https://developer.mozilla.org/docs/Web/API/caches) | 40 | 40 | 16 | 41 | 41 | 11.1 | 11.3 | 40 |
 | [api > console > countReset](https://developer.mozilla.org/docs/Web/API/console/countReset) | 68 | 68 | 79 | 62 | 62 | 13 | 13 | 68 |
 | [api > console > table](https://developer.mozilla.org/docs/Web/API/console/table) | 27 | 27 | 13 | 34 | 34 | 7 | 7 | 4.4 |
 | [api > console > timeLog](https://developer.mozilla.org/docs/Web/API/console/timeLog) | 71 | 71 | 79 | 62 | 62 | 13 | 13 | 71 |
@@ -677,6 +679,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > at-rules > media > nested-queries | 26 | 26 | 12 | 11 | 14 | 7 | 7 | ≤37 |
 | [css > at-rules > media > pointer](https://developer.mozilla.org/docs/Web/CSS/@media/pointer) | 41 | 50 | 12 | 64 | 64 | 9 | 9 | 41 |
 | [css > at-rules > media > prefers-color-scheme](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme) | 76 | 76 | 79 | 67 | 67 | 12.1 | 13 | 76 |
+| [css > at-rules > media > prefers-contrast](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-contrast) | 96 | 96 | 96 | 101 | 101 | 14.1 | 14.5 | 96 |
 | [css > at-rules > media > prefers-reduced-motion](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion) | 74 | 74 | 79 | 63 | 64 | 10.1 | 10.3 | 74 |
 | css > at-rules > media > video-dynamic-range | 98 | 98 | 98 | 100 | 100 | 13.1 | 13.4 | 98 |
 | [css > at-rules > supports](https://developer.mozilla.org/docs/Web/CSS/@supports) | 28 | 28 | 12 | 22 | 22 | 9 | 9 | ≤37 |
