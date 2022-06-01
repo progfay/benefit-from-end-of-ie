@@ -20,13 +20,20 @@ function visitIdentifier(path: string, identifier: Identifier): void {
   }
 }
 
+type CompatDataIdentifierKey = keyof Omit<typeof compatData, "browsers">;
+type CompatDataKey = CompatDataIdentifierKey | "browsers" | "__meta";
+
+const EXCLUDE_COMPAT_DATA_IDENTIFIER_KEYS: CompatDataIdentifierKey[] = [
+  "webdriver",
+  "webextensions",
+];
+
 function main() {
   console.log(renderHeader());
-  for (const key of Object.keys(compatData)) {
-    if (
-      ["browsers", "webdriver", "webextensions", "xpath", "xslt"].includes(key)
-    )
-      continue;
+  for (const key of Object.keys(compatData) as CompatDataKey[]) {
+    if (key === "__meta" || key === "browsers") continue;
+    if (EXCLUDE_COMPAT_DATA_IDENTIFIER_KEYS.includes(key)) continue;
+
     visitIdentifier(key, compatData[key]);
   }
 }
