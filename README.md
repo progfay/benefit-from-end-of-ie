@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.0.1
-- Generated date: Wed, 01 Jun 2022 12:57:54 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.0.2
+- Generated date: Wed, 08 Jun 2022 16:37:03 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -261,14 +261,14 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > HTMLAnchorElement > download](https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download) | 15 | 18 | 13 | 20 | 20 | 10.1 | 10.3 | 4.4 |
 | [api > HTMLAnchorElement > origin](https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/origin) | 8 | 18 | 17 | 26 | 26 | 5.1 | 5 | 3 |
 | [api > HTMLAnchorElement > password](https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/password) | 32 | 32 | 79 | 26 | 26 | 10 | 10 | 4.4.3 |
-| api > HTMLAnchorElement > ping | 12 | 18 | 17 | 3 | 4 | 5.1 | 5 | ≤37 |
+| api > HTMLAnchorElement > ping | 12 | 18 | 17 | 1 | 4 | 5.1 | 5 | ≤37 |
 | [api > HTMLAnchorElement > referrerPolicy](https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/referrerPolicy) | 53 | 53 | 79 | 50 | 50 | 14 | 14 | 53 |
 | [api > HTMLAnchorElement > relList](https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/relList) | 65 | 65 | 18 | 30 | 30 | 9 | 9 | 65 |
 | [api > HTMLAnchorElement > username](https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/username) | 32 | 32 | 79 | 26 | 26 | 10 | 10 | 4.4.3 |
 | [api > HTMLAreaElement > download](https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/download) | 54 | 54 | 13 | 20 | 20 | 10.1 | 10.3 | 54 |
 | [api > HTMLAreaElement > origin](https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/origin) | 8 | 18 | 17 | 26 | 26 | 5.1 | 5 | ≤37 |
 | [api > HTMLAreaElement > password](https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/password) | 32 | 32 | 79 | 26 | 26 | 10 | 10 | 4.4.3 |
-| api > HTMLAreaElement > ping | 12 | 18 | 17 | 3 | 4 | 5.1 | 5 | ≤37 |
+| api > HTMLAreaElement > ping | 12 | 18 | 17 | 1 | 4 | 5.1 | 5 | ≤37 |
 | [api > HTMLAreaElement > referrerPolicy](https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/referrerPolicy) | 53 | 53 | 79 | 50 | 50 | 14.1 | 14.5 | 53 |
 | [api > HTMLAreaElement > relList](https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/relList) | 65 | 65 | 18 | 30 | 30 | 9 | 9 | 65 |
 | [api > HTMLAreaElement > username](https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/username) | 32 | 32 | 79 | 26 | 26 | 10 | 10 | 4.4.3 |
@@ -947,7 +947,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > unicode-bidi > isolate | 48 | 48 | 79 | 50 | 50 | 11 | 11 | 48 |
 | css > properties > unicode-bidi > isolate-override | 48 | 48 | 79 | 50 | 50 | 11 | 11 | 48 |
 | css > properties > unicode-bidi > plaintext | 48 | 48 | 79 | 50 | 50 | 11 | 11 | 48 |
-| css > properties > width > fit-content | 46 | 46 | 79 | 3 | 4 | 11 | 11 | 46 |
+| css > properties > width > fit-content | 46 | 46 | 79 | 94 | 94 | 11 | 11 | 46 |
 | css > properties > width > max-content | 46 | 46 | 79 | 66 | 66 | 11 | 11 | 46 |
 | css > properties > width > min-content | 46 | 46 | 79 | 66 | 66 | 11 | 11 | 46 |
 | css > properties > width > stretch | 22 | 25 | 79 | 3 | 4 | 7 | 7 | 4.4 |
@@ -1038,6 +1038,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | html > elements > img > referrerpolicy | 51 | 51 | 79 | 50 | 50 | 14 | 14 | 51 |
 | html > elements > img > srcset | 34 | 34 | ≤18 | 38 | 38 | 8 | 8 | 37 |
 | html > elements > img > usemap > caseless_usemap | 58 | 58 | 79 | 51 | 53 | Yes | Yes | 58 |
+| [html > elements > input > attributes > minlength](https://developer.mozilla.org/docs/Web/HTML/Attributes/minlength) | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
 | [html > elements > input > type_color](https://developer.mozilla.org/docs/Web/HTML/Element/input/color) | 20 | 25 | 14 | 29 | 27 | 12.1 | 12.2 | 4.4 |
 | [html > elements > input > type_date](https://developer.mozilla.org/docs/Web/HTML/Element/input/date) | 20 | Yes | 12 | 57 | 57 | 14.1 | 5 | Yes |
 | [html > elements > input > type_datetime-local](https://developer.mozilla.org/docs/Web/HTML/Element/input/datetime-local) | 20 | Yes | 12 | 93 | Yes | 14.1 | Yes | Yes |
@@ -1061,7 +1062,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [html > elements > slot](https://developer.mozilla.org/docs/Web/HTML/Element/slot) | 53 | 53 | 79 | 63 | 63 | 10 | 10 | 53 |
 | [html > elements > summary](https://developer.mozilla.org/docs/Web/HTML/Element/summary) | 12 | Yes | 79 | 49 | 49 | 6 | Yes | 4 |
 | [html > elements > template](https://developer.mozilla.org/docs/Web/HTML/Element/template) | 26 | 26 | 13 | 22 | 22 | 8 | 8 | Yes |
-| html > elements > textarea > minlength | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
+| [html > elements > textarea > minlength](https://developer.mozilla.org/docs/Web/HTML/Attributes/minlength) | 40 | 40 | 17 | 51 | 51 | 10.1 | 10.3 | 40 |
 | [html > elements > time](https://developer.mozilla.org/docs/Web/HTML/Element/time) | 62 | 62 | ≤18 | 22 | 22 | 7 | 4 | 62 |
 | html > elements > video > aspect_ratio_computed_from_attributes | 79 | 79 | 79 | 71 | 79 | 14 | 14 | 79 |
 | [html > elements > wbr](https://developer.mozilla.org/docs/Web/HTML/Element/wbr) | 1 | Yes | 79 | 1 | 4 | 4 | ❓ | Yes |
@@ -1073,14 +1074,10 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [html > manifest > description](https://developer.mozilla.org/docs/Web/Manifest/description) | ❓ | 88 | 88 | ❓ | ❓ | ❓ | 11.3 | ❓ |
 | [html > manifest > display](https://developer.mozilla.org/docs/Web/Manifest/display) | 39 | 39 | 79 | ❓ | 47 | ❓ | 11.3 | Yes |
 | [html > manifest > iarc_rating_id](https://developer.mozilla.org/docs/Web/Manifest/iarc_rating_id) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [html > manifest > icons](https://developer.mozilla.org/docs/Web/Manifest/icons) | 39 | 39 | 79 | ❓ | 53 | ❓ | 15.4 | Yes |
 | [html > manifest > lang](https://developer.mozilla.org/docs/Web/Manifest/lang) | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ | ❓ |
-| [html > manifest > name](https://developer.mozilla.org/docs/Web/Manifest/name) | 39 | 39 | 79 | ❓ | 53 | ❓ | 11.3 | Yes |
 | [html > manifest > prefer_related_applications](https://developer.mozilla.org/docs/Web/Manifest/prefer_related_applications) | ❓ | 44 | 79 | ❓ | ❓ | ❓ | ❓ | ❓ |
 | [html > manifest > scope](https://developer.mozilla.org/docs/Web/Manifest/scope) | 53 | 53 | 79 | ❓ | ❓ | ❓ | 11.3 | ❓ |
-| [html > manifest > short_name](https://developer.mozilla.org/docs/Web/Manifest/short_name) | 39 | 39 | 79 | ❓ | 53 | ❓ | 11.3 | Yes |
 | [html > manifest > start_url](https://developer.mozilla.org/docs/Web/Manifest/start_url) | 39 | 39 | 79 | ❓ | ❓ | ❓ | 11.3 | ❓ |
-| [html > manifest > theme_color](https://developer.mozilla.org/docs/Web/Manifest/theme_color) | 46 | 46 | 79 | ❓ | 53 | ❓ | 15 | Yes |
 | http > data-url > html_files | Yes | Yes | 79 | Yes | Yes | Yes | Yes | Yes |
 | http > headers > Content-Length > cors_response_safelist | 76 | 76 | ≤79 | 87 | 87 | 12.1 | 12.2 | 76 |
 | [http > headers > Cross-Origin-Embedder-Policy](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy) | 83 | 83 | 83 | 79 | 79 | 15.2 | 15.2 | 86 |
