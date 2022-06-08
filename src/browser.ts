@@ -1,6 +1,6 @@
-import { BrowserNames, CompatStatement } from "@mdn/browser-compat-data/types";
+import { BrowserName, CompatStatement } from "@mdn/browser-compat-data/types";
 
-export const MODERN_BROWSERS: BrowserNames[] = [
+export const MODERN_BROWSERS: BrowserName[] = [
   "chrome",
   "chrome_android",
   "edge",
@@ -13,7 +13,7 @@ export const MODERN_BROWSERS: BrowserNames[] = [
 
 export function isSupportedBy(
   compat: CompatStatement,
-  browser: BrowserNames
+  browser: BrowserName
 ): boolean {
   const statement = compat.support[browser];
   if (!statement) return false;
