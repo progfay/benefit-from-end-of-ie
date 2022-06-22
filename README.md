@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.1
-- Generated date: Fri, 17 Jun 2022 12:54:18 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.2
+- Generated date: Wed, 22 Jun 2022 05:53:43 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -1344,6 +1344,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > operators > exponentiation_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Exponentiation_assignment) | 52 | 52 | 14 | 52 | 52 | 10.1 | 10.3 | 51 |
 | javascript > operators > function > trailing_comma | 58 | 58 | 14 | 52 | 52 | 10 | 10 | 58 |
 | [javascript > operators > generator_function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/function*) | 49 | 49 | 12 | 26 | 26 | 10 | 10 | 49 |
+| [javascript > operators > import](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Import) | 63 | 63 | 79 | 67 | 67 | 11.1 | 11.3 | 63 |
 | [javascript > operators > logical_and_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment) | 85 | 85 | 85 | 79 | 79 | 14 | 14 | 85 |
 | [javascript > operators > logical_nullish_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment) | 85 | 85 | 85 | 79 | 79 | 14 | 14 | 85 |
 | [javascript > operators > logical_or_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment) | 85 | 85 | 85 | 79 | 79 | 14 | 14 | 85 |
