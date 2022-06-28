@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.2
-- Generated date: Wed, 22 Jun 2022 05:53:43 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.3
+- Generated date: Tue, 28 Jun 2022 13:04:37 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -77,7 +77,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > CanvasRenderingContext2D > drawFocusIfNeeded](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawFocusIfNeeded) | 37 | 37 | 14 | 32 | 32 | 8 | 8 | 37 |
 | [api > CanvasRenderingContext2D > ellipse](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse) | 31 | 31 | 13 | 48 | 48 | 9 | 9 | 4.4.3 |
 | api > CanvasRenderingContext2D > fill > path_parameter | 36 | 36 | ≤18 | 31 | 31 | 7 | 7 | 37 |
-| [api > CanvasRenderingContext2D > getTransform](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getTransform) | 68 | 68 | 79 | 70 | 79 | 11 | 11 | 68 |
+| [api > CanvasRenderingContext2D > getTransform](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getTransform) | 68 | 68 | 79 | 70 | 79 | 11.1 | 11.3 | 68 |
 | api > CanvasRenderingContext2D > isPointInPath > path_parameter | 36 | 36 | ≤18 | 31 | 31 | 7 | 7 | 37 |
 | [api > CanvasRenderingContext2D > isPointInStroke](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke) | 26 | 26 | 79 | 19 | 19 | 7 | 7 | 4.4 |
 | [api > CanvasRenderingContext2D > resetTransform](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/resetTransform) | 31 | 31 | 79 | 36 | 36 | 10.1 | 10.3 | 4.4.3 |
@@ -1345,6 +1345,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | javascript > operators > function > trailing_comma | 58 | 58 | 14 | 52 | 52 | 10 | 10 | 58 |
 | [javascript > operators > generator_function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/function*) | 49 | 49 | 12 | 26 | 26 | 10 | 10 | 49 |
 | [javascript > operators > import](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Import) | 63 | 63 | 79 | 67 | 67 | 11.1 | 11.3 | 63 |
+| [javascript > operators > import_meta](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta) | 64 | 64 | 79 | 62 | 62 | 11.1 | 12 | 64 |
 | [javascript > operators > logical_and_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment) | 85 | 85 | 85 | 79 | 79 | 14 | 14 | 85 |
 | [javascript > operators > logical_nullish_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment) | 85 | 85 | 85 | 79 | 79 | 14 | 14 | 85 |
 | [javascript > operators > logical_or_assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment) | 85 | 85 | 85 | 79 | 79 | 14 | 14 | 85 |
@@ -1370,7 +1371,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | javascript > statements > function > trailing_comma_in_parameters | 58 | 58 | 14 | 52 | 52 | 10 | 10 | 58 |
 | [javascript > statements > generator_function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function*) | 39 | 39 | 13 | 26 | 26 | 10 | 10 | 39 |
 | [javascript > statements > import](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import) | 61 | 61 | 16 | 60 | 60 | 10.1 | 10.3 | 61 |
-| [javascript > statements > import_meta](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import.meta) | 64 | 64 | 79 | 62 | 62 | 11.1 | 12 | 64 |
 | javascript > statements > try_catch > optional_catch_binding | 66 | 66 | 79 | 58 | 58 | 11.1 | 11.3 | 66 |
 | svg > elements > a > referrerpolicy | 51 | 51 | 79 | 52 | 52 | 14 | 14 | 51 |
 | [svg > elements > animate](https://developer.mozilla.org/docs/Web/SVG/Element/animate) | 2 | 18 | ≤79 | 4 | 4 | 4 | 4 | 4 |
