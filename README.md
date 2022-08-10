@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.7
-- Generated date: Wed, 03 Aug 2022 02:44:05 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.8
+- Generated date: Wed, 10 Aug 2022 00:57:19 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -399,7 +399,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > MediaKeyStatusMap](https://developer.mozilla.org/docs/Web/API/MediaKeyStatusMap) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
 | [api > MediaKeySystemAccess](https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
 | [api > MediaKeys](https://developer.mozilla.org/docs/Web/API/MediaKeys) | 42 | 42 | 13 | 38 | 38 | 12.1 | 12.2 | 43 |
-| api > MediaQueryList > EventListener_objects | 39 | 39 | ≤79 | 55 | 55 | 14 | 14 | 39 |
 | api > MediaQueryList > EventTarget_inheritance | 39 | 39 | 16 | 55 | 55 | 14 | 14 | 39 |
 | [api > MediaQueryList > change_event](https://developer.mozilla.org/docs/Web/API/MediaQueryList/change_event) | 39 | 39 | 79 | 55 | 55 | 14 | 14 | 39 |
 | [api > MediaQueryListEvent](https://developer.mozilla.org/docs/Web/API/MediaQueryListEvent) | 39 | 39 | 79 | 55 | 55 | 14 | 14 | 39 |
@@ -470,8 +469,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > RTCCertificate](https://developer.mozilla.org/docs/Web/API/RTCCertificate) | 49 | 49 | 79 | 42 | 42 | 12.1 | 12.2 | 49 |
 | [api > RTCDTMFSender](https://developer.mozilla.org/docs/Web/API/RTCDTMFSender) | 27 | 27 | 79 | 52 | 52 | 13.1 | 13.4 | 4.4 |
 | [api > RTCDTMFToneChangeEvent](https://developer.mozilla.org/docs/Web/API/RTCDTMFToneChangeEvent) | 27 | 27 | 12 | 52 | 52 | 13.1 | 13.4 | 4.4 |
-| [api > RTCDataChannel](https://developer.mozilla.org/docs/Web/API/RTCDataChannel) | 24 | 25 | 79 | 22 | 22 | 11 | 11 | 4.4 |
-| [api > RTCDataChannelEvent](https://developer.mozilla.org/docs/Web/API/RTCDataChannelEvent) | 24 | 25 | 79 | 22 | 22 | 11 | 11 | 4.4 |
+| [api > RTCDataChannel](https://developer.mozilla.org/docs/Web/API/RTCDataChannel) | 24 | 25 | 79 | 22 | 24 | 11 | 11 | 4.4 |
+| [api > RTCDataChannelEvent](https://developer.mozilla.org/docs/Web/API/RTCDataChannelEvent) | 24 | 25 | 79 | 22 | 24 | 11 | 11 | 4.4 |
 | [api > RTCIceCandidate](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate) | 23 | 25 | 15 | 44 | 44 | 11 | 11 | 4.4 |
 | [api > RTCIceCandidatePairStats](https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats) | 56 | 56 | ≤79 | 29 | 29 | 11 | 11 | 56 |
 | [api > RTCPeerConnection](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection) | 56 | 56 | 15 | 44 | 44 | 11 | 11 | 56 |
@@ -482,7 +481,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > RTCRtpTransceiver](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver) | 69 | 69 | ≤18 | 59 | 59 | 11 | 11 | 69 |
 | [api > RTCSessionDescription](https://developer.mozilla.org/docs/Web/API/RTCSessionDescription) | 23 | 25 | 15 | 44 | 44 | 11 | 11 | 4.4 |
 | [api > RTCStatsReport](https://developer.mozilla.org/docs/Web/API/RTCStatsReport) | 58 | 58 | 79 | 27 | 27 | 11 | 11 | 58 |
-| [api > RTCTrackEvent](https://developer.mozilla.org/docs/Web/API/RTCTrackEvent) | 56 | 56 | 79 | 22 | 44 | 11 | 11 | 56 |
+| [api > RTCTrackEvent](https://developer.mozilla.org/docs/Web/API/RTCTrackEvent) | 56 | 56 | 79 | 22 | 24 | 11 | 11 | 56 |
 | [api > Range > Range](https://developer.mozilla.org/docs/Web/API/Range/Range) | 29 | 29 | 15 | 24 | 24 | 8 | 8 | 4.4 |
 | api > Range > collapse > toStart_parameter_optional | 1 | 18 | ≤79 | 25 | 25 | 1 | 1 | 4.4 |
 | [api > Range > comparePoint](https://developer.mozilla.org/docs/Web/API/Range/comparePoint) | 1 | 18 | 17 | 1 | 4 | 3 | 1 | 4.4 |
@@ -1190,7 +1189,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > Intl > NumberFormat > formatToParts](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatToParts) | 64 | 64 | 12 | 58 | 58 | 13 | 13 | 64 |
 | [javascript > builtins > Intl > PluralRules](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules) | 63 | 63 | 18 | 58 | 58 | 13 | 13 | 63 |
 | [javascript > builtins > Intl > RelativeTimeFormat](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat) | 71 | 71 | 79 | 65 | 65 | 14 | 14 | 71 |
-| [javascript > builtins > Intl > getCanonicalLocales](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales) | 54 | 54 | 16 | 48 | 56 | 11 | 11 | 54 |
+| [javascript > builtins > Intl > getCanonicalLocales](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales) | 54 | 54 | 16 | 48 | 56 | 10.1 | 10.3 | 54 |
 | [javascript > builtins > Iterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator) | 38 | 38 | 12 | 17 | 17 | 10 | 10 | 38 |
 | [javascript > builtins > JSON > json_superset](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON#JavaScript_and_JSON_differences) | 66 | 66 | 79 | 62 | 62 | 12 | 12 | 66 |
 | javascript > builtins > JSON > stringify > well_formed_stringify | 72 | 72 | 79 | 64 | 64 | 12.1 | 12.2 | 72 |
@@ -1225,7 +1224,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > Number > isFinite](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite) | 19 | 25 | 12 | 16 | 16 | 9 | 9 | 4.4 |
 | [javascript > builtins > Number > isInteger](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) | 34 | 34 | 12 | 16 | 16 | 9 | 9 | 37 |
 | [javascript > builtins > Number > isNaN](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN) | 25 | 25 | 12 | 15 | 15 | 9 | 9 | 4.4 |
-| [javascript > builtins > Number > isSafeInteger](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger) | 34 | 34 | 12 | 32 | 32 | 10 | 10 | 37 |
+| [javascript > builtins > Number > isSafeInteger](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger) | 34 | 34 | 12 | 32 | 32 | 9 | 9 | 37 |
 | [javascript > builtins > Number > parseFloat](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat) | 34 | 34 | 12 | 25 | 25 | 9 | 9 | 37 |
 | [javascript > builtins > Number > parseInt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt) | 34 | 34 | 12 | 25 | 25 | 9 | 9 | 37 |
 | [javascript > builtins > Object > assign](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) | 45 | 45 | 12 | 34 | 34 | 9 | 9 | 45 |
@@ -1245,7 +1244,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > RegExp > @@search](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@search) | 50 | 50 | 13 | 49 | 49 | 10 | 10 | 50 |
 | [javascript > builtins > RegExp > @@species](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@species) | 50 | 50 | 13 | 49 | 49 | 10 | 10 | 50 |
 | [javascript > builtins > RegExp > @@split](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split) | 50 | 50 | 79 | 49 | 49 | 10 | 10 | 50 |
-| [javascript > builtins > RegExp > dotAll](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/dotAll) | 62 | 62 | 79 | 78 | 79 | 12 | 12 | 62 |
+| [javascript > builtins > RegExp > dotAll](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/dotAll) | 62 | 62 | 79 | 78 | 79 | 11.1 | 11.3 | 62 |
 | [javascript > builtins > RegExp > flags](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags) | 49 | 49 | 79 | 37 | 37 | 9 | 9 | 49 |
 | [javascript > builtins > RegExp > hasIndices](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices) | 90 | 90 | 90 | 88 | 88 | 15 | 15 | 90 |
 | javascript > builtins > RegExp > named_capture_groups | 64 | 64 | 79 | 78 | 79 | 11.1 | 11.3 | 64 |
@@ -1262,9 +1261,9 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > SharedArrayBuffer](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer) | 68 | 89 | 79 | 78 | 79 | 15.2 | 15.2 | 89 |
 | [javascript > builtins > String > @@iterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator) | 38 | 38 | 12 | 36 | 36 | 9 | 9 | 38 |
 | [javascript > builtins > String > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/at) | 92 | 92 | 92 | 90 | 90 | 15.4 | 15.4 | 92 |
-| [javascript > builtins > String > codePointAt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt) | 41 | 41 | 12 | 29 | 29 | 10 | 10 | 41 |
+| [javascript > builtins > String > codePointAt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt) | 41 | 41 | 12 | 29 | 29 | 9 | 9 | 41 |
 | [javascript > builtins > String > endsWith](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith) | 41 | 36 | 12 | 17 | 17 | 9 | 9 | 37 |
-| [javascript > builtins > String > fromCodePoint](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint) | 41 | 41 | 12 | 29 | 29 | 10 | 10 | 41 |
+| [javascript > builtins > String > fromCodePoint](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint) | 41 | 41 | 12 | 29 | 29 | 9 | 9 | 41 |
 | [javascript > builtins > String > includes](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes) | 41 | 41 | 12 | 40 | 40 | 9 | 9 | 41 |
 | [javascript > builtins > String > matchAll](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll) | 73 | 73 | 79 | 67 | 67 | 13 | 13 | 73 |
 | [javascript > builtins > String > padEnd](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd) | 57 | 57 | 15 | 48 | 48 | 10 | 10 | 57 |
@@ -1278,25 +1277,27 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > TypedArray > @@iterator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@iterator) | 38 | 38 | 12 | 36 | 36 | 10 | 10 | 38 |
 | [javascript > builtins > TypedArray > @@species](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@species) | 51 | 51 | 13 | 48 | 48 | 10 | 10 | 51 |
 | [javascript > builtins > TypedArray > at](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/at) | 92 | 92 | 92 | 90 | 90 | 15.4 | 15.4 | 92 |
-| [javascript > builtins > TypedArray > find](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/find) | 45 | 45 | 14 | 37 | 37 | 9.1 | 9.3 | 45 |
-| [javascript > builtins > TypedArray > findIndex](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findIndex) | 45 | 45 | 14 | 37 | 37 | 9.1 | 9.3 | 45 |
+| [javascript > builtins > TypedArray > copyWithin](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/copyWithin) | 45 | 45 | 12 | 34 | 34 | 9.1 | 9.3 | 45 |
+| [javascript > builtins > TypedArray > find](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/find) | 45 | 45 | 12 | 37 | 37 | 9.1 | 9.3 | 45 |
+| [javascript > builtins > TypedArray > findIndex](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findIndex) | 45 | 45 | 12 | 37 | 37 | 9.1 | 9.3 | 45 |
 | [javascript > builtins > TypedArray > findLast](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findLast) | 97 | 97 | 97 | 104 | 104 | 15.4 | 15.4 | 97 |
 | [javascript > builtins > TypedArray > findLastIndex](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findLastIndex) | 97 | 97 | 97 | 104 | 104 | 15.4 | 15.4 | 97 |
-| [javascript > builtins > TypedArray > forEach](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/forEach) | 45 | 45 | 14 | 38 | 38 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > from](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/from) | 45 | 45 | 14 | 38 | 38 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > forEach](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/forEach) | 45 | 45 | 12 | 38 | 38 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > from](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/from) | 45 | 45 | 12 | 38 | 38 | 10 | 10 | 45 |
 | javascript > builtins > TypedArray > iterable_in_constructor | 39 | 39 | 14 | 52 | 52 | 10 | 10 | 39 |
-| [javascript > builtins > TypedArray > join](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/join) | 45 | 45 | 14 | 37 | 37 | 9.1 | 9.3 | 45 |
-| [javascript > builtins > TypedArray > keys](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/keys) | 38 | 38 | 14 | 37 | 37 | 10 | 10 | 38 |
-| [javascript > builtins > TypedArray > lastIndexOf](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/lastIndexOf) | 45 | 45 | 14 | 37 | 37 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > map](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/map) | 45 | 45 | 14 | 38 | 38 | 9.1 | 9.3 | 45 |
+| [javascript > builtins > TypedArray > join](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/join) | 45 | 45 | 12 | 37 | 37 | 9.1 | 9.3 | 45 |
+| [javascript > builtins > TypedArray > keys](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/keys) | 38 | 38 | 12 | 37 | 37 | 10 | 10 | 38 |
+| [javascript > builtins > TypedArray > lastIndexOf](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/lastIndexOf) | 45 | 45 | 12 | 37 | 37 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > map](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/map) | 45 | 45 | 12 | 38 | 38 | 9.1 | 9.3 | 45 |
 | javascript > builtins > TypedArray > new_required | 7 | 18 | 14 | 44 | 44 | 5.1 | 5 | ≤37 |
-| [javascript > builtins > TypedArray > reduce](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reduce) | 45 | 45 | 14 | 37 | 37 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > reduceRight](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reduceRight) | 45 | 45 | 14 | 37 | 37 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > reverse](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reverse) | 45 | 45 | 14 | 37 | 37 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > slice](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/slice) | 45 | 45 | 14 | 38 | 38 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > some](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/some) | 45 | 45 | 14 | 37 | 37 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > sort](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/sort) | 45 | 45 | 14 | 46 | 46 | 10 | 10 | 45 |
-| [javascript > builtins > TypedArray > values](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/values) | 38 | 38 | 14 | 37 | 37 | 10 | 10 | 38 |
+| [javascript > builtins > TypedArray > of](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/of) | 45 | 45 | 12 | 38 | 38 | 9.1 | 9.3 | 45 |
+| [javascript > builtins > TypedArray > reduce](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reduce) | 45 | 45 | 12 | 37 | 37 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > reduceRight](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reduceRight) | 45 | 45 | 12 | 37 | 37 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > reverse](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reverse) | 45 | 45 | 12 | 37 | 37 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > slice](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/slice) | 45 | 45 | 12 | 38 | 38 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > some](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/some) | 45 | 45 | 12 | 37 | 37 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > sort](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/sort) | 45 | 45 | 12 | 46 | 46 | 10 | 10 | 45 |
+| [javascript > builtins > TypedArray > values](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/values) | 38 | 38 | 12 | 37 | 37 | 10 | 10 | 38 |
 | javascript > builtins > Uint16Array > Uint16Array > iterable_allowed | 39 | 39 | 14 | 52 | 52 | 10 | 10 | 39 |
 | javascript > builtins > Uint16Array > Uint16Array > new_required | 7 | 18 | 14 | 44 | 44 | 5.1 | 5 | ≤37 |
 | javascript > builtins > Uint32Array > Uint32Array > iterable_allowed | 39 | 39 | 14 | 52 | 52 | 10 | 10 | 39 |
