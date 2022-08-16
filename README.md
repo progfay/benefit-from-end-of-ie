@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.8
-- Generated date: Wed, 10 Aug 2022 00:57:19 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.1.9
+- Generated date: Tue, 16 Aug 2022 14:01:54 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -216,7 +216,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > ErrorEvent > ErrorEvent](https://developer.mozilla.org/docs/Web/API/ErrorEvent/ErrorEvent) | 16 | 18 | 14 | 27 | 27 | 6 | 6 | 4.4 |
 | [api > Event > Event](https://developer.mozilla.org/docs/Web/API/Event/Event) | 15 | 18 | 12 | 11 | 14 | 6 | 6 | 4.4 |
 | [api > Event > composed](https://developer.mozilla.org/docs/Web/API/Event/composed) | 53 | 53 | 79 | 52 | 52 | 10 | 10 | 53 |
-| [api > Event > composedPath](https://developer.mozilla.org/docs/Web/API/Event/composedPath) | 53 | 53 | 79 | 52 | 52 | 10 | 10 | 53 |
+| [api > Event > composedPath](https://developer.mozilla.org/docs/Web/API/Event/composedPath) | 53 | 53 | 79 | 59 | 59 | 10 | 10 | 53 |
 | [api > EventSource](https://developer.mozilla.org/docs/Web/API/EventSource) | 6 | 18 | 79 | 6 | 45 | 5 | 5 | 4.4 |
 | [api > EventTarget > EventTarget](https://developer.mozilla.org/docs/Web/API/EventTarget/EventTarget) | 64 | 64 | 79 | 59 | 59 | 14 | 14 | 64 |
 | api > EventTarget > addEventListener > options_parameter | 49 | 49 | ≤18 | 49 | 49 | 10 | 10 | 49 |
@@ -739,7 +739,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > properties > color-scheme](https://developer.mozilla.org/docs/Web/CSS/color-scheme) | 81 | 81 | 81 | 96 | 96 | 13 | 13 | 81 |
 | css > properties > column-gap > flex_context | 84 | 84 | 84 | 63 | 63 | 14.1 | 14.5 | 84 |
 | css > properties > column-gap > grid_context | 66 | 66 | 16 | 61 | 61 | 12 | 12 | 66 |
-| [css > properties > contain](https://developer.mozilla.org/docs/Web/CSS/contain) | 52 | 52 | 79 | 69 | 79 | 15.4 | 15.4 | 52 |
+| [css > properties > contain](https://developer.mozilla.org/docs/Web/CSS/contain) | 52 | 52 | 79 | 103 | 103 | 15.4 | 15.4 | 52 |
 | css > properties > content > element_replacement | 28 | 28 | 79 | 63 | 63 | 9 | 9 | 4.4 |
 | [css > properties > custom-property](https://developer.mozilla.org/docs/Web/CSS/--*) | 49 | 49 | 15 | 31 | 31 | 9.1 | 9.3 | 49 |
 | css > properties > display > contents | 65 | 65 | 79 | 37 | 37 | 11.1 | 11.3 | 65 |
@@ -956,7 +956,6 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > width > min-content | 46 | 46 | 79 | 66 | 66 | 11 | 11 | 46 |
 | css > properties > width > stretch | 22 | 25 | 79 | 3 | 4 | 7 | 7 | 4.4 |
 | [css > properties > will-change](https://developer.mozilla.org/docs/Web/CSS/will-change) | 36 | 36 | 79 | 36 | 36 | 9.1 | 9.3 | 37 |
-| css > properties > word-break > break-word | 1 | 18 | 79 | 67 | 67 | 3 | 2 | ≤37 |
 | css > properties > writing-mode > horizontal_vertical_values | 48 | 48 | 79 | 43 | 43 | 9 | 9 | 48 |
 | [css > selectors > any-link](https://developer.mozilla.org/docs/Web/CSS/:any-link) | 65 | 65 | 79 | 50 | 50 | 9 | 9 | 65 |
 | css > selectors > attribute > case_insensitive_modifier | 49 | 49 | 79 | 47 | 47 | 9 | 9 | 49 |
@@ -1268,6 +1267,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [javascript > builtins > String > matchAll](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll) | 73 | 73 | 79 | 67 | 67 | 13 | 13 | 73 |
 | [javascript > builtins > String > padEnd](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd) | 57 | 57 | 15 | 48 | 48 | 10 | 10 | 57 |
 | [javascript > builtins > String > padStart](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padStart) | 57 | 57 | 15 | 48 | 48 | 10 | 10 | 57 |
+| [javascript > builtins > String > raw](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw) | 41 | 41 | 12 | 34 | 34 | 9 | 9 | 41 |
 | [javascript > builtins > String > repeat](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/repeat) | 41 | 36 | 12 | 24 | 24 | 9 | 9 | 41 |
 | [javascript > builtins > String > replaceAll](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) | 85 | 85 | 85 | 77 | 79 | 13.1 | 13.4 | 85 |
 | [javascript > builtins > String > startsWith](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) | 41 | 36 | 12 | 17 | 17 | 9 | 9 | 37 |
