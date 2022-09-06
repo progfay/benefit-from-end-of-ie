@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.0
-- Generated date: Tue, 30 Aug 2022 22:48:42 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.1
+- Generated date: Tue, 06 Sep 2022 14:19:22 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -545,7 +545,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > StorageEvent > StorageEvent](https://developer.mozilla.org/docs/Web/API/StorageEvent/StorageEvent) | 17 | 18 | 17 | 13 | 14 | 6 | 6 | 4.4 |
 | [api > StorageManager](https://developer.mozilla.org/docs/Web/API/StorageManager) | 55 | 55 | 79 | 57 | 57 | 15.2 | 15.2 | 55 |
 | [api > SubmitEvent](https://developer.mozilla.org/docs/Web/API/SubmitEvent) | 81 | 81 | 81 | 75 | 79 | 15 | 15 | 81 |
-| [api > SubtleCrypto > deriveBits](https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits) | 37 | 37 | 79 | 34 | 34 | 11 | 11 | 37 |
+| [api > SubtleCrypto > deriveBits](https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits) | 41 | 41 | 79 | 34 | 34 | 11 | 11 | 41 |
 | [api > SubtleCrypto > deriveKey](https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey) | 41 | 41 | 79 | 34 | 34 | 11 | 11 | 41 |
 | api > SubtleCrypto > worker_support | 37 | 37 | 79 | 48 | 48 | 11 | 11 | 37 |
 | [api > Text > Text](https://developer.mozilla.org/docs/Web/API/Text/Text) | 29 | 29 | 16 | 24 | 24 | 8 | 8 | 4.4 |
@@ -657,6 +657,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > queueMicrotask](https://developer.mozilla.org/docs/Web/API/queueMicrotask) | 71 | 71 | 79 | 69 | 79 | 12.1 | 12.2 | 71 |
 | [api > reportError](https://developer.mozilla.org/docs/Web/API/reportError) | 95 | 95 | 95 | 93 | 93 | 15.4 | 15.4 | 95 |
 | [api > structuredClone](https://developer.mozilla.org/docs/Web/API/structuredClone) | 98 | 98 | 98 | 94 | 94 | 15.4 | 15.4 | 98 |
+| css > at-rules > font-face > OpenType_COLRv0 | 53 | 53 | 79 | 31 | 31 | 11.1 | 11.3 | 53 |
 | [css > at-rules > font-face > WOFF_2](https://developer.mozilla.org/docs/Web/Guide/WOFF) | 36 | 36 | 14 | 39 | 39 | 10 | 10 | 37 |
 | [css > at-rules > font-face > font-display](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display) | 60 | 60 | 79 | 58 | 58 | 11.1 | 11.3 | 60 |
 | [css > at-rules > font-face > font-stretch](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch) | 62 | 62 | 17 | 62 | 62 | 10.1 | 10.3 | 62 |
@@ -755,7 +756,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | css > properties > flex-basis > max-content | 94 | 94 | 94 | 66 | 66 | 16 | 16 | 94 |
 | css > properties > flex-basis > min-content | 94 | 94 | 94 | 66 | 66 | 16 | 16 | 94 |
 | css > properties > font > font_stretch_support | 60 | 60 | 79 | 43 | 43 | 11 | 11 | 60 |
-| css > properties > font-family > system_ui | 56 | 56 | 79 | 92 | 92 | 9 | 9 | 56 |
+| css > properties > font-family > system-ui | 56 | 56 | 79 | 92 | 92 | 11 | 11 | 56 |
 | [css > properties > font-kerning](https://developer.mozilla.org/docs/Web/CSS/font-kerning) | 33 | 33 | 79 | 32 | 32 | 9 | 9 | 4.4.3 |
 | [css > properties > font-optical-sizing](https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing) | 79 | 79 | 17 | 62 | 62 | 11 | 11 | 79 |
 | css > properties > font-stretch > percentage | 62 | 62 | 18 | 61 | 61 | 11.1 | 11.3 | 62 |
@@ -978,6 +979,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [css > selectors > is](https://developer.mozilla.org/docs/Web/CSS/:is) | 88 | 88 | 88 | 78 | 79 | 14 | 14 | 88 |
 | css > selectors > link > not_match_link | 1 | 18 | 12 | 87 | 87 | 15 | 15 | 1.5 |
 | [css > selectors > marker](https://developer.mozilla.org/docs/Web/CSS/::marker) | 86 | 86 | 86 | 68 | 68 | preview | 11.3 | 86 |
+| [css > selectors > modal](https://developer.mozilla.org/docs/Web/CSS/:modal) | 105 | 105 | 105 | 103 | 103 | 15.6 | 15.6 | 105 |
 | css > selectors > not > selector_list | 88 | 88 | 88 | 84 | 84 | 9 | 9 | 88 |
 | [css > selectors > out-of-range](https://developer.mozilla.org/docs/Web/CSS/:out-of-range) | 10 | 18 | 13 | 29 | 16 | 5.1 | 5 | 2.2 |
 | [css > selectors > part](https://developer.mozilla.org/docs/Web/CSS/::part) | 73 | 73 | 79 | 72 | 79 | 13.1 | 13.4 | 73 |
