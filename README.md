@@ -24,8 +24,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 
 ## Features List
 
-- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.3
-- Generated date: Mon, 26 Sep 2022 09:02:08 GMT
+- Version of [@mdn/browser-compat-data](https://github.com/mdn/browser-compat-data): 5.2.4
+- Generated date: Thu, 29 Sep 2022 15:30:20 GMT
 
 | Feature | chrome | chrome_android | edge | firefox | firefox_android | safari | safari_ios | webview_android |
 | :------ |  :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -37,7 +37,7 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > AnimationEffect](https://developer.mozilla.org/docs/Web/API/AnimationEffect) | 75 | 75 | 79 | 63 | 63 | 13.1 | 13.4 | 75 |
 | [api > AnimationEvent > AnimationEvent](https://developer.mozilla.org/docs/Web/API/AnimationEvent/AnimationEvent) | 43 | 43 | 14 | 23 | 23 | 9 | 9 | 43 |
 | [api > AnimationEvent > pseudoElement](https://developer.mozilla.org/docs/Web/API/AnimationEvent/pseudoElement) | 68 | 68 | 79 | 23 | 23 | 13.1 | 13.4 | 68 |
-| [api > AnimationPlaybackEvent](https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent) | 84 | 84 | 84 | 42 | 42 | 13.1 | 13.4 | 84 |
+| [api > AnimationPlaybackEvent](https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent) | 84 | 84 | 84 | 63 | 63 | 13.1 | 13.4 | 84 |
 | [api > AnimationTimeline](https://developer.mozilla.org/docs/Web/API/AnimationTimeline) | 84 | 84 | 84 | 75 | 79 | 13.1 | 13.4 | 84 |
 | [api > AudioBuffer](https://developer.mozilla.org/docs/Web/API/AudioBuffer) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | 4.4.3 |
 | [api > AudioBufferSourceNode](https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode) | 14 | 18 | 12 | 25 | 25 | 6 | 6 | 4.4.3 |
@@ -356,8 +356,8 @@ Ref. [The future of Internet Explorer on Windows 10 is in Microsoft Edge | Windo
 | [api > HTMLTimeElement](https://developer.mozilla.org/docs/Web/API/HTMLTimeElement) | 62 | 62 | 14 | 22 | 22 | 10 | 10 | 62 |
 | [api > HTMLTrackElement > cuechange_event](https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/cuechange_event) | 32 | 32 | 14 | 68 | 68 | 10 | 10 | 4.4.3 |
 | api > HashChangeEvent > HashChangeEvent | 16 | 18 | 12 | 11 | 14 | 6 | 6 | 4.4 |
-| [api > HashChangeEvent > newURL](https://developer.mozilla.org/docs/Web/API/HashChangeEvent/newURL) | 8 | 18 | 12 | 6 | 6 | 5.1 | 6 | 4.4 |
-| [api > HashChangeEvent > oldURL](https://developer.mozilla.org/docs/Web/API/HashChangeEvent/oldURL) | 8 | 18 | 12 | 6 | 6 | 5.1 | 6 | 4.4 |
+| [api > HashChangeEvent > newURL](https://developer.mozilla.org/docs/Web/API/HashChangeEvent/newURL) | 8 | 18 | 12 | 6 | 6 | 5.1 | 5 | 4.4 |
+| [api > HashChangeEvent > oldURL](https://developer.mozilla.org/docs/Web/API/HashChangeEvent/oldURL) | 8 | 18 | 12 | 6 | 6 | 5.1 | 5 | 4.4 |
 | [api > Headers](https://developer.mozilla.org/docs/Web/API/Headers) | 42 | 42 | 14 | 39 | 44 | 10.1 | 10.3 | 42 |
 | [api > History > scrollRestoration](https://developer.mozilla.org/docs/Web/API/History/scrollRestoration) | 46 | 46 | 79 | 46 | 46 | 11 | 11 | 46 |
 | [api > IDBCursor > continuePrimaryKey](https://developer.mozilla.org/docs/Web/API/IDBCursor/continuePrimaryKey) | 58 | 58 | 79 | 10 | 51 | 10.1 | 10.3 | 58 |
